@@ -1,0 +1,205 @@
+{
+  // CONTEINER PRINCIPAL
+  "flex-layout.row#shelf-timer": {
+    "props": {
+      "blockClass": "linha-shelf-timer",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-line",
+      "flex-layout.row#img-coracao-menor-mobile",
+      "flex-layout.row#linha-conteudo-cronometro",
+      "flex-layout.row#img-coracao-maior-mobile",
+      "flex-layout.row#linha-line"
+    ],
+    "title": "Linha Promoção Relâmpago"
+  },
+  // LINHA DAS COLUNAS
+  "flex-layout.row#linha-conteudo-cronometro": {
+    "props": {
+      "blockClass": "linha-conteudo-cronometro",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#coluna-cronometro-esquerda",
+      "flex-layout.col#coluna-cronometro-direita"
+    ]
+  },
+  // COLUNA ESQUERDA
+  "flex-layout.col#coluna-cronometro-esquerda": {
+    "props": {
+      "blockClass": "coluna-cronometro-esquerda",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-cronometro",
+      "flex-layout.row#linha-coracao-maior"
+    ]
+  },
+  // COLUNA DIREITA
+  "flex-layout.col#coluna-cronometro-direita": {
+    "props": {
+      "blockClass": "coluna-cronometro-direita",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-coracao-menor",
+      "list-context.product-list#prateleira-cronometrada",
+      "flex-layout.row#linha-ver-mais"
+    ]
+  },
+  // ITENS COLUNA ESQUERDA
+  // linha da img, titulo e cronometro
+  "flex-layout.row#linha-imagem-cronometro": {
+    "props": {
+      "blockClass": "linha-imagem-cronometro",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#promo-relampago",
+      "rich-text#titulo-cronometro",
+      "timershelf"
+    ]
+  },
+  // IMAGEM PROMO RELAMPAGO
+  "image#promo-relampago": {
+    "props": {
+      "blockClass": "img-promo-relampago",
+      "alt": "Promoção Relâmpago",
+      "src": "assets/home-black/shelf-cronometrada/promo-relampago.webp"
+    }
+  },
+  // TITULO
+  "rich-text#titulo-cronometro": {
+    "props": {
+      "blockClass": "titulo-cronometro",
+      "text": "DESCONTO EXCLUSIVO DE **20% NA AUTOCLAVE**"
+    },
+    "title": "Título cronômetro"
+  },
+  // cronometro
+  "timershelf": {},
+  // CORACAO MAIOR LINHA
+  "flex-layout.row#linha-coracao-maior": {
+    "props": {
+      "blockClass": "linha-coracao-maior",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#coracao-maior"
+    ],
+    "title": "Linha coração maior"
+  },
+  // CORACAO MAIOR
+  "image#coracao-maior": {
+    "props": {
+      "blockClass": "coracao-maior",
+      "alt": "Coração",
+      "src": "assets/home-black/shelf-cronometrada/coracao-maior.webp"
+    },
+    "title": "Imagem coração esquerdo"
+  },
+  // ITENS COLUNA DIREITA
+  // CORACAO MENOR LINHA
+  "flex-layout.row#linha-coracao-menor": {
+    "props": {
+      "blockClass": "linha-coracao-menor",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#coracao-menor"
+    ],
+    "title": "Linha coração menor"
+  },
+  // CORACAO MENOR
+  "image#coracao-menor": {
+    "props": {
+      "blockClass": "coracao-menor",
+      "alt": "Coração",
+      "src": "assets/home-black/shelf-cronometrada/coracao-menor.webp"
+    },
+    "title": "Imagem coração direito"
+  },
+  // PRATELEIRA
+  "list-context.product-list#prateleira-cronometrada": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-cronometro"
+    ],
+    "props": {
+      "orderBy": "OrderByNameASC",
+      "maxItems": 20
+    },
+    "title": "Produtos da vitrine cronometrada"
+  },
+  // COMPONENTE DO SLIDE
+  "slider-layout#prateleira-cronometro": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": [
+        "shelf",
+        "shelf-timer"
+      ],
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
+    }
+  },
+  "flex-layout.row#linha-ver-mais": {
+    "props": {
+      "blockClass": "linha-ver-mais",
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#ver-mais-cronometro"
+    ],
+    "title": "Linha botão ver mais"
+  },
+  "link#ver-mais-cronometro": {
+    "props": {
+      "blockClass": "link-ver-mais",
+      "label": "ver tudo",
+      "href": "#"
+    }
+  },
+  // LINHAS CORACOES MOBILE
+  "flex-layout.row#img-coracao-maior-mobile": {
+    "props": {
+      "blockClass": "linha-coracao-mobile-maior",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#coracao-maior-mobile"
+    ]
+  },
+  "flex-layout.row#img-coracao-menor-mobile": {
+    "props": {
+      "blockClass": "linha-coracao-mobile-menor",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#coracao-menor-mobile"
+    ]
+  },
+  // componente image coracoes mobile
+  "image#coracao-maior-mobile":{
+    "props": {
+      "blockClass": "coracao-mobile-maior",
+      "alt": "Coração maior Mobile",
+      "src": "assets/home-black/shelf-cronometrada/mobile/coracao-maior-mobile.webp"
+    }
+  },
+  "image#coracao-menor-mobile":{
+    "props": {
+      "blockClass": "coracao-mobile-menor",
+      "alt": "Coração menor mobile",
+      "src": "assets/home-black/shelf-cronometrada/mobile/coracao-menor-mobile.webp"
+    }
+  }
+}

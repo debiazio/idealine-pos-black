@@ -1,0 +1,306 @@
+{
+  "vtex.menu@2.x:menu#Empresa": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "menu-item#quem-somos",
+      "menu-item#nosso-blog",
+      "menu-item#Politica-privacidade",
+      "menu-item#envio-de-produtos",
+      "menu-item#trocas-e-devolucoes",
+      "menu-item#meus-pedidos",
+      "menu-item#manuais",
+      "menu-item#Contato",
+      "menu-item#Formas-Pagamento"
+    ]
+  },
+  "menu-item#quem-somos": {
+    "props": {
+      "id": "menu-item-quem-somos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/quem-somos",
+        "noFollow": false,
+        "tagTitle": "Sobre nós",
+        "text": "Sobre nós"
+      },
+      "blockClass": "menu-footer-filho"
+    }
+  },
+  "menu-item#nosso-blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://idealineblog.com.br",
+        "noFollow": false,
+        "tagTitle": "Nosso Blog",
+        "text": "Nosso Blog"
+      },
+      "blockClass": "menu-footer-filho"
+    }
+  },
+  "menu-item#Politica-privacidade": {
+    "props": {
+      "id": "menu-item-policita-privacidade",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/politica-privacidade",
+        "noFollow": false,
+        "tagTitle": "Política de Privacidade",
+        "text": "Política de Privacidade"
+      },
+      "blockClass": "menu-footer-filho"
+    }
+  },
+  "menu-item#Contato": {
+    "props": {
+      "id": "menu-item-Contato",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "Contato",
+        "text": "Contato"
+      },
+      "blockClass": "menu-footer-filho"
+    }
+  },
+  "menu-item#Formas-Pagamento": {
+    "props": {
+      "id": "menu-item-Formas-Pagamento",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/formas-pagamento",
+        "noFollow": false,
+        "tagTitle": "Formas de Pagamento",
+        "text": "Formas de Pagamento"
+      },
+      "blockClass": "menu-footer-filho"
+    }
+  },
+  "menu-item#envio-de-produtos": {
+    "props": {
+      "id": "menu-item-envio-de-produtos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/envio-de-produtos/",
+        "noFollow": false,
+        "tagTitle": "Envio de produtos",
+        "text": "Envio de produtos"
+      },
+      "blockClass": "menu-footer-filho"
+    }
+  },
+  "menu-item#trocas-e-devolucoes": {
+    "props": {
+      "id": "menu-item-trocas-e-devolucoes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "Trocas e devoluções",
+        "text": "Trocas e devoluções"
+      },
+      "blockClass": "menu-footer-filho"
+    }
+  },
+  "menu-item#meus-pedidos": {
+    "props": {
+      "id": "menu-item-menu-item#meus-pedidos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/orders",
+        "noFollow": false,
+        "tagTitle": "Meus Pedidos",
+        "text": "Meus Pedidos"
+      },
+      "blockClass": "menu-footer-filho"
+    }
+  },
+  "menu-item#manuais": {
+    "props": {
+      "id": "menu-item-menu-item#manuais",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/manuais-idealine",
+        "noFollow": false,
+        "tagTitle": "Manuais Idealine",
+        "text": "Manuais Idealine"
+      },
+      "blockClass": "menu-footer-filho"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "conteiner-footer"
+    },
+    "children": [
+      "menu-item#empresa-mobile",
+      "menu-item#politica-mobile",
+      "menu-item#ajuda-mobile",
+      "menu-item#atendimento-mobile"
+    ]
+  },
+  "menu-item#empresa-mobile": {
+    "props": {
+      "id": "menu-item-empresa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      },
+      "blockClass": "menu-footer-accordion-conteiner"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#empresa-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#empresa-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#empresa-mobile"
+    ]
+  },
+  // MENU DROPDOWN MOBILE - INSTITUCIONAL
+  "vtex.menu@2.x:menu#empresa-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-itensmenu-footer"
+    },
+    "children": [
+      "menu-item#quem-somos",
+      "menu-item#nosso-blog"
+    ]
+  },
+  // MENU DROPDOWN - POLITICA
+  "menu-item#politica-mobile": {
+    "props": {
+      "id": "menu-item-politica",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Políticas",
+        "text": "Políticas"
+      },
+      "blockClass": "menu-footer-accordion-conteiner"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#politica-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#politica-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#politica-mobile"
+    ]
+  },
+  // MENU DROPDOWN MOBILE - POLITICAS
+  "vtex.menu@2.x:menu#politica-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-itensmenu-footer"
+    },
+    "children": [
+      "menu-item#Politica-privacidade",
+      "menu-item#envio-de-produtos",
+      "menu-item#trocas-e-devolucoes"
+    ]
+  },
+  // MENU DROPDOWN - AJUDA
+  "menu-item#ajuda-mobile": {
+    "props": {
+      "id": "menu-item-ajuda",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Ajuda",
+        "text": "Ajuda"
+      },
+      "blockClass": "menu-footer-accordion-conteiner"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#ajuda-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#ajuda-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#ajuda-mobile"
+    ]
+  },
+  // MENU DROPDOWN MOBILE - AJUDA
+  "vtex.menu@2.x:menu#ajuda-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-itensmenu-footer"
+    },
+    "children": [
+      "menu-item#meus-pedidos",
+      "menu-item#manuais"
+    ]
+  },
+  // MENU DROPDOWN - ATENDIMENTO
+  "menu-item#atendimento-mobile": {
+    "props": {
+      "id": "menu-item-atendimento",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Atendimento",
+        "text": "Atendimento"
+      },
+      "blockClass": "menu-footer-accordion-conteiner"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#atendimento-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#atendimento-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#atendimento-mobile"
+    ]
+  },
+  // MENU DROPDOWN MOBILE - ATENDIMENTO
+  "vtex.menu@2.x:menu#atendimento-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-itensmenu-footer"
+    },
+    "children": [
+      "menu-item#meus-pedidos",
+      "menu-item#manuais"
+    ]
+  }
+}

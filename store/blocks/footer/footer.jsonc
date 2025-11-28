@@ -1,0 +1,417 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-formaspgto-comprecom-logo",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#newsletter"
+    ],
+    "props": {
+      "blockClass": "newsletter-row"
+    }
+  },
+  "flex-layout.col#newsletter": {
+    "props": {
+      "blockClass": "coluna-newsletter-footer"
+    },
+    "children": [
+      "rich-text#title-newsletter",
+      "newsletter-form"
+    ]
+  },
+  "rich-text#title-newsletter": {
+    "props": {
+      "text": "Seja o primeiro a receber promoções imperdíveis",
+      "blockClass": "title-newsletter"
+    }
+  },
+  "newsletter-form": {
+    "props": {
+      "blockClass": "newsletter-footer"
+    },
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-name": {
+    "props": {
+      "placeholderText": "Seu nome",
+      "blockClass": "newsletter-footer"
+    }
+  },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "Seu email",
+      "blockClass": "newsletter-footer"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Enviar"
+    }
+  },
+  // LINHA PRINCIPAL MENUS
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.col#footer-linha-institucional",
+      "flex-layout.row#footer-politica",
+      "flex-layout.col#footer-ajuda",
+      "flex-layout.col#footer-atendimento",
+      "flex-layout.col#footer-fique-conosco"
+    ],
+    "props": {
+      "blockClass": "footer-2-desktop",
+      "colSizing": "auto"
+    }
+  },
+  // COLUNA INSTITUCIONAL
+  "flex-layout.col#footer-linha-institucional": {
+    "children": [
+      "rich-text#title-footer-1",
+      "menu-item#quem-somos",
+      "menu-item#nosso-blog"
+    ],
+    "props": {
+      "blockClass": "footer-2-desktop"
+    }
+  },
+  "rich-text#title-footer-1": {
+    "props": {
+      "text": "Institucional",
+      "blockClass": "title-footer"
+    }
+  },
+
+
+
+
+  // COLUNA AJUDA
+  "flex-layout.col#footer-ajuda": {
+    "props": {
+      "blockClass": "footer-2-desktop"
+    },
+    "children": [
+      "rich-text#footer-title-coluna-ajuda",
+      "menu-item#meus-pedidos",
+      "menu-item#manuais"
+    ]
+  },
+  "rich-text#footer-title-coluna-ajuda": {
+    "props": {
+      "text": "Ajuda",
+      "blockClass": "title-footer"
+    }
+  },
+  // COLUNA ATENDIMENTO
+  "flex-layout.col#footer-atendimento": {
+    "props": {
+      "blockClass": "footer-2-desktop"
+    },
+    "children": [
+      "rich-text#footer-title-coluna-atendimento",
+      "menu-item#Contato",
+      "menu-item#Formas-Pagamento"
+    ]
+  },
+  "rich-text#footer-title-coluna-atendimento": {
+    "props": {
+      "text": "Atendimento",
+      "blockClass": "title-footer"
+    }
+  },
+  // COLUNA FIQUE CONOSCO
+  "flex-layout.col#footer-fique-conosco": {
+    "props": {
+      "blockClass": "footer-2-desktop"
+    },
+    "children": [
+      "rich-text#footer-title-coluna-fique-conosco",
+      "flex-layout.row#redes"
+    ]
+  },
+  "rich-text#footer-title-coluna-fique-conosco": {
+    "props": {
+      "text": "Fique conosco",
+      "blockClass": "title-footer"
+    }
+  },
+  "flex-layout.row#redes": {
+    "props": {
+      "blockClass": "linha-redes",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#icon-facebook",
+      "image#icon-instagram",
+      "image#icon-youtube"
+    ]
+  },
+  // IMAGENS ICONES REDES
+  "image#icon-facebook": {
+    "props": {
+      "src": "assets/footer/facebook-icon-footer.svg",
+      "blockClass": "redes-footer",
+      "link": {
+        "url": "https://www.facebook.com/idealineautoclaves",
+        "openNewTab": true,
+        "alt": "Link redes sociais",
+        "title": "Link redes sociais"
+      }
+    }
+  },
+  "image#icon-instagram": {
+    "props": {
+      "src": "assets/footer/instagram-icon-footer.svg",
+      "blockClass": "redes-footer",
+      "link": {
+        "url": "https://www.instagram.com/idealine_autoclaves/",
+        "openNewTab": true,
+        "alt": "Link redes sociais",
+        "title": "Link redes sociais"
+      }
+    }
+  },
+  "image#icon-youtube": {
+    "props": {
+      "src": "assets/footer/youtube-icon-footer.svg",
+      "blockClass": "redes-footer",
+      "link": {
+        "url": "https://www.youtube.com/channel/UCiA0juVQujppyBHeLgDMLXQ",
+        "openNewTab": true,
+        "alt": "Link redes sociais",
+        "title": "Link redes sociais"
+      }
+    }
+  },
+  // LINHA FORMAS PGTO - COMPRE COM SEGURANCA - LOGO
+  "flex-layout.row#footer-formaspgto-comprecom-logo": {
+    "props": {
+      "blockClass": "linha-formaspgto-logo-compreCom",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-formas-pgto",
+      "flex-layout.col#coluna-compre-seguranca",
+      "flex-layout.col#coluna-logo-idealine"
+    ]
+  },
+  "flex-layout.col#coluna-formas-pgto": {
+    "props": {
+      "blockClass": "coluna-formas-pgto"
+    },
+    "children": [
+      "rich-text#titulo-formas-pgto",
+      "flex-layout.row#imagens-formas-pgto"
+    ]
+  },
+  "flex-layout.col#coluna-compre-seguranca": {
+    "props": {
+      "blockClass": "coluna-formas-pgto"
+    },
+    "children": [
+      "rich-text#titulo-compreCom",
+      "flex-layout.row#imagens-seguranca"
+    ]
+  },
+  "flex-layout.col#coluna-logo-idealine": {
+    "props": {
+      "blockClass": [
+        "coluna-formas-pgto",
+        "coluna-logo-idealine"
+      ]
+    },
+    "children": [
+      "image#logo-idealine-footer"
+    ]
+  },
+  // titulos
+  // titulo forma pgto
+  "rich-text#titulo-formas-pgto": {
+    "props": {
+      "blockClass": "title-footer",
+      "text": "Formas de Pagamento"
+    }
+  },
+  // titulo compre com
+  "rich-text#titulo-compreCom": {
+    "props": {
+      "blockClass": "title-footer",
+      "text": "Compre com Segurança"
+    }
+  },
+  // imagen logo footer idealine
+  "image#logo-idealine-footer": {
+    "props": {
+      "blockClass": "logo-footer-idealine",
+      "src": "assets/header-black/logo-idealine.webp",
+      "alt": "Logo Idealine"
+    }
+  },
+  // LINHA IMAGES CARTOES
+  "flex-layout.row#imagens-formas-pgto": {
+    "props": {
+      "blockClass": "linha-images-formas-pgto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#visa-footer",
+      "image#master-footer",
+      "image#mercado-pago"
+    ]
+  },
+  // imagens cartoes
+  "image#visa-footer": {
+    "props": {
+      "blockClass": "imgs-pgto-icons",
+      "src": "assets/footer/icon-visa-footer.svg",
+      "alt": "Formas de pagamento"
+    }
+  },
+  "image#master-footer": {
+    "props": {
+      "blockClass": "imgs-pgto-icons",
+      "src": "assets/footer/icon-master-footer.svg",
+      "alt": "Formas de pagamento"
+    }
+  },
+  "image#mercado-pago": {
+    "props": {
+      "blockClass": "imgs-pgto-icons",
+      "src": "assets/footer/icon-mercadopago-footer.svg",
+      "alt": "Formas de pagamento"
+    }
+  },
+  // LINHA IMAGENS SEGURANCA
+  "flex-layout.row#imagens-seguranca": {
+    "props": {
+      "blockClass": "linha-images-formas-pgto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#lets",
+      "image#certisign",
+      "image#vtex-footer"
+    ]
+  },
+  // imagens compre com seguranca
+  "image#lets": {
+    "props": {
+      "blockClass": "imgs-pgto-icons",
+      "src": "assets/footer/lets-encrypt-icon-footer.svg",
+      "alt": "Icones compre com segurança"
+    }
+  },
+  "image#certisign": {
+    "props": {
+      "blockClass": "imgs-pgto-icons",
+      "src": "assets/footer/selo-certisign.svg",
+      "alt": "Icones compre com segurança"
+    }
+  },
+  "image#vtex-footer": {
+    "props": {
+      "blockClass": "imgs-pgto-icons",
+      "src": "assets/footer/vtex-icon.svg",
+      "alt": "Icones compre com segurança"
+    }
+  },
+  // colunas POLITICA
+  "flex-layout.row#footer-politica": {
+    "props": {
+      "blockClass": "footer-merchant-desktop",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#title-footer-coluna-politicas",
+      "menu-item#Politica-privacidade",
+      "menu-item#envio-de-produtos",
+      "menu-item#trocas-e-devolucoes"
+    ]
+  },
+  "rich-text#title-footer-coluna-politicas": {
+    "props": {
+      "text": "Políticas",
+      "blockClass": "title-footer"
+    }
+  },
+  // LINHA FINAL
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "rich-text#footer"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "Os preços, as ações promocionais e as condições de pagamento são exclusivas para o site. Os produtos disponibilizados no site possuem estoque limitado, estando sujeitos à disponibilidade no momento da efetivação e confirmação da compra. O site www.idealine.com.br é administrado por 2025® IDEALINE COMERCIAL LTDA., CNPJ 06.331.320/0001-00, com sede na Rua Inajá, 695, Sala E-commerce, CEP 83324-225, Jardim Pedro Demeterco, Pinhais – PR. Todos os direitos reservados.",
+      "blockClass": "footer"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#menus-accordion-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#menus-accordion-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-mobile",
+      "flex-layout.col#footer-fique-conosco",
+       "flex-layout.col#coluna-formas-pgto",
+       "flex-layout.col#coluna-compre-seguranca"
+      // "flex-layout.row#formas-de-pagto-mobile",
+      // "flex-layout.row#fique-conosco-mobile",
+      // "flex-layout.row#compre-com-seguranca-mobile"
+    ],
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass": "footer-mobile-principal"
+    }
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "Os preços, as ações promocionais e as condições de pagamento são exclusivas para o site. Os produtos disponibilizados no site possuem estoque limitado, estando sujeitos à disponibilidade no momento da efetivação e confirmação da compra. O site www.idealine.com.br é administrado por 2025® IDEALINE COMERCIAL LTDA., CNPJ 06.331.320/0001-00, com sede na Rua Inajá, 695, Sala E-commerce, CEP 83324-225, Jardim Pedro Demeterco, Pinhais – PR. Todos os direitos reservados.",
+      "blockClass": "footer"
+    }
+  }
+}
