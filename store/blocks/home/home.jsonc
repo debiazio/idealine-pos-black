@@ -1,9 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "responsive-layout.desktop#slider-desktop",
-      "responsive-layout.mobile#slider-mobile",
-      // "list-context.image-list#home",
+      // "responsive-layout.desktop#slider-desktop",
+      // "responsive-layout.mobile#slider-mobile",
+      "list-context.image-list#home",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
       "flex-layout.row#shelf-timer",
@@ -57,25 +57,25 @@
   },
 
   // LIST CONTEXT DO SLIDER HOME
-  // "list-context.image-list#home": {
-  //   "children": [
-  //     "slider-layout#demo-images"
-  //   ],
-  //   "props": {
-  //     "height": 570,
-  //     "preload": true,
-  //     "images": [
-  //       {
-  //         "image": "assets/Banner DESKTOP sweet pink.webp",
-  //         "mobileImage": "assets/Banner MOBILE sweet pink.webp"
-  //       },
-  //       {
-  //         "image": "assets/Banner DESKTOP sweet black.webp",
-  //         "mobileImage": "assets/Banner MOBILE sweet black.webp"
-  //       }
-  //     ]
-  //   }
-  // },
+  "list-context.image-list#home": {
+    "children": [
+      "slider-layout#demo-images"
+    ],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/home-black/banners/black-idealovers-kit-desktop.webp",
+          "mobileImage": "assets/home-black/banners/black-idealovers-mobile.webp"
+        },
+        {
+          "image": "assets/home-black/banners/opta-desktop.webp",
+          "mobileImage": "assets/home-black/banners/opta-mobile.webp"
+        }
+      ]
+    }
+  },
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {

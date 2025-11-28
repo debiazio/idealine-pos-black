@@ -5,10 +5,10 @@
 }
 
 :root {
-  --fonte-cor-normal: #ffffff;
+  --fonte-cor-normal: #696969;
   /* --fonte-cor-normal: #696969; */
   /* --fonte-cor-black: #ffffff; */
-  --fundo: #000000;
+  --fundo: #ffffff;
 
   --rosa-installments: #FEBBCE;
 
@@ -103,7 +103,8 @@ input:-webkit-autofill {
   input[type="text"],
   input[type="email"],
   input[type="tel"] {
-    font-size: 12px !important;
+    font-size: 16px !important;
+    color: #696969;
   }
 }
 
@@ -162,12 +163,14 @@ input:-webkit-autofill {
 
 /* botão submit newletter */
 :global(.vtex-store-newsletter-1-x-formSubmitContainer) button {
-  background-color: #FEBBCE;
+  background-color: #696969;
+  border-radius: 12px;
   border: none;
 }
 
 :global(.vtex-store-newsletter-1-x-formSubmitContainer) button:hover {
-  background-color: #FEBBCE;
+  background-color: #5c5c5c;
+  border-radius: 12px;
   border: none;
 }
 

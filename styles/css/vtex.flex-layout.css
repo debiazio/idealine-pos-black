@@ -28,13 +28,6 @@
   margin-bottom: -55px;
 }
 
-/* TESTE PRATELEIRA CRONOMETRADA - BLACK FRIDAY  */
-/* .flexCol--coluna-cronometro-direita {
-  background-image: url(assets/home-black/shelf-cronometrada/BLACK.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
 .flexRowContent--linha-imagem-cronometro {
   display: flex;
@@ -630,7 +623,7 @@
 
 /* rodapé */
 .flexRow--newsletter-row {
-  background: #696969;
+  background: #FCF5EF;
   padding: 0px 0 40px;
   /* margin-top: 20PX; */
 
@@ -652,7 +645,7 @@
 }
 
 .flexRow--footer-merchant-desktop {
-  background-color: #000000;
+  background-color: #474747;
 }
 
 /* .flexRow--credits {
@@ -664,13 +657,13 @@
 } */
 
 .flexRow--linha-formaspgto-logo-compreCom {
-  background: #000000;
+  background: #474747;
   padding: 30px 200px;
 }
 
 .flexRow--footer-2-desktop {
   border-top: 14px solid #FEBBCE;
-  background: #000000;
+  background: #474747;
   padding: 30px 200px;
 }
 
@@ -917,7 +910,6 @@
   padding: 20px 20px 30px 20px;
   border: 1px groove var(--magnolia);
   border-top: 10px solid var(--rosa-installments);
-  background-color: #4d4b4bef;
   border-radius: 0 0 10px 10px;
 }
 
@@ -933,7 +925,6 @@
   font-size: small;
   padding: 20px;
   color: var(--fonte-cor-normal);
-  background-color: #4d4b4bef;
   border-radius: 0 0 10px 10px;
 }
 
@@ -953,7 +944,7 @@
   padding: 20px;
   margin: 20px 0;
   border: 1px groove var(--magnolia);
-  border: 10px solid var(--pink);
+  border: 10px solid var(--rosa-installments);
 }
 
 

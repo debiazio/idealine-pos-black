@@ -107,7 +107,6 @@
 :global(.vtex-numeric-stepper__plus-button),
 :global(.vtex-numeric-stepper__minus-button) {
   display: flex;
-  background-color: transparent;
   border: none;
   color: #696969;
   margin: 0;

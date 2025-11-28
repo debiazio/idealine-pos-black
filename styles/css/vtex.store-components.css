@@ -406,7 +406,7 @@
 
 
 .searchBarContainer :global(.vtex-input-prefix__group) {
-  border: 4px solid #FFFFFF;
+  border: 4px solid #BFB8B8;
   border-radius: 26px;
   align-items: center;
   height: 42px;
@@ -422,19 +422,19 @@
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
-  color: var(--fonte-cor-normal);
+  color: #BFB8B8;
 
 }
 
 
 .searchBarContainer :global(.vtex-input__suffix) {
   background-color: transparent;
-  color: var(--fonte-cor-normal) !important;
+  color: #BFB8B8 !important;
 }
 
 .searchBarIcon--search-bar--search {
   background-color: transparent;
-  color: var(--fonte-cor-normal) !important;
+  color: #BFB8B8 !important;
 }
 
 
