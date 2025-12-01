@@ -27,6 +27,7 @@
     },
     "children": [
       "rich-text#title-newsletter",
+      "newsletter-idealine",
       "newsletter-form"
     ]
   },
