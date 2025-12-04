@@ -1,3 +1,8 @@
+.shippingTableCellDeliveryEstimate,
+.shippingTableCellDeliveryPrice{
+  color: var(--fonte-cor-normal);
+}
+
 .imageElement--coracao-maior {
   padding: 10px 20px;
   z-index: -1;
