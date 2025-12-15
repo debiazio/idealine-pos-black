@@ -156,6 +156,17 @@
   "image#postagem1-coluna1-instagram": {
     "props": {
       "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/dezembro/vantagens.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DSSTaMYDCak/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#postagem2-coluna1-instagram": {
+    "props": {
+      "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/dezembro/ela-voltou-edit.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
@@ -164,7 +175,7 @@
       }
     }
   },
-  "image#postagem2-coluna1-instagram": {
+  "image#postagem1-coluna2-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/dezembro/idealine-natal.webp",
@@ -175,7 +186,7 @@
       }
     }
   },
-  "image#postagem1-coluna2-instagram": {
+  "image#postagem2-coluna2-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/dezembro/postagem-insta-natalina.webp",
@@ -186,7 +197,7 @@
       }
     }
   },
-  "image#postagem2-coluna2-instagram": {
+  "image#postagem1-coluna3-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/dezembro/promo-canal.webp",
@@ -197,24 +208,13 @@
       }
     }
   },
-  "image#postagem1-coluna3-instagram": {
+  "image#postagem2-coluna3-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/dezembro/fretegratis.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
         "url": "https://www.instagram.com/p/DRktF5Al-E_/",
-        "openNewTab": true
-      }
-    }
-  },
-  "image#postagem2-coluna3-instagram": {
-    "props": {
-      "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/novembro/insta-gire-e-ganhe.webp",
-      "alt": "Postagem Instagram Idealine",
-      "link": {
-        "url": "https://www.instagram.com/p/DRCju3GDesI",
         "openNewTab": true
       }
     }
