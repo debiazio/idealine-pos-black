@@ -4,7 +4,7 @@
       "flex-layout.row#conteiner-instagram-desktop"
     ]
   },
-  "responsive-layout.mobile#instagram":{
+  "responsive-layout.mobile#instagram": {
     "children": [
       "flex-layout.row#conteiner-instagram-desktop"
     ]
@@ -50,7 +50,10 @@
   // COLUNAS INSTAGRAM DESKTOP
   "flex-layout.col#coluna1-instagram-desktop": {
     "props": {
-      "blockClass": ["colunas-instagram-desktop", "insta-col-1"],
+      "blockClass": [
+        "colunas-instagram-desktop",
+        "insta-col-1"
+      ],
       "preventVerticalStretch": true
     },
     "children": [
@@ -60,7 +63,10 @@
   },
   "flex-layout.col#coluna2-instagram-desktop": {
     "props": {
-      "blockClass": ["colunas-instagram-desktop", "insta-col-2"],
+      "blockClass": [
+        "colunas-instagram-desktop",
+        "insta-col-2"
+      ],
       "preventVerticalStretch": true
     },
     "children": [
@@ -70,7 +76,10 @@
   },
   "flex-layout.col#coluna3-instagram-desktop": {
     "props": {
-      "blockClass": ["colunas-instagram-desktop", "insta-col-3"],
+      "blockClass": [
+        "colunas-instagram-desktop",
+        "insta-col-3"
+      ],
       "preventVerticalStretch": true
     },
     "children": [
@@ -144,7 +153,18 @@
   },
   // FIM BLOCO DAS COLUNAS
   // BLOCO DAS IMAGENS
-  "image#postagem1-coluna1-instagram":{
+  "image#postagem1-coluna1-instagram": {
+    "props": {
+      "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/dezembro/ela-voltou-edit.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DSH6AAwgJP9/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#postagem2-coluna1-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/dezembro/idealine-natal.webp",
@@ -153,10 +173,9 @@
         "url": "https://www.instagram.com/idealine_autoclaves/p/DR3GLsKD9GQ/",
         "openNewTab": true
       }
-
     }
   },
-  "image#postagem2-coluna1-instagram":{
+  "image#postagem1-coluna2-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/dezembro/postagem-insta-natalina.webp",
@@ -165,10 +184,9 @@
         "url": "https://www.instagram.com/p/DRzNOdMgt0y/",
         "openNewTab": true
       }
-
     }
   },
-  "image#postagem1-coluna2-instagram":{
+  "image#postagem2-coluna2-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/dezembro/promo-canal.webp",
@@ -177,10 +195,9 @@
         "url": "https://www.instagram.com/p/DRmagwVjeGX/",
         "openNewTab": true
       }
-
     }
   },
-  "image#postagem2-coluna2-instagram":{
+  "image#postagem1-coluna3-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/dezembro/fretegratis.webp",
@@ -189,10 +206,9 @@
         "url": "https://www.instagram.com/p/DRktF5Al-E_/",
         "openNewTab": true
       }
-
     }
   },
-  "image#postagem1-coluna3-instagram":{
+  "image#postagem2-coluna3-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/novembro/insta-gire-e-ganhe.webp",
@@ -201,23 +217,10 @@
         "url": "https://www.instagram.com/p/DRCju3GDesI",
         "openNewTab": true
       }
-
-    }
-  },
-  "image#postagem2-coluna3-instagram":{
-    "props": {
-      "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/novembro/insta-relampago.webp",
-      "alt": "Postagem Instagram Idealine",
-      "link": {
-        "url": "https://www.instagram.com/p/DRCT0OrDeJf",
-        "openNewTab": true
-      }
-
     }
   },
   // FIM BLOCO DAS IMAGENS
-  "image#instagram-rodape":{
+  "image#instagram-rodape": {
     "props": {
       "blockClass": "instagram-rodape",
       "src": "assets/instagram-home/instagram-rodape.webp",
