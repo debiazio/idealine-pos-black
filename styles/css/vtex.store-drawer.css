@@ -26,6 +26,10 @@
   border-radius: 15px;
 }
 
+.closeIcon{
+  max-width: 15px;
+}
+
 .closeIconContainer {
   /* background-color: #e90b91; */
   border-bottom: none;
