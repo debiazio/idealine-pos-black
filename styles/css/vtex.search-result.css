@@ -1,3 +1,7 @@
+.totalProductsMessage {
+  color: var(--fonte-cor-normal)!important;
+}
+
 .orderByOptionItem--selected,
 .orderByOptionItem:hover{
   color: black;
@@ -6,7 +10,7 @@
 .orderByOptionItem,
 .filterPopupTitle,
 .totalProducts--layout{
-  color: var(--fonte-cor-normal);
+  color: var(--fonte-cor-normal)!important;
 }
 
 .orderByOptionsContainer{

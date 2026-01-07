@@ -1,4 +1,8 @@
 
+.totalProductsMessage{
+  color: #000000 !important;
+}
+
 .biggy-autocomplete-wrapper{
   width: 39vw;
 }
