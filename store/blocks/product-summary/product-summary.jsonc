@@ -21,8 +21,7 @@
   },
   "flex-layout.col#coluna1-parcelamento": {
     "props": {
-      "blockClass": "coluna-parcelamento",
-      "width": "80%"
+      "blockClass": "coluna-parcelamento"
     },
     "children": [
       "product-installments#summary", // parcelamento
@@ -30,7 +29,8 @@
       // "bundle",
       "product-list-price#summary", //preco de: quanto custava
       "product-selling-price", //preço por
-      "product-spot-price-savings"
+      "flex-layout.row#gif-desconto-prateleira"
+      // "product-spot-price-savings"//removido para teste gif
     ]
   },
   "flex-layout.col#coluna2-parcelamento": {
@@ -121,6 +121,22 @@
       "message": "de { listPriceValue}"
     }
   },
+  "flex-layout.row#gif-desconto-prateleira":{
+    "props": {
+      "blockClass": "linha-gif-teste",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#gif-desconto"
+    ]
+  },
+  "image#gif-desconto":{
+    "props": {
+      "src": "assets/home/prateleira/frete-selo-156-1.gif",
+      "blockClass": "gif-desconto"
+    }
+  },
+
   "product-spot-price-savings": {
     "props": {
       "blockClass": "summary",

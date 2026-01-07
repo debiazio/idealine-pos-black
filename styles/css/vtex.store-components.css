@@ -1,5 +1,11 @@
+.imageElement--gif-desconto {
+  width: 100%;
+  bottom: 0px;
+  border-radius: 0 0 6px 6px;
+}
+
 .shippingTableCellDeliveryEstimate,
-.shippingTableCellDeliveryPrice{
+.shippingTableCellDeliveryPrice {
   color: var(--fonte-cor-normal);
 }
 
