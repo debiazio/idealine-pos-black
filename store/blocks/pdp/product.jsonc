@@ -982,11 +982,11 @@
   "condition-layout.product#rosa-gold": {
     "props": {
       "conditions": [
-        {
+{
           "subject": "specificationProperties",
           "arguments": {
-            "name": "Cor",
-            "value": "Rose Gold"
+            "name": "Capacidade",
+            "value": "8L"
           }
         },
         {
@@ -997,6 +997,7 @@
           }
         }
       ],
+      "matchType": "any",
       "Then": "flex-layout.row#custom-pdp-layout-rosa-gold"
     }
   },
@@ -2126,19 +2127,7 @@
   //     "flex-layout.col#product-right-col-availability"
   //   ]
   // },
-  "flex-layout.col#product-right-col-availability": {
-    "props": {
-      "preventVerticalStretch": true,
-      "rowGap": 0,
-      "blockClass": "info-availability"
-    },
-    "children": [
-      "flex-layout.row#product-name",
-      "product-identifier.product",
-      "sku-selector",
-      "flex-layout.row#availability"
-    ]
-  },
+
   "flex-layout.row#availability": {
     "props": {
       "blockClass": "message-availability"

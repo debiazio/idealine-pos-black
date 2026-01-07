@@ -27,7 +27,7 @@
     },
     "children": [
       "rich-text#title-newsletter",
-      "newsletter-idealine"
+      "newsletteridealine"
     ]
   },
   "rich-text#title-newsletter": {

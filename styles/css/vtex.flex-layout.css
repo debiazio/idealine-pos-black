@@ -1,3 +1,11 @@
+.flexRow--linha-gif-teste{
+  display: none;
+}
+
+.flexRow--linha-prateleira-duas-colunas{
+  padding: 10px;
+}
+
 .flexRowContent--linha-conteudo-cronometro {
   display: flex;
   flex-direction: row;

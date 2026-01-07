@@ -5,11 +5,10 @@
       "product-summary-name", //nome
       "flex-layout.col#productRating", //avaliações
       // "product-summary-space",
-      "flex-layout.row#linha-prateleira"
-
+      "flex-layout.row#linha-prateleira",
+      "showifcollection"
     ]
   },
-
   "flex-layout.row#linha-prateleira": {
     "props": {
       "blockClass": "linha-prateleira-duas-colunas"
@@ -28,9 +27,8 @@
       "product-installments#summary-segunda-linha",
       // "bundle",
       "product-list-price#summary", //preco de: quanto custava
-      "product-selling-price", //preço por
-      // "flex-layout.row#gif-desconto-prateleira"
-      "product-spot-price-savings"//removido para teste gif
+      "product-selling-price" //preço por
+      // "product-spot-price-savings"//removido para teste gif
     ]
   },
   "flex-layout.col#coluna2-parcelamento": {
@@ -121,22 +119,6 @@
       "message": "de { listPriceValue}"
     }
   },
-  "flex-layout.row#gif-desconto-prateleira":{
-    "props": {
-      "blockClass": "linha-gif-teste",
-      "colSizing": "auto"
-    },
-    "children": [
-      "image#gif-desconto"
-    ]
-  },
-  "image#gif-desconto":{
-    "props": {
-      "src": "assets/home/prateleira/frete-selo-156-1.gif",
-      "blockClass": "gif-desconto"
-    }
-  },
-
   "product-spot-price-savings": {
     "props": {
       "blockClass": "summary",
@@ -144,12 +126,11 @@
       // "message": "OU {newSpotPriceValue} À VISTA  NO BOLETO (3% DE DESCONTO)"
     }
   },
-
   "product-installments#summary": {
     "props": {
       "blockClass": "summary",
       "message": "{hasMoreThanOne, select, true { {installmentsNumber}x de {installmentValue} sem juros no cartão}  false { }}"
-  }
+    }
   },
   "product-installments#summary-segunda-linha": {
     "props": {
@@ -158,7 +139,6 @@
       "installmentsCriteria": "max-quantity"
     }
   },
-
   //linha adicionada para teste ICONE SACOLA - botao comprar
   "flex-layout.row#sacola-icone": {
     "props": {
@@ -191,16 +171,5 @@
       "blockClass": "summary",
       "message": "- {savingsValue}"
     }
-  },
-  "product-summary.shelf#teste": {
-    "children": [
-      // "condition-layout.product#flag-promo-forced",
-      "stack-layout#prodsum",
-      "product-summary-name", //nome
-      "flex-layout.col#productRating", //avaliações
-      // "product-summary-space",
-      "flex-layout.row#linha-prateleira",
-      "product-spot-price-savings"
-    ]
   }
 }
