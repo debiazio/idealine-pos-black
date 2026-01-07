@@ -29,8 +29,8 @@
       // "bundle",
       "product-list-price#summary", //preco de: quanto custava
       "product-selling-price", //preço por
-      "flex-layout.row#gif-desconto-prateleira"
-      // "product-spot-price-savings"//removido para teste gif
+      // "flex-layout.row#gif-desconto-prateleira"
+      "product-spot-price-savings"//removido para teste gif
     ]
   },
   "flex-layout.col#coluna2-parcelamento": {
