@@ -299,7 +299,7 @@
       "blockClass": "menu-itensmenu-footer"
     },
     "children": [
-      "menu-item#meus-pedidos",
+      "menu-item#Contato",
       "menu-item#manuais"
     ]
   }
