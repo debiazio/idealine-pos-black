@@ -1,0 +1,8 @@
+{
+  "responsive-layout.mobile#mobile-dvm":{
+    "children": [
+      "flex-layout.col#coluna-tec-pat-imagem",
+      "flex-layout.col#coluna-tec-pat-textos"
+    ]
+  }
+}

@@ -6,9 +6,28 @@
       "flex-layout.col#productRating", //avaliações
       // "product-summary-space",
       "flex-layout.row#linha-prateleira",
+      // "condition-layout.product#teste", //para lembrar que isso pode ser feito
       "showifcollection"
     ]
   },
+  // "condition-layout.product#teste":{
+  //   "props": {
+  //     "conditions": [
+  //       {
+  //         "subject": "productClusters",
+  //         "arguments": {
+  //           "id": "233"
+  //         }
+  //       }
+  //     ],
+  //     "Then": "rich-text#teste-bobo"
+  //   }
+  // },
+  // "rich-text#teste-bobo":{
+  //   "props": {
+  //     "text": "coleção 233"
+  //   }
+  // },
   "flex-layout.row#linha-prateleira": {
     "props": {
       "blockClass": "linha-prateleira-duas-colunas"

@@ -28,5 +28,8 @@
   },
   "store.custom#template-categoria-2": {
     "path": "/template-categoria-2"
+  },
+  "store.custom#dvm": {
+    "path": "/tecnologia-dvm"
   }
 }

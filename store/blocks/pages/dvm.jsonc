@@ -1,0 +1,337 @@
+{
+  "store.custom#dvm": {
+    "blocks": [
+      "flex-layout.row#linha-tecnologia-pat",
+      "flex-layout.row#linha-como-possivel",
+      "flex-layout.row#linha-qual-agua",
+      "flex-layout.row#linha-economia"
+    ]
+  },
+  // ====================
+  // PRIMEIRA LINHA
+  // ====================
+  "flex-layout.row#linha-tecnologia-pat": {
+    "props": {
+      "blockClass": "linha-tec-pat",
+      "colSizing": "auto"
+    },
+    "children": [
+      "responsive-layout.desktop#desktop-dvm",
+      "responsive-layout.mobile#mobile-dvm"
+    ]
+  },
+  "responsive-layout.desktop#desktop-dvm": {
+    "children": [
+      "flex-layout.col#coluna-tec-pat-textos",
+      "flex-layout.col#coluna-tec-pat-imagem"
+    ]
+  },
+  // ====================
+  // COLUNA DOS TEXTOS
+  // ====================
+  "flex-layout.col#coluna-tec-pat-textos": {
+    "props": {
+      "blockClass": "coluna-tec-pat-textos",
+      "preventVerticalStretch": true,
+      "colSizing": "auto",
+      "width": "50%"
+    },
+    "children": [
+      "rich-text#titulo-tec-pat",
+      "rich-text#subtitulo-tec-pat",
+      "rich-text#descricao-tec-pat"
+    ]
+  },
+  // ====================
+  // TEXTOS
+  // ====================
+  "rich-text#titulo-tec-pat": {
+    "props": {
+      "blockClass": "dvm-texto-titulo",
+      "text": "TECNOLOGIA PATENTEADA"
+    }
+  },
+  "rich-text#subtitulo-tec-pat": {
+    "props": {
+      "blockClass": "tec-pat-texto-subtitulo",
+      "text": "DESTILED VAPOR MAKER"
+    }
+  },
+  "rich-text#descricao-tec-pat": {
+    "props": {
+      "blockClass": "dvm-texto-descricao",
+      "text": "Apresentamos a tecnologia DVM, uma solução patenteada e inovadora que revoluciona o processo de esterilização ao dispensar a necessidade de comprar água destilada ou investir em destiladores caros. Com DVM, simplificamos o seu dia a dia e proporcionamos uma economia real de tempo e dinheiro."
+    }
+  },
+  // ====================
+  // COLUNA DA IMAGEM
+  // ====================
+  "flex-layout.col#coluna-tec-pat-imagem": {
+    "props": {
+      "blockClass": "coluna-tec-pat-imagem",
+      "width": "50%"
+    },
+    "children": [
+      "image#imagem-tec-pat"
+    ]
+  },
+  // ====================
+  // IMAGEM
+  // ====================
+  "image#imagem-tec-pat": {
+    "props": {
+      "blockClass": "img-tec-pat",
+      "alt": "DVM tecnologia",
+      "src": "assets/dvm/img-tec-pat-dvm.webp"
+    }
+  },
+  // ====================
+  // SEGUNDA LINHA - como isso é possível?
+  // ====================
+  "flex-layout.row#linha-como-possivel": {
+    "props": {
+      "blockClass": "linha-como-possivel",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-titulo-como-possivel",
+      "flex-layout.row#linha-imagem-texto-como-possivel"
+    ]
+  },
+  // ====================
+  // LINHA TITULO
+  // ====================
+  "flex-layout.row#linha-titulo-como-possivel": {
+    "props": {
+      "blockClass": "linha-como-possivel-",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-como-possivel"
+    ]
+  },
+  // ====================
+  // TEXTOS
+  // ====================
+  "rich-text#titulo-como-possivel": {
+    "props": {
+      "blockClass": "dvm-texto-titulo",
+      "text": "Como isso é possível?"
+    }
+  },
+  // ====================
+  // LINHA IMAGEM E TEXTOS
+  // ====================
+  "flex-layout.row#linha-imagem-texto-como-possivel": {
+    "props": {
+      "blockClass": "linha-como-possivel-imagem-texto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-como-possivel-imagem",
+      "flex-layout.col#coluna-como-possivel-textos"
+    ]
+  },
+  // ====================
+  // COLUNA IMAGEM
+  // ====================
+  "flex-layout.col#coluna-como-possivel-imagem": {
+    "props": {
+      "blockClass": "coluna-como-possivel-imagem",
+      "width": "50%"
+    },
+    "children": [
+      "image#imagem-como-possivel"
+    ]
+  },
+  // ====================
+  // IMAGEM COMO ISSO É POSSÍVEL?
+  // ====================
+  "image#imagem-como-possivel": {
+    "props": {
+      "blockClass": "img-como-possivel",
+      "alt": "Como isso é possível",
+      "src": "assets/dvm/autoclave-dvm-como-funciona.webp"
+    }
+  },
+  // ====================
+  // COLUNA COMO ISSO É POSSÍVEL? TEXTOS
+  // ====================
+  "flex-layout.col#coluna-como-possivel-textos": {
+    "props": {
+      "blockClass": "coluna-como-possivel-descricao",
+      "width": "50%"
+    },
+    "children": [
+      "rich-text#como-possivel-descricao"
+    ]
+  },
+  // ====================
+  // TEXTOS
+  // ====================
+  "rich-text#como-possivel-descricao": {
+    "props": {
+      "blockClass": "dvm-texto-descricao",
+      "text": "Durante o ciclo de esterilização, o vapor gerado pela autoclave é automaticamente destilado pela nossa tecnologia exclusiva, transformando a água comum, elemento essencial para uma esterilização eficiente e segura em vapor destilado. Isso significa que você continua utilizando água, mas sem a necessidade de adquiri-la destilada. Todo o processo ocorre dentro da própria autoclave, garantindo resultados consistentes e eficazes.\n\nCom DVM, estamos redefinindo a eficiência e a simplicidade no processo de esterilização. Nossa tecnologia patenteada coloca o futuro em suas mãos – sem complicações e sem gastos desnecessários."
+    }
+  },
+  // ====================
+  // TERCEIRA LINHA - qual água usar?
+  // ====================
+  "flex-layout.row#linha-qual-agua": {
+    "props": {
+      "blockClass": "linha-qual-agua",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#titulo-qual-agua",
+      "flex-layout.row#descricao-qual-agua"
+    ]
+  },
+  // ====================
+  // linha titulo
+  // ====================
+  "flex-layout.row#titulo-qual-agua": {
+    "props": {
+      "blockClass": "linha-titulo-qual-agua",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#qual-agua-titulo"
+    ]
+  },
+  // ====================
+  // Texto
+  // ====================
+  "rich-text#qual-agua-titulo": {
+    "props": {
+      "blockClass": [
+        "dvm-texto-titulo",
+        "dvm-textoagua"
+      ],
+      "text": "Qual água posso utilizar na\n autoclave com tecnologia DVM?"
+    }
+  },
+  "flex-layout.row#descricao-qual-agua": {
+    "props": {
+      "blockClass": "linha-descricao-qual-agua",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#qual-agua-descricao"
+    ]
+  },
+  "rich-text#qual-agua-descricao": {
+    "props": {
+      "blockClass": "dvm-texto-descricao",
+      "text": "Somos a única autoclave do mercado que permite utilização de água comum (mineral ou filtrada) no processo de esterilização, a própria água destilada também continua sendo uma opção."
+    }
+  },
+  // ====================
+  // QUARTA LINHA - economia
+  // ====================
+  "flex-layout.row#linha-economia": {
+    "props": {
+      "blockClass": "linha-economia",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-economia-texto",
+      "flex-layout.row#linha-economia-imgs"
+    ]
+  },
+  // ====================
+  // coluna titulo economia
+  // ====================
+  "flex-layout.row#linha-economia-texto": {
+    "props": {
+      "blockClass": "coluna-titulo-economia",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-economia-texto",
+      "image#cifrao-dvm"
+    ]
+  },
+  "image#cifrao-dvm":{
+    "props": {
+      "blockClass": "img-cifrao-dvm",
+      "alt": "Imagem cifrão",
+      "src": "assets/dvm/cifrao.webp"
+    }
+  },
+  // ====================
+  // texto economia
+  // ====================
+  "rich-text#titulo-economia-texto": {
+    "props": {
+      "blockClass": "dvm-texto-titulo",
+      "text": "Economia a\n cada ciclo!"
+    }
+  },
+  // ====================
+  // coluna imagens economia
+  // ====================
+  "flex-layout.row#linha-economia-imgs": {
+    "props": {
+      "blockClass": "container-economia-imgs",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-imagem-garrafa",
+      "flex-layout.col#coluna-imagem-destilador"
+    ]
+  },
+  // ====================
+  // coluna imagens e subtitulos garrafa
+  // ====================
+  "flex-layout.col#coluna-imagem-garrafa": {
+    "props": {
+      "blockClass": "coluna-imagem-e-texto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#garrafa-dvm",
+      "rich-text#subtitulo-garrafa-dvm"
+    ]
+  },
+  "image#garrafa-dvm":{
+    "props": {
+      "blockClass": "img-garrafa-dvm",
+      "alt": "Imagem garrafa",
+      "src": "assets/dvm/garrafa-dvm.webp"
+    }
+  },
+  "rich-text#subtitulo-garrafa-dvm":{
+    "props": {
+      "blockClass": "subtitulo-garrafa-dvm",
+      "text": "Economia com\nágua destilada!"
+    }
+  },
+  // ====================
+  // coluna imagens e subtitulos destilador
+  // ====================
+  "flex-layout.col#coluna-imagem-destilador": {
+    "props": {
+      "blockClass": "coluna-imagem-e-texto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#destilador-dvm",
+      "rich-text#subtitulo-destilador-dvm"
+    ]
+  },
+  "image#destilador-dvm":{
+    "props": {
+      "blockClass": "img-destilador-dvm",
+      "alt": "Imagem destilador",
+      "src": "assets/dvm/destilador-dvm.webp"
+    }
+  },
+  "rich-text#subtitulo-destilador-dvm":{
+    "props": {
+      "blockClass": "subtitulo-destilador-dvm",
+      "text": "Economia com\ndestilador!"
+    }
+  }
+}

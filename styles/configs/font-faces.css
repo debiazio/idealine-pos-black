@@ -7,6 +7,30 @@
 }
 
 @font-face {
+  font-family: "rubik-bold";
+  font-display: swap;
+  src:
+    url(assets/fonts/Rubik-Bold.woff2),
+    url(assets/fonts/Rubik-Bold.ttf);
+}
+
+@font-face {
+  font-family: "rubik-extra-bold";
+  font-display: swap;
+  src:
+    url(assets/fonts/Rubik-ExtraBold.woff2),
+    url(assets/fonts/Rubik-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "rubik-medium";
+  font-display: swap;
+  src:
+    url(assets/fonts/Rubik-Medium.woff2),
+    url(assets/fonts/Rubik-Medium.ttf);
+}
+
+@font-face {
   font-family: "montserrat-regular";
   font-display: swap;
   src:

@@ -1,3 +1,19 @@
+.imageElement--img-garrafa-dvm,
+.imageElement--img-destilador-dvm {
+  width: 80%;
+}
+
+.imageElement--img-cifrao-dvm {
+  width: 5%;
+  position: absolute;
+  right: 52%;
+  margin-bottom: 180px;
+}
+
+.imageElement--img-como-possivel {
+  width: 75%;
+}
+
 .imageElement--gif-desconto {
   width: 100%;
   margin-top: 15px;

@@ -1,8 +1,86 @@
-.flexRow--linha-gif-teste{
+.flexCol--coluna-imagem-e-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--linha-economia .stretchChildrenWidth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flexRow--linha-economia {
+  padding: 0 118px;
+}
+
+.flexRow--linha-descricao-qual-agua {
+  padding: 0 118px;
+}
+
+.flexRowContent--linha-descricao-qual-agua {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRowContent--linha-qual-agua {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.flexColChild--coluna-como-possivel-descricao {
+  margin: 0 118px 0 0;
+}
+
+.flexColChild--coluna-como-possivel-imagem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColChild--coluna-como-possivel-descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow--linha-como-possivel-imagem-texto {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--linha-como-possivel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexCol--coluna-tec-pat-textos {
+  margin: 0 0 0 118px;
+}
+
+.flexCol--coluna-tec-pat-textos,
+.flexCol--coluna-tec-pat-imagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexRow--linha-gif-teste {
   display: none;
 }
 
-.flexRow--linha-prateleira-duas-colunas{
+.flexRow--linha-prateleira-duas-colunas {
   padding: 10px;
 }
 
@@ -1186,6 +1264,35 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--linha-descricao-qual-agua {
+    padding: 0 30px;
+  }
+
+  .flexRowContent--linha-titulo-qual-agua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+  }
+
+  .flexColChild--coluna-como-possivel-descricao {
+    margin: 0;
+  }
+
+  .flexCol--coluna-tec-pat-textos,
+  .flexCol--coluna-tec-pat-imagem {
+    align-items: center;
+  }
+
+  .flexRowContent--linha-tec-pat .stretchChildrenWidth {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexCol--coluna-tec-pat-textos {
+    margin: 0;
+  }
+
   .flexRow--message-availability {
     padding: 40px 20px 0;
   }
@@ -1797,7 +1904,7 @@
     margin-bottom: -100%;
   }
 
-  .flexRowContent--linha-coracao-mobile-maior{
+  .flexRowContent--linha-coracao-mobile-maior {
     margin-top: -77px;
   }
 
