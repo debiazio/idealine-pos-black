@@ -80,7 +80,7 @@
     "children": [
       "rich-text#footer-title-coluna-ajuda",
       "menu-item#meus-pedidos",
-      "menu-item#manuais"
+      "menu-item#manuais-menu"
     ]
   },
   "rich-text#footer-title-coluna-ajuda": {

@@ -11,7 +11,7 @@
       "menu-item#envio-de-produtos",
       "menu-item#trocas-e-devolucoes",
       "menu-item#meus-pedidos",
-      "menu-item#manuais",
+      "menu-item#manuais-menu",
       "menu-item#Contato",
       "menu-item#Formas-Pagamento"
     ]
@@ -136,7 +136,7 @@
       "blockClass": "menu-footer-filho"
     }
   },
-  "menu-item#manuais": {
+  "menu-item#manuais-menu": {
     "props": {
       "id": "menu-item-menu-item#manuais",
       "type": "custom",
@@ -145,8 +145,8 @@
         "type": "internal",
         "href": "/manuais-idealine",
         "noFollow": false,
-        "tagTitle": "Manuais Idealine",
-        "text": "Manuais Idealine"
+        "tagTitle": "Manuais",
+        "text": "Manuais"
       },
       "blockClass": "menu-footer-filho"
     }
@@ -265,7 +265,7 @@
     },
     "children": [
       "menu-item#meus-pedidos",
-      "menu-item#manuais"
+      "menu-item#manuais-menu"
     ]
   },
   // MENU DROPDOWN - ATENDIMENTO
@@ -300,7 +300,7 @@
     },
     "children": [
       "menu-item#Contato",
-      "menu-item#manuais"
+      "menu-item#manuais-menu"
     ]
   }
 }

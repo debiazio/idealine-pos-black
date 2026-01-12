@@ -12,7 +12,8 @@
       "menu-item#beleza-estetica",
       "menu-item#odontologia",
       "menu-item#linha-veterinaria",
-      "menu-item#clinicas-hospitais"
+      "menu-item#manuais",
+      "menu-item#dvm-desktop"
     ]
   },
   "menu-item#ver-tudo": {
@@ -409,19 +410,38 @@
       "blockClass": "menu-dropdown"
     }
   },
-  "menu-item#clinicas-hospitais": {
+  "menu-item#manuais": {
     "props": {
       "id": "menu-principal",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clinicas-e-hospitais",
+        "href": "/ajuda/manuais-idealine",
         "noFollow": false,
-        "tagTitle": "Clínicas e Hospitais",
-        "text": "Clínicas e Hospitais"
+        "tagTitle": "Manuais",
+        "text": "Manuais"
       },
       "blockClass": "menu-superior"
+    }
+    // ,
+    // "blocks": [
+    //   "vtex.menu@2.x:submenu#categorias-clinicas-hospitais"
+    // ]
+  },
+  "menu-item#dvm-desktop": {
+    "props": {
+      "id": "menu-principal",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia-dvm",
+        "noFollow": false,
+        "tagTitle": "TECNOLOGIA\n DVM",
+        "text": "TECNOLOGIA\n DVM"
+      },
+      "blockClass": ["menu-superior", "dvm-menu"]
     }
     // ,
     // "blocks": [
