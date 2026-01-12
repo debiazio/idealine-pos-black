@@ -266,7 +266,7 @@
   "rich-text#titulo-economia-texto": {
     "props": {
       "blockClass": "dvm-texto-titulo",
-      "text": "Economia a\n cada ciclo!"
+      "text": "Economia a cada ciclo!"
     }
   },
   // ====================
@@ -287,8 +287,7 @@
   // ====================
   "flex-layout.col#coluna-imagem-garrafa": {
     "props": {
-      "blockClass": "coluna-imagem-e-texto",
-      "colSizing": "auto"
+      "blockClass": "coluna-imagem-e-texto"
     },
     "children": [
       "image#garrafa-dvm",

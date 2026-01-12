@@ -744,6 +744,12 @@
 
 
 @media screen and (max-width: 1024px) {
+  .imageElement--img-cifrao-dvm {
+  width: 5%;
+  position: absolute;
+  margin-bottom: 32px;
+}
+
   .imageElement--coracao-mobile-maior {
     width: 50%;
     margin-left: -22px;

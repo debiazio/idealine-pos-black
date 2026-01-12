@@ -1,8 +1,27 @@
-.flexCol--coluna-imagem-e-texto {
+.flexRow--linha-economia {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.flexRowContent--linha-titulo-qual-agua {
+  margin-bottom: 32px;
+}
+
+.flexRowContent--linha-como-possivel-imagem-texto {
+  margin-bottom: 64px;
+}
+
+.flexColChild--coluna-imagem-e-texto {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+/* .flexCol--coluna-imagem-e-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
 
 .flexRowContent--linha-economia .stretchChildrenWidth {
   display: flex;
@@ -1264,6 +1283,31 @@
 }
 
 @media screen and (max-width: 1024px) {
+.flexCol--coluna-tec-pat-textos{
+  margin-bottom: 32px;
+}
+
+
+  .flexRowContent--coluna-titulo-economia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flexRowContent--container-economia-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  .flexRow--linha-economia,
+  .flexRow--linha-descricao-qual-agua,
+  .flexRowContent--linha-descricao-qual-agua {
+    padding: 0 !important;
+  }
+
   .flexRowContent--linha-descricao-qual-agua {
     padding: 0 30px;
   }
