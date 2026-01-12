@@ -5,6 +5,9 @@
 
 .flexRowContent--linha-titulo-qual-agua {
   margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flexRowContent--linha-como-possivel-imagem-texto {
@@ -1283,12 +1286,16 @@
 }
 
 @media screen and (max-width: 1024px) {
-.flexCol--coluna-tec-pat-textos{
-  margin-bottom: 32px;
-}
+  .flexRowContent--linha-economia {
+    padding: 0 34px;
+  }
+
+  .flexCol--coluna-tec-pat-textos {
+    margin-bottom: 32px;
+  }
 
 
-  .flexRowContent--coluna-titulo-economia{
+  .flexRowContent--coluna-titulo-economia {
     display: flex;
     justify-content: center;
     align-items: center;

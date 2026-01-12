@@ -246,7 +246,8 @@
   "flex-layout.row#linha-economia-texto": {
     "props": {
       "blockClass": "coluna-titulo-economia",
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "fullWidth": false
     },
     "children": [
       "rich-text#titulo-economia-texto",
