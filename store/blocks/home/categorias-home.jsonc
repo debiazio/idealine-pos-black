@@ -62,7 +62,7 @@
       "flex-layout.col#categorias-cli-hosp"
     ]
   },
-   //SECAO COMPRE POR CATEGORIA - DESKTOP
+  //SECAO COMPRE POR CATEGORIA - DESKTOP
   "responsive-layout.desktop#categorias": {
     "children": [
       "flex-layout.row#compre-por-categoria"
@@ -75,8 +75,9 @@
     },
     "children": [
       "flex-layout.row#titulo-categorias-linha1",
-      "flex-layout.row#imagens-categorias",
-      "flex-layout.row#imagens-segunda-linha-categorias"
+      "flex-layout.row#categorias-disclosure"
+      // "flex-layout.row#imagens-categorias",
+      // "flex-layout.row#imagens-segunda-linha-categorias"
     ]
   },
   //conteiner do titulo das categorias
@@ -91,18 +92,353 @@
   //titulo das categorias
   "rich-text#titulo": {
     "props": {
-      "text": "Compre por categoria",
+      "text": "Categorias",
       "blockClass": "texto-titulo-categoria"
     }
   },
-  //subtitulo das categorias
-  "rich-text#subtitulo-categorias": {
+  // ================================
+  // categorias -disclosures desktop
+  // ================================
+  "flex-layout.row#categorias-disclosure": {
     "props": {
-      "text": "Beleza & Estética",
-      "blockClass": "texto-subtitulo-categoria"
+      "blockClass": "linha-disclosure-categorias-desktop",
+      "colSizing": "auto"
+    },
+    "children": [
+      "disclosure-layout-group#group-categorias-desktop"
+    ]
+  },
+  // =================================
+  // categorias desktop
+  // ================================
+  "disclosure-layout-group#group-categorias-desktop": {
+    "children": [
+      "disclosure-layout#nails-manicure",
+      "disclosure-layout#odontologia",
+      "disclosure-layout#body",
+      "disclosure-layout#laboratorio",
+      "disclosure-layout#veterinaria",
+      "disclosure-layout#podologia",
+      "disclosure-layout#lash",
+      "disclosure-layout#clinicas"
+    ]
+  },
+  // =================================
+  // categorias desktop - nails e manicure
+  // ================================
+  "disclosure-layout#nails-manicure": {
+    "children": [
+      "disclosure-trigger#nails-manicure",
+      "disclosure-content#nails-manicure"
+    ]
+  },
+  // categorias desktop - trigger nails e manicure
+  "disclosure-trigger#nails-manicure": {
+    "props": {
+      "blockClass": "categoria-trigger"
+    },
+    "children": [
+      "rich-text#gatilho-nails-manicure"
+    ]
+  },
+  // categorias desktop - texto gatilho nails e manicure
+  "rich-text#gatilho-nails-manicure": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria",
+      "text": "nails e manicure"
     }
   },
+  // categorias desktop - conteudo imagem nails e manicure
+  "disclosure-content#nails-manicure": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria",
+      "open": true
+    },
+    "children": [
+      "image#nails-manicure-img-cat"
+    ]
+  },
+  // categorias desktop - imagem nails e manicure
+  "image#nails-manicure-img-cat": {
+    "props": {
+      "blockClass": "imagem-categoria-desktop",
+      "src": "assets/categorias/nail.webp"
+    }
+  },
+  // =================================
+  // categorias desktop - odontologia
+  // ================================
+  "disclosure-layout#odontologia": {
+    "children": [
+      "disclosure-trigger#odontologia",
+      "disclosure-content#odontologia"
+    ]
+  },
+  // categorias desktop - gatilho odontologia
+  "disclosure-trigger#odontologia": {
+    "props": {
+      "blockClass": "categoria-trigger"
+    },
+    "children": [
+      "rich-text#odontologia-gatilho"
+    ]
+  },
+  // categorias desktop - texto gatilho odontologia
+  "rich-text#odontologia-gatilho": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria",
+      "text": "Odontologia"
+    }
+  },
+  // categorias desktop - conteudo imagem
+  "disclosure-content#odontologia": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#odontologia-img-cat"
+    ]
+  },
+  // categorias desktop - imagem
+  "image#odontologia-img-cat": {
+    "props": {
+      "blockClass": "imagem-categoria-desktop",
+      "src": "assets/categorias/odonto.webp"
+    }
+  },
+// =================================
+// categorias desktop - body
+// ================================
+"disclosure-layout#body": {
+  "children": [
+    "disclosure-trigger#body",
+    "disclosure-content#body"
+  ]
+},
+"disclosure-trigger#body": {
+  "props": {
+    "blockClass": "categoria-trigger"
+  },
+  "children": [
+    "rich-text#body-gatilho"
+  ]
+},
+"rich-text#body-gatilho": {
+  "props": {
+    "blockClass": "texto-gatilho-categoria",
+    "text": "Body Piercer"
+  }
+},
+"disclosure-content#body": {
+  "props": {
+    "blockClass": "conteudo-imagem-categoria"
+  },
+  "children": [
+    "image#body-img-cat"
+  ]
+},
+"image#body-img-cat": {
+  "props": {
+    "blockClass": "imagem-categoria-desktop",
+    "src": "assets/categorias/body.webp"
+  }
+},
+
+// =================================
+// categorias desktop - laboratorio
+// ================================
+"disclosure-layout#laboratorio": {
+  "children": [
+    "disclosure-trigger#laboratorio",
+    "disclosure-content#laboratorio"
+  ]
+},
+"disclosure-trigger#laboratorio": {
+  "props": {
+    "blockClass": "categoria-trigger"
+  },
+  "children": [
+    "rich-text#laboratorio-gatilho"
+  ]
+},
+"rich-text#laboratorio-gatilho": {
+  "props": {
+    "blockClass": "texto-gatilho-categoria",
+    "text": "Laboratório"
+  }
+},
+"disclosure-content#laboratorio": {
+  "props": {
+    "blockClass": "conteudo-imagem-categoria"
+  },
+  "children": [
+    "image#laboratorio-img-cat"
+  ]
+},
+"image#laboratorio-img-cat": {
+  "props": {
+    "blockClass": "imagem-categoria-desktop",
+    "src": "assets/categorias/laboratorio.webp"
+  }
+},
+
+// =================================
+// categorias desktop - veterinaria
+// ================================
+"disclosure-layout#veterinaria": {
+  "children": [
+    "disclosure-trigger#veterinaria",
+    "disclosure-content#veterinaria"
+  ]
+},
+"disclosure-trigger#veterinaria": {
+  "props": {
+    "blockClass": "categoria-trigger"
+  },
+  "children": [
+    "rich-text#veterinaria-gatilho"
+  ]
+},
+"rich-text#veterinaria-gatilho": {
+  "props": {
+    "blockClass": "texto-gatilho-categoria",
+    "text": "Veterinária"
+  }
+},
+"disclosure-content#veterinaria": {
+  "props": {
+    "blockClass": "conteudo-imagem-categoria"
+  },
+  "children": [
+    "image#veterinaria-img-cat"
+  ]
+},
+"image#veterinaria-img-cat": {
+  "props": {
+    "blockClass": "imagem-categoria-desktop",
+    "src": "assets/categorias/veterinaria.webp"
+  }
+},
+
+// =================================
+// categorias desktop - podologia
+// ================================
+"disclosure-layout#podologia": {
+  "children": [
+    "disclosure-trigger#podologia",
+    "disclosure-content#podologia"
+  ]
+},
+"disclosure-trigger#podologia": {
+  "props": {
+    "blockClass": "categoria-trigger"
+  },
+  "children": [
+    "rich-text#podologia-gatilho"
+  ]
+},
+"rich-text#podologia-gatilho": {
+  "props": {
+    "blockClass": "texto-gatilho-categoria",
+    "text": "Podologia"
+  }
+},
+"disclosure-content#podologia": {
+  "props": {
+    "blockClass": "conteudo-imagem-categoria"
+  },
+  "children": [
+    "image#podologia-img-cat"
+  ]
+},
+"image#podologia-img-cat": {
+  "props": {
+    "blockClass": "imagem-categoria-desktop",
+    "src": "assets/categorias/podologia.webp"
+  }
+},
+
+// =================================
+// categorias desktop - lash
+// ================================
+"disclosure-layout#lash": {
+  "children": [
+    "disclosure-trigger#lash",
+    "disclosure-content#lash"
+  ]
+},
+"disclosure-trigger#lash": {
+  "props": {
+    "blockClass": "categoria-trigger"
+  },
+  "children": [
+    "rich-text#lash-gatilho"
+  ]
+},
+"rich-text#lash-gatilho": {
+  "props": {
+    "blockClass": "texto-gatilho-categoria",
+    "text": "Lash"
+  }
+},
+"disclosure-content#lash": {
+  "props": {
+    "blockClass": "conteudo-imagem-categoria"
+  },
+  "children": [
+    "image#lash-img-cat"
+  ]
+},
+"image#lash-img-cat": {
+  "props": {
+    "blockClass": "imagem-categoria-desktop",
+    "src": "assets/categorias/lash.webp"
+  }
+},
+
+// =================================
+// categorias desktop - clinicas
+// ================================
+"disclosure-layout#clinicas": {
+  "children": [
+    "disclosure-trigger#clinicas",
+    "disclosure-content#clinicas"
+  ]
+},
+"disclosure-trigger#clinicas": {
+  "props": {
+    "blockClass": "categoria-trigger"
+  },
+  "children": [
+    "rich-text#clinicas-gatilho"
+  ]
+},
+"rich-text#clinicas-gatilho": {
+  "props": {
+    "blockClass": "texto-gatilho-categoria",
+    "text": "Clínicas e Hospitais"
+  }
+},
+"disclosure-content#clinicas": {
+  "props": {
+    "blockClass": "conteudo-imagem-categoria"
+  },
+  "children": [
+    "image#clinicas-img-cat"
+  ]
+},
+"image#clinicas-img-cat": {
+  "props": {
+    "blockClass": "imagem-categoria-desktop",
+    "src": "assets/categorias/clinicas.webp"
+  }
+}
+,
+
+
+  // ================================
   //imagens das categorias - linha 1 - desktop
+  // ===============================
   "flex-layout.row#imagens-categorias": {
     "props": {
       "blockClass": "conteiner-imagens-secao-categorias"
@@ -114,7 +450,6 @@
       "flex-layout.col#categorias-bodyPiercings"
     ]
   },
-
   //coluna das imagens
   "flex-layout.col#categoria-nails": {
     "props": {

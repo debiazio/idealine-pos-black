@@ -1,3 +1,13 @@
+.paragraph--texto-gatilho-categoria{
+    writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-orientation: mixed;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+
 .paragraph--subtitulo-garrafa-dvm,
 .paragraph--subtitulo-destilador-dvm {
   text-align: center;
