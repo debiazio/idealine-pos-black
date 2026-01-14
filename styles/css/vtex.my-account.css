@@ -97,6 +97,8 @@ input:-webkit-autofill {
   -webkit-transition-delay: 9999s;
 }
 
+
+
 /* ajusta bug de zoom nos inputs do iphone */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 
@@ -107,6 +109,19 @@ input:-webkit-autofill {
     color: #696969;
   }
 }
+
+/* WebKit + telas grandes */
+@media screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    font-size: 16px !important;
+  }
+}
+
+
+
+
 
 /* flexColChild--botao-de-comprar */
 /* botao hover PDP */

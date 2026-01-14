@@ -220,7 +220,7 @@
   "link#link-mobile-manuais": {
     "props": {
       "blockClass": "link-mobile-manuais",
-      "href": "/manuais-idealine",
+      "href": "/ajuda/manuais-idealine",
       "label": "Manuais"
     }
   },

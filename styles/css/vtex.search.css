@@ -21,12 +21,12 @@
 
 @media screen  and (max-width: 1024px){
     .biggy-autocomplete-wrapper{
-        width: 100vw;
+        width: 60vw;
     }
 
     .biggy-autocomplete{
         top: 9px;
-        right: -100xp;
+        right: -30px;
     }
 
 
