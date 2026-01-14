@@ -128,11 +128,17 @@
 
 .styledLinkContainer--dvm-menu {
   background-color: white;
-  height: 56px!important;
+  height: 56px !important;
   border: 3px solid #FEBBCE;
   position: relative;
   top: 12px;
   border-radius: 0 0 12px 12px;
+  transition: all 0.3s ease;
+}
+
+.styledLinkContainer--dvm-menu:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease;
 }
 
 .styledLinkContent--dvm-menu {
