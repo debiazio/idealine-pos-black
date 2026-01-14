@@ -71,7 +71,7 @@
     ],
     "props": {
       "openAutocompleteOnFocus": true,
-      "placeholder": "O que você está procurando?",
+      "placeholder": "O que está procurando?",
       "blockClass": "search-bar"
     }
   },
@@ -179,13 +179,83 @@
   },
   "flex-layout.row#2-mobile": {
     "children": [
-      "search-bar"
+      "flex-layout.row#linha-mobile-menu-superior"
     ],
     "props": {
       "blockClass": "barra-pesquisa-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+  // ====================
+  // LINHAS MENU MOBILE SUPERIOR
+  // ====================
+  "flex-layout.row#linha-mobile-menu-superior": {
+    "props": {
+      "blockClass": "linha-mobile-menu-superior",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-menu-mobile-manuais",
+      "flex-layout.row#linha-menu-mobile-search",
+      "flex-layout.row#linha-menu-mobile-dvm"
+    ]
+  },
+  // ====================
+  // LINHAS MENU MOBILE SUPERIOR
+  // ====================
+  "flex-layout.row#linha-menu-mobile-manuais": {
+    "props": {
+      "blockClass": "linha-menu-mobile-manuais",
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#link-mobile-manuais"
+    ]
+  },
+  // ====================
+  // LINK MANUAIS MOBILE
+  // ====================
+  "link#link-mobile-manuais": {
+    "props": {
+      "blockClass": "link-mobile-manuais",
+      "href": "/manuais-idealine",
+      "label": "Manuais"
+    }
+  },
+  // ====================
+  // LINHAS SEARCH BAR MOBILE
+  // ====================
+  "flex-layout.row#linha-menu-mobile-search": {
+    "props": {
+      "blockClass": "linha-menu-mobile-search",
+      "colSizing": "auto"
+    },
+    "children": [
+      "search-bar"
+    ]
+  },
+  // ====================
+  // LINHA DVM MOBILE
+  // ====================
+  "flex-layout.row#linha-menu-mobile-dvm": {
+    "props": {
+      "blockClass": "linha-menu-mobile-dvm",
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#dvm-mobile"
+    ]
+  },
+  // ====================
+  // link DVM MOBILE
+  // ====================
+  "link#dvm-mobile": {
+    "props": {
+      "blockClass": "link-dvm-mobile",
+      "href": "/tecnologia-dvm",
+      "label": "tecnologia\n DVM"
     }
   },
   "drawer": {

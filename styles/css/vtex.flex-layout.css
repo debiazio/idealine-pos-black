@@ -1,3 +1,28 @@
+.flexRowContent--linha-menu-mobile-dvm {
+  background-color: white;
+  border-radius: 0 0 12px 12px;
+  border: 2px solid #FEBBCE;
+  position: relative;
+  top: 2px;
+}
+
+.flexRow--linha-menu-mobile-dvm,
+.flexRow--linha-menu-mobile-manuais {
+  margin: 0 24px;
+}
+
+.flexRow--linha-mobile-menu-superior {
+  display: flex;
+}
+
+.flexRowContent--linha-mobile-menu-superior {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: max-content;
+  justify-content: center;
+}
+
 .flexRow--linha-economia {
   margin-top: 64px;
   margin-bottom: 64px;
@@ -1500,7 +1525,7 @@
     display: flex;
     justify-content: center;
     height: 48px;
-    background-color: white;
+    background-color: #FEBBCE;
   }
 
   .flexRow--linha-login-mobile {

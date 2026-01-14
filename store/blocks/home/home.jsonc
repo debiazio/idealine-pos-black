@@ -206,7 +206,11 @@
     "props": {
       "blockClass": "imagens-como-usar",
       "alt": "Tecnologia DVM",
-      "src": "assets/linha-como-usar/dvm-desktop.webp"
+      "src": "assets/linha-como-usar/dvm-desktop.webp",
+      "link": {
+        "url": "/tecnologia-dvm",
+        "openNewTab": false
+      }
     }
   },
   // SESSÃO DESKTOP - IMAGENS COMO USAR
@@ -234,13 +238,25 @@
       "height": 620,
       "images": [
         {
-          "mobileImage": "assets/linha-como-usar/loira-desktop.webp"
+          "mobileImage": "assets/linha-como-usar/loira-desktop.webp",
+          "link": {
+            "url": "/autoclave-bellinha-pronta-entrega",
+            "openNewTab": false
+          }
         },
         {
-          "mobileImage": "assets/linha-como-usar/match-desktop.webp"
+          "mobileImage": "assets/linha-como-usar/match-desktop.webp",
+          "link": {
+            "url": "/kits-autoclaves-idealine",
+            "openNewTab": false
+          }
         },
         {
-          "mobileImage": "assets/linha-como-usar/dvm-desktop.webp"
+          "mobileImage": "assets/linha-como-usar/dvm-desktop.webp",
+          "link": {
+            "url": "/tecnologia-dvm",
+            "openNewTab": false
+          }
         }
       ]
     }

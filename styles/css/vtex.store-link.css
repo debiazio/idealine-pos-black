@@ -1,7 +1,36 @@
+.link--link-dvm-mobile {
+  text-align: center;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: break-spaces;
+}
 
+.label--link-dvm-mobile {
+  text-decoration: none;
+  text-align: center;
+  font-family: "montserrat-extrabold";
+  font-weight: 800;
+  letter-spacing: -0.011em;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #FEBBCE;
+}
 
+.label--link-mobile-manuais {
+  font-size: 12px;
+  color: white;
+  font-family: "montserrat-regular";
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: -0.011em;
+  text-decoration: none;
+}
 
-.label--link-ver-mais{
+.label--link-ver-mais {
   font-size: 1.2rem;
   color: white;
   font-family: "montserrat-regular";
@@ -123,7 +152,7 @@
   width: 100%;
 }
 
-.link--link-menu-institucionais:hover{
+.link--link-menu-institucionais:hover {
   background-color: #FEBBCE;
 }
 
@@ -144,7 +173,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-.label--link-ver-mais{
-  font-size: 0.8rem;
-}
+  .label--link-ver-mais {
+    font-size: 0.8rem;
+  }
 }
