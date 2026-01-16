@@ -70,12 +70,6 @@
         {
           "subject": "productId",
           "arguments": {
-            "id": "2895"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
             "id": "2797"
           }
         },
@@ -219,12 +213,6 @@
           "subject": "productId",
           "arguments": {
             "id": "2948"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2895"
           }
         },
         {
