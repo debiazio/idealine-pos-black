@@ -5,7 +5,8 @@
       "responsive-layout.desktop#availability",
       "responsive-layout.mobile#availability",
       "condition-layout.product#elementos-sec-pdp-availability",
-      "flex-layout.row#linha-certificados"
+      "flex-layout.row#linha-certificados",
+      "avisovoltagem"
     ]
   },
   // linha que mostra o caminho até o conteúdo

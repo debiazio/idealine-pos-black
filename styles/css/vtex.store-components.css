@@ -146,6 +146,10 @@
   border: 3px solid var(--fonte-cor-normal);
 }
 
+.skuSelectorInternalBox--prod-din-sku-selector:hover{
+  border: 3px solid var(--fonte-cor-normal)!important;
+}
+
 .skuSelectorItem--prod-din-sku-selector--110v::after {
   content: " 110v ";
   font-size: 2.4vh;
