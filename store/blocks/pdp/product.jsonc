@@ -457,7 +457,7 @@
   },
   "image#share": {
     "props": {
-      "src": "assets/share-button.svg"
+      "src": "assets/nova-pdp/share-button.svg"
     }
   },
   "overlay-layout#share": {

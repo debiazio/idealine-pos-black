@@ -64,7 +64,7 @@
   "image#icon-menu-institucionais-active": {
     "props": {
       "blockClass": "icone-institucionais-active",
-      "src": "assets/seta-para-direita.svg",
+      "src": "assets/quem-somos/seta-para-direita.svg",
       "alt": "Ícone seta para direita"
     }
   },
