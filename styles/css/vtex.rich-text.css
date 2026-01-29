@@ -1,10 +1,15 @@
-.paragraph--texto-gatilho-categoria{
-    writing-mode: vertical-rl;
+.paragraph--texto-gatilho-categoria {
+  writing-mode: vertical-rl;
   transform: rotate(180deg);
   text-orientation: mixed;
   white-space: nowrap;
   margin: 0;
-  padding: 0;
+  padding: 88px 29px;
+  font-family: "rubik-bold";
+  color: #696969;
+  text-transform: uppercase;
+  font-size: 18px;
+
 }
 
 

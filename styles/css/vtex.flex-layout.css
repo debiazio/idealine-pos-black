@@ -1,3 +1,17 @@
+.flexRow--linha-disclosure-categorias-desktop {
+  display: flex;
+  justify-content: center;
+  margin: 48px 0;
+}
+
+.flexRowContent--linha-disclosure-categorias-desktop {
+  max-width: 1600px;
+}
+
+/* .flexRowContent--linha-disclosure-categorias-desktop .stretchChildrenWidth {
+  gap: 32px
+} */
+
 .flexRowContent--linha-menu-mobile-dvm {
   background-color: white;
   border-radius: 0 0 12px 12px;

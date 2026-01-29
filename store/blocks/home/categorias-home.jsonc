@@ -65,6 +65,7 @@
   //SECAO COMPRE POR CATEGORIA - DESKTOP
   "responsive-layout.desktop#categorias": {
     "children": [
+      "disclosurecategoria",
       "flex-layout.row#compre-por-categoria"
     ]
   },
@@ -75,7 +76,7 @@
     },
     "children": [
       "flex-layout.row#titulo-categorias-linha1",
-      // "flex-layout.row#categorias-disclosure"
+      // "flex-layout.row#categorias-disclosure",
       "flex-layout.row#imagens-categorias",
       "flex-layout.row#imagens-segunda-linha-categorias"
     ]
@@ -112,6 +113,9 @@
   // categorias desktop
   // ================================
   "disclosure-layout-group#group-categorias-desktop": {
+    "props": {
+      "maxVisible": "one"
+    },
     "children": [
       "disclosure-layout#nails-manicure",
       "disclosure-layout#odontologia",
@@ -145,7 +149,7 @@
   "rich-text#gatilho-nails-manicure": {
     "props": {
       "blockClass": "texto-gatilho-categoria",
-      "text": "nails e manicure"
+      "text": "nails / manicure"
     }
   },
   // categorias desktop - conteudo imagem nails e manicure
@@ -162,7 +166,10 @@
   "image#nails-manicure-img-cat": {
     "props": {
       "blockClass": "imagem-categoria-desktop",
-      "src": "assets/categorias/nail.webp"
+      "src": "assets/categorias/nail.webp",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-manicure"
+      }
     }
   },
   // =================================
@@ -203,7 +210,10 @@
   "image#odontologia-img-cat": {
     "props": {
       "blockClass": "imagem-categoria-desktop",
-      "src": "assets/categorias/odonto.webp"
+      "src": "assets/categorias/odonto.webp",
+      "link": {
+        "url": "/odontologia/autoclaves-para-odontologia"
+      }
     }
   },
 // =================================
@@ -240,7 +250,10 @@
 "image#body-img-cat": {
   "props": {
     "blockClass": "imagem-categoria-desktop",
-    "src": "assets/categorias/body.webp"
+    "src": "assets/categorias/body.webp",
+    "link": {
+      "url": "/beleza-e-estetica/autoclaves-para-body-piercing"
+    }
   }
 },
 
@@ -278,7 +291,10 @@
 "image#laboratorio-img-cat": {
   "props": {
     "blockClass": "imagem-categoria-desktop",
-    "src": "assets/categorias/laboratorio.webp"
+    "src": "assets/categorias/laboratorio.webp",
+    "link": {
+      "url": "/clinicas-e-hospitais/autoclaves-para-laboratorio"
+    }
   }
 },
 
@@ -316,7 +332,10 @@
 "image#veterinaria-img-cat": {
   "props": {
     "blockClass": "imagem-categoria-desktop",
-    "src": "assets/categorias/veterinaria.webp"
+    "src": "assets/categorias/veterinaria.webp",
+    "link": {
+      "url": "/veterinaria/autoclaves-para-veterinaria"
+    }
   }
 },
 
@@ -354,7 +373,10 @@
 "image#podologia-img-cat": {
   "props": {
     "blockClass": "imagem-categoria-desktop",
-    "src": "assets/categorias/podologia.webp"
+    "src": "assets/categorias/podologia.webp",
+    "link": {
+      "url": "/beleza-e-estetica/autoclaves-para-podologia"
+    }
   }
 },
 
@@ -392,7 +414,10 @@
 "image#lash-img-cat": {
   "props": {
     "blockClass": "imagem-categoria-desktop",
-    "src": "assets/categorias/lash.webp"
+    "src": "assets/categorias/lash.webp",
+    "link": {
+      "url": "/beleza-e-estetica/autoclaves-para-lash-designer"
+    }
   }
 },
 
@@ -400,6 +425,9 @@
 // categorias desktop - clinicas
 // ================================
 "disclosure-layout#clinicas": {
+  "props": {
+    "animated": true
+  },
   "children": [
     "disclosure-trigger#clinicas",
     "disclosure-content#clinicas"
@@ -430,7 +458,10 @@
 "image#clinicas-img-cat": {
   "props": {
     "blockClass": "imagem-categoria-desktop",
-    "src": "assets/categorias/clinicas.webp"
+    "src": "assets/categorias/clinicas.webp",
+    "link": {
+      "url": "/clinicas-e-hospitais/"
+    }
   }
 }
 ,
