@@ -65,7 +65,7 @@
   //SECAO COMPRE POR CATEGORIA - DESKTOP
   "responsive-layout.desktop#categorias": {
     "children": [
-      "disclosurecategoria",
+      "disclosurecategorias",
       "flex-layout.row#compre-por-categoria"
     ]
   },
@@ -76,9 +76,9 @@
     },
     "children": [
       "flex-layout.row#titulo-categorias-linha1",
-      // "flex-layout.row#categorias-disclosure",
-      "flex-layout.row#imagens-categorias",
-      "flex-layout.row#imagens-segunda-linha-categorias"
+      "flex-layout.row#categorias-disclosure"
+      // "flex-layout.row#imagens-categorias",
+      // "flex-layout.row#imagens-segunda-linha-categorias"
     ]
   },
   //conteiner do titulo das categorias
@@ -425,9 +425,6 @@
 // categorias desktop - clinicas
 // ================================
 "disclosure-layout#clinicas": {
-  "props": {
-    "animated": true
-  },
   "children": [
     "disclosure-trigger#clinicas",
     "disclosure-content#clinicas"

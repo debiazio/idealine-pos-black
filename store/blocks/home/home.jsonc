@@ -12,6 +12,7 @@
       "flex-layout.row#shelf-mais-vendidos",
       "responsive-layout.mobile#categorias",
       "responsive-layout.mobile#banners-mobile",
+
       "responsive-layout.desktop#categorias",
       "responsive-layout.desktop#carrossel-5l-8l",
       "responsive-layout.desktop#img-como-usar",
@@ -30,6 +31,7 @@
       "responsive-layout.desktop#blog"
     ]
   },
+
   //  ESPAÇADOR
   "flex-layout.row#linha-line": {
     "props": {
