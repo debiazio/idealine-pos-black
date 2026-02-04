@@ -1,68 +1,416 @@
 {
-  //SECAO COMPRE POR CATEGORIA -MOBILE
+  //SECAO COMPRE POR CATEGORIA - MOBILE
   "responsive-layout.mobile#categorias": {
     "children": [
-      "flex-layout.row#compre-categorias-mobile"
-    ]
-  },
-  "flex-layout.row#compre-categorias-mobile": {
-    "props": {
-      "blockClass": "container-compre-por-categoria-mobile",
-      "fullWidth": false
-    },
-    "children": [
+      "disclosurecategorias",
       "flex-layout.row#titulo-categorias-linha1",
-      "flex-layout.row#imagens-categorias-mobile"
+      "flex-layout.row#categorias-disclosure-mobile"
     ]
   },
-  "flex-layout.row#imagens-categorias-mobile": {
+  // ================================
+  // categorias -disclosures mobile
+  // ================================
+  "flex-layout.row#categorias-disclosure-mobile": {
     "props": {
-      "blockClass": "container-imagens-secao-categorias-mobile"
+      "blockClass": "linha-disclosure-categorias-mobile"
     },
     "children": [
-      "flex-layout.row#linha-1-cat-mobile",
-      "flex-layout.row#linha-2-cat-mobile",
-      "flex-layout.row#linha-3-cat-mobile",
-      "flex-layout.row#linha-4-cat-mobile"
+      "flex-layout.col#disclosure-mobile1",
+      "flex-layout.col#disclosure-mobile2"
     ]
   },
-  "flex-layout.row#linha-1-cat-mobile": {
+  // COLUNA 1 MOBILE
+  "flex-layout.col#disclosure-mobile1": {
     "props": {
-      "blockClass": "linhas-categorias-mobile"
+      "blockClass": "colunas-disclosure-mobile"
     },
     "children": [
-      "flex-layout.col#categoria-nails",
-      "flex-layout.col#categorias-lashes"
+      "disclosure-layout-group#group-categorias-mobile1"
     ]
   },
-  "flex-layout.row#linha-2-cat-mobile": {
+  // COLUNA 2 MOBILE
+  "flex-layout.col#disclosure-mobile2": {
     "props": {
-      "blockClass": "linhas-categorias-mobile"
+      "blockClass": "colunas-disclosure-mobile"
     },
     "children": [
-      "flex-layout.col#categorias-podologia",
-      "flex-layout.col#categorias-bodyPiercings"
+      "disclosure-layout-group#group-categorias-mobile2"
     ]
   },
-  "flex-layout.row#linha-3-cat-mobile": {
+  // =================================
+  // categorias mobile
+  // ================================
+  "disclosure-layout-group#group-categorias-mobile1": {
     "props": {
-      "blockClass": "linhas-categorias-mobile"
+      "maxVisible": "one",
+      "blockClass": "disclosure-group-mobile"
     },
     "children": [
-      "flex-layout.col#categorias-odontologia",
-      "flex-layout.col#categorias-veterinaria"
+      "disclosure-layout#nails-manicure-mobile",
+      "disclosure-layout#odontologia-mobile",
+      "disclosure-layout#body-mobile",
+      "disclosure-layout#laboratorio-mobile"
     ]
   },
-  "flex-layout.row#linha-4-cat-mobile": {
+  "disclosure-layout-group#group-categorias-mobile2": {
     "props": {
-      "blockClass": "linhas-categorias-mobile"
+      "maxVisible": "one",
+      "blockClass": "disclosure-group-mobile"
     },
     "children": [
-      "flex-layout.col#categorias-laboratorio",
-      "flex-layout.col#categorias-cli-hosp"
+      "disclosure-layout#veterinaria-mobile",
+      "disclosure-layout#podologia-mobile",
+      "disclosure-layout#lash-mobile",
+      "disclosure-layout#clinicas-mobile"
     ]
   },
+  // =================================
+  // categorias mobile - nails e manicure
+  // ================================
+  "disclosure-layout#nails-manicure-mobile": {
+    "props": {
+      "initialVisibility": "visible"
+    },
+    "children": [
+      "disclosure-trigger#nails-manicure-mobile",
+      "disclosure-content#nails-manicure-mobile"
+    ]
+  },
+  // categorias mobile - trigger nails e manicure
+  "disclosure-trigger#nails-manicure-mobile": {
+    "props": {
+      "blockClass": "categoria-trigger-mobile"
+    },
+    "children": [
+      "rich-text#gatilho-nails-manicure-mobile"
+    ]
+  },
+  // categorias mobile - texto gatilho nails e manicure
+  "rich-text#gatilho-nails-manicure-mobile": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria-mobile",
+      "text": "nails / manicure"
+    }
+  },
+  // categorias mobile - conteudo imagem nails e manicure
+  "disclosure-content#nails-manicure-mobile": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria",
+      "open": true
+    },
+    "children": [
+      "image#nails-manicure-img-cat-mobile"
+    ]
+  },
+  // categorias mobile  - imagem nails e manicure
+  "image#nails-manicure-img-cat-mobile": {
+    "props": {
+      "blockClass": "imagem-categoria-mobile",
+      "src": "assets/categorias/nail.webp",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-manicure"
+      }
+    }
+  },
+  // =================================
+  // categorias mobile - odontologia
+  // ================================
+  "disclosure-layout#odontologia-mobile": {
+    "props": {
+      "initialVisibility": "hidden"
+    },
+    "children": [
+      "disclosure-trigger#odontologia-mobile",
+      "disclosure-content#odontologia-mobile"
+    ]
+  },
+  // categorias mobile - gatilho odontologia
+  "disclosure-trigger#odontologia-mobile": {
+    "props": {
+      "blockClass": "categoria-trigger-mobile"
+    },
+    "children": [
+      "rich-text#odontologia-gatilho-mobile"
+    ]
+  },
+  // categorias mobile - texto gatilho odontologia
+  "rich-text#odontologia-gatilho-mobile": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria-mobile",
+      "text": "Odontologia"
+    }
+  },
+  // categorias mobile - conteudo imagem
+  "disclosure-content#odontologia-mobile": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#odontologia-img-cat-mobile"
+    ]
+  },
+  // categorias mobile - imagem
+  "image#odontologia-img-cat-mobile": {
+    "props": {
+      "blockClass": "imagem-categoria-mobile",
+      "src": "assets/categorias/odonto.webp",
+      "link": {
+        "url": "/odontologia/autoclaves-para-odontologia"
+      }
+    }
+  },
+  // =================================
+  // categorias mobile - body
+  // ================================
+  "disclosure-layout#body-mobile": {
+    "props": {
+      "initialVisibility": "hidden"
+    },
+    "children": [
+      "disclosure-trigger#body-mobile",
+      "disclosure-content#body-mobile"
+    ]
+  },
+  "disclosure-trigger#body-mobile": {
+    "props": {
+      "blockClass": "categoria-trigger-mobile"
+    },
+    "children": [
+      "rich-text#body-gatilho-mobile"
+    ]
+  },
+  "rich-text#body-gatilho-mobile": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria-mobile",
+      "text": "Body Piercer"
+    }
+  },
+  "disclosure-content#body-mobile": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#body-img-cat-mobile"
+    ]
+  },
+  "image#body-img-cat-mobile": {
+    "props": {
+      "blockClass": "imagem-categoria-mobile",
+      "src": "assets/categorias/body.webp",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-body-piercing"
+      }
+    }
+  },
+  // =================================
+  // categorias mobile - laboratorio
+  // ================================
+  "disclosure-layout#laboratorio-mobile": {
+    "props": {
+      "initialVisibility": "hidden"
+    },
+    "children": [
+      "disclosure-trigger#laboratorio-mobile",
+      "disclosure-content#laboratorio-mobile"
+    ]
+  },
+  "disclosure-trigger#laboratorio-mobile": {
+    "props": {
+      "blockClass": "categoria-trigger-mobile"
+    },
+    "children": [
+      "rich-text#laboratorio-gatilho-mobile"
+    ]
+  },
+  "rich-text#laboratorio-gatilho-mobile": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria-mobile",
+      "text": "Laboratório"
+    }
+  },
+  "disclosure-content#laboratorio-mobile": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#laboratorio-img-cat-mobile"
+    ]
+  },
+  "image#laboratorio-img-cat-mobile": {
+    "props": {
+      "blockClass": "imagem-categoria-mobile",
+      "src": "assets/categorias/laboratorio.webp",
+      "link": {
+        "url": "/clinicas-e-hospitais/autoclaves-para-laboratorio"
+      }
+    }
+  },
+  // =================================
+  // categorias mobile - veterinaria
+  // ================================
+  "disclosure-layout#veterinaria-mobile": {
+    "children": [
+      "disclosure-trigger#veterinaria-mobile",
+      "disclosure-content#veterinaria-mobile"
+    ]
+  },
+  "disclosure-trigger#veterinaria-mobile": {
+    "props": {
+      "blockClass": "categoria-trigger-mobile"
+    },
+    "children": [
+      "rich-text#veterinaria-gatilho-mobile"
+    ]
+  },
+  "rich-text#veterinaria-gatilho-mobile": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria-mobile",
+      "text": "Veterinária"
+    }
+  },
+  "disclosure-content#veterinaria-mobile": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#veterinaria-img-cat-mobile"
+    ]
+  },
+  "image#veterinaria-img-cat-mobile": {
+    "props": {
+      "blockClass": "imagem-categoria-mobile",
+      "src": "assets/categorias/veterinaria.webp",
+      "link": {
+        "url": "/veterinaria/autoclaves-para-veterinaria"
+      }
+    }
+  },
+  // =================================
+  // categorias mobile   - podologia
+  // ================================
+  "disclosure-layout#podologia-mobile": {
+    "children": [
+      "disclosure-trigger#podologia-mobile",
+      "disclosure-content#podologia-mobile"
+    ]
+  },
+  "disclosure-trigger#podologia-mobile": {
+    "props": {
+      "blockClass": "categoria-trigger-mobile"
+    },
+    "children": [
+      "rich-text#podologia-gatilho-mobile"
+    ]
+  },
+  "rich-text#podologia-gatilho-mobile": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria-mobile",
+      "text": "Podologia"
+    }
+  },
+  "disclosure-content#podologia-mobile": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#podologia-img-cat-mobile"
+    ]
+  },
+  "image#podologia-img-cat-mobile": {
+    "props": {
+      "blockClass": "imagem-categoria-mobile",
+      "src": "assets/categorias/podologia.webp",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-podologia"
+      }
+    }
+  },
+  // =================================
+  // categorias mobile - lash
+  // ================================
+  "disclosure-layout#lash-mobile": {
+    "children": [
+      "disclosure-trigger#lash-mobile",
+      "disclosure-content#lash-mobile"
+    ]
+  },
+  "disclosure-trigger#lash-mobile": {
+    "props": {
+      "blockClass": "categoria-trigger-mobile"
+    },
+    "children": [
+      "rich-text#lash-gatilho-mobile"
+    ]
+  },
+  "rich-text#lash-gatilho-mobile": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria-mobile",
+      "text": "Lash"
+    }
+  },
+  "disclosure-content#lash-mobile": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#lash-img-cat-mobile"
+    ]
+  },
+  "image#lash-img-cat-mobile": {
+    "props": {
+      "blockClass": "imagem-categoria-mobile",
+      "src": "assets/categorias/lash.webp",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-lash-designer"
+      }
+    }
+  },
+  // =================================
+  // categorias mobile - clinicas
+  // ================================
+  "disclosure-layout#clinicas-mobile": {
+    "props": {
+      "blockClass": "disclosure-mobile"
+    },
+    "children": [
+      "disclosure-trigger#clinicas-mobile",
+      "disclosure-content#clinicas-mobile"
+    ]
+  },
+  "disclosure-trigger#clinicas-mobile": {
+    "props": {
+      "blockClass": "categoria-trigger-mobile"
+    },
+    "children": [
+      "rich-text#clinicas-gatilho-mobile"
+    ]
+  },
+  "rich-text#clinicas-gatilho-mobile": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria-mobile",
+      "text": "Clínicas e Hospitais"
+    }
+  },
+  "disclosure-content#clinicas-mobile": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#clinicas-img-cat-mobile"
+    ]
+  },
+  "image#clinicas-img-cat-mobile": {
+    "props": {
+      "blockClass": "imagem-categoria-mobile",
+      "src": "assets/categorias/clinicas.webp",
+      "link": {
+        "url": "/clinicas-e-hospitais/"
+      }
+    }
+  },
+  // ===================================
   //SECAO COMPRE POR CATEGORIA - DESKTOP
+  // ===================================
   "responsive-layout.desktop#categorias": {
     "children": [
       "disclosurecategorias",
@@ -216,267 +564,245 @@
       }
     }
   },
-// =================================
-// categorias desktop - body
-// ================================
-"disclosure-layout#body": {
-  "children": [
-    "disclosure-trigger#body",
-    "disclosure-content#body"
-  ]
-},
-"disclosure-trigger#body": {
-  "props": {
-    "blockClass": "categoria-trigger"
-  },
-  "children": [
-    "rich-text#body-gatilho"
-  ]
-},
-"rich-text#body-gatilho": {
-  "props": {
-    "blockClass": "texto-gatilho-categoria",
-    "text": "Body Piercer"
-  }
-},
-"disclosure-content#body": {
-  "props": {
-    "blockClass": "conteudo-imagem-categoria"
-  },
-  "children": [
-    "image#body-img-cat"
-  ]
-},
-"image#body-img-cat": {
-  "props": {
-    "blockClass": "imagem-categoria-desktop",
-    "src": "assets/categorias/body.webp",
-    "link": {
-      "url": "/beleza-e-estetica/autoclaves-para-body-piercing"
-    }
-  }
-},
-
-// =================================
-// categorias desktop - laboratorio
-// ================================
-"disclosure-layout#laboratorio": {
-  "children": [
-    "disclosure-trigger#laboratorio",
-    "disclosure-content#laboratorio"
-  ]
-},
-"disclosure-trigger#laboratorio": {
-  "props": {
-    "blockClass": "categoria-trigger"
-  },
-  "children": [
-    "rich-text#laboratorio-gatilho"
-  ]
-},
-"rich-text#laboratorio-gatilho": {
-  "props": {
-    "blockClass": "texto-gatilho-categoria",
-    "text": "Laboratório"
-  }
-},
-"disclosure-content#laboratorio": {
-  "props": {
-    "blockClass": "conteudo-imagem-categoria"
-  },
-  "children": [
-    "image#laboratorio-img-cat"
-  ]
-},
-"image#laboratorio-img-cat": {
-  "props": {
-    "blockClass": "imagem-categoria-desktop",
-    "src": "assets/categorias/laboratorio.webp",
-    "link": {
-      "url": "/clinicas-e-hospitais/autoclaves-para-laboratorio"
-    }
-  }
-},
-
-// =================================
-// categorias desktop - veterinaria
-// ================================
-"disclosure-layout#veterinaria": {
-  "children": [
-    "disclosure-trigger#veterinaria",
-    "disclosure-content#veterinaria"
-  ]
-},
-"disclosure-trigger#veterinaria": {
-  "props": {
-    "blockClass": "categoria-trigger"
-  },
-  "children": [
-    "rich-text#veterinaria-gatilho"
-  ]
-},
-"rich-text#veterinaria-gatilho": {
-  "props": {
-    "blockClass": "texto-gatilho-categoria",
-    "text": "Veterinária"
-  }
-},
-"disclosure-content#veterinaria": {
-  "props": {
-    "blockClass": "conteudo-imagem-categoria"
-  },
-  "children": [
-    "image#veterinaria-img-cat"
-  ]
-},
-"image#veterinaria-img-cat": {
-  "props": {
-    "blockClass": "imagem-categoria-desktop",
-    "src": "assets/categorias/veterinaria.webp",
-    "link": {
-      "url": "/veterinaria/autoclaves-para-veterinaria"
-    }
-  }
-},
-
-// =================================
-// categorias desktop - podologia
-// ================================
-"disclosure-layout#podologia": {
-  "children": [
-    "disclosure-trigger#podologia",
-    "disclosure-content#podologia"
-  ]
-},
-"disclosure-trigger#podologia": {
-  "props": {
-    "blockClass": "categoria-trigger"
-  },
-  "children": [
-    "rich-text#podologia-gatilho"
-  ]
-},
-"rich-text#podologia-gatilho": {
-  "props": {
-    "blockClass": "texto-gatilho-categoria",
-    "text": "Podologia"
-  }
-},
-"disclosure-content#podologia": {
-  "props": {
-    "blockClass": "conteudo-imagem-categoria"
-  },
-  "children": [
-    "image#podologia-img-cat"
-  ]
-},
-"image#podologia-img-cat": {
-  "props": {
-    "blockClass": "imagem-categoria-desktop",
-    "src": "assets/categorias/podologia.webp",
-    "link": {
-      "url": "/beleza-e-estetica/autoclaves-para-podologia"
-    }
-  }
-},
-
-// =================================
-// categorias desktop - lash
-// ================================
-"disclosure-layout#lash": {
-  "children": [
-    "disclosure-trigger#lash",
-    "disclosure-content#lash"
-  ]
-},
-"disclosure-trigger#lash": {
-  "props": {
-    "blockClass": "categoria-trigger"
-  },
-  "children": [
-    "rich-text#lash-gatilho"
-  ]
-},
-"rich-text#lash-gatilho": {
-  "props": {
-    "blockClass": "texto-gatilho-categoria",
-    "text": "Lash"
-  }
-},
-"disclosure-content#lash": {
-  "props": {
-    "blockClass": "conteudo-imagem-categoria"
-  },
-  "children": [
-    "image#lash-img-cat"
-  ]
-},
-"image#lash-img-cat": {
-  "props": {
-    "blockClass": "imagem-categoria-desktop",
-    "src": "assets/categorias/lash.webp",
-    "link": {
-      "url": "/beleza-e-estetica/autoclaves-para-lash-designer"
-    }
-  }
-},
-
-// =================================
-// categorias desktop - clinicas
-// ================================
-"disclosure-layout#clinicas": {
-  "children": [
-    "disclosure-trigger#clinicas",
-    "disclosure-content#clinicas"
-  ]
-},
-"disclosure-trigger#clinicas": {
-  "props": {
-    "blockClass": "categoria-trigger"
-  },
-  "children": [
-    "rich-text#clinicas-gatilho"
-  ]
-},
-"rich-text#clinicas-gatilho": {
-  "props": {
-    "blockClass": "texto-gatilho-categoria",
-    "text": "Clínicas e Hospitais"
-  }
-},
-"disclosure-content#clinicas": {
-  "props": {
-    "blockClass": "conteudo-imagem-categoria"
-  },
-  "children": [
-    "image#clinicas-img-cat"
-  ]
-},
-"image#clinicas-img-cat": {
-  "props": {
-    "blockClass": "imagem-categoria-desktop",
-    "src": "assets/categorias/clinicas.webp",
-    "link": {
-      "url": "/clinicas-e-hospitais/"
-    }
-  }
-}
-,
-
-
+  // =================================
+  // categorias desktop - body
   // ================================
-  //imagens das categorias - linha 1 - desktop
-  // ===============================
-  "flex-layout.row#imagens-categorias": {
+  "disclosure-layout#body": {
+    "children": [
+      "disclosure-trigger#body",
+      "disclosure-content#body"
+    ]
+  },
+  "disclosure-trigger#body": {
     "props": {
-      "blockClass": "conteiner-imagens-secao-categorias"
+      "blockClass": "categoria-trigger"
     },
     "children": [
-      "flex-layout.col#categoria-nails",
-      "flex-layout.col#categorias-lashes",
-      "flex-layout.col#categorias-podologia",
-      "flex-layout.col#categorias-bodyPiercings"
+      "rich-text#body-gatilho"
     ]
+  },
+  "rich-text#body-gatilho": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria",
+      "text": "Body Piercer"
+    }
+  },
+  "disclosure-content#body": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#body-img-cat"
+    ]
+  },
+  "image#body-img-cat": {
+    "props": {
+      "blockClass": "imagem-categoria-desktop",
+      "src": "assets/categorias/body.webp",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-body-piercing"
+      }
+    }
+  },
+  // =================================
+  // categorias desktop - laboratorio
+  // ================================
+  "disclosure-layout#laboratorio": {
+    "children": [
+      "disclosure-trigger#laboratorio",
+      "disclosure-content#laboratorio"
+    ]
+  },
+  "disclosure-trigger#laboratorio": {
+    "props": {
+      "blockClass": "categoria-trigger"
+    },
+    "children": [
+      "rich-text#laboratorio-gatilho"
+    ]
+  },
+  "rich-text#laboratorio-gatilho": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria",
+      "text": "Laboratório"
+    }
+  },
+  "disclosure-content#laboratorio": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#laboratorio-img-cat"
+    ]
+  },
+  "image#laboratorio-img-cat": {
+    "props": {
+      "blockClass": "imagem-categoria-desktop",
+      "src": "assets/categorias/laboratorio.webp",
+      "link": {
+        "url": "/clinicas-e-hospitais/autoclaves-para-laboratorio"
+      }
+    }
+  },
+  // =================================
+  // categorias desktop - veterinaria
+  // ================================
+  "disclosure-layout#veterinaria": {
+    "children": [
+      "disclosure-trigger#veterinaria",
+      "disclosure-content#veterinaria"
+    ]
+  },
+  "disclosure-trigger#veterinaria": {
+    "props": {
+      "blockClass": "categoria-trigger"
+    },
+    "children": [
+      "rich-text#veterinaria-gatilho"
+    ]
+  },
+  "rich-text#veterinaria-gatilho": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria",
+      "text": "Veterinária"
+    }
+  },
+  "disclosure-content#veterinaria": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#veterinaria-img-cat"
+    ]
+  },
+  "image#veterinaria-img-cat": {
+    "props": {
+      "blockClass": "imagem-categoria-desktop",
+      "src": "assets/categorias/veterinaria.webp",
+      "link": {
+        "url": "/veterinaria/autoclaves-para-veterinaria"
+      }
+    }
+  },
+  // =================================
+  // categorias desktop - podologia
+  // ================================
+  "disclosure-layout#podologia": {
+    "children": [
+      "disclosure-trigger#podologia",
+      "disclosure-content#podologia"
+    ]
+  },
+  "disclosure-trigger#podologia": {
+    "props": {
+      "blockClass": "categoria-trigger"
+    },
+    "children": [
+      "rich-text#podologia-gatilho"
+    ]
+  },
+  "rich-text#podologia-gatilho": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria",
+      "text": "Podologia"
+    }
+  },
+  "disclosure-content#podologia": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#podologia-img-cat"
+    ]
+  },
+  "image#podologia-img-cat": {
+    "props": {
+      "blockClass": "imagem-categoria-desktop",
+      "src": "assets/categorias/podologia.webp",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-podologia"
+      }
+    }
+  },
+  // =================================
+  // categorias desktop - lash
+  // ================================
+  "disclosure-layout#lash": {
+    "children": [
+      "disclosure-trigger#lash",
+      "disclosure-content#lash"
+    ]
+  },
+  "disclosure-trigger#lash": {
+    "props": {
+      "blockClass": "categoria-trigger"
+    },
+    "children": [
+      "rich-text#lash-gatilho"
+    ]
+  },
+  "rich-text#lash-gatilho": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria",
+      "text": "Lash"
+    }
+  },
+  "disclosure-content#lash": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#lash-img-cat"
+    ]
+  },
+  "image#lash-img-cat": {
+    "props": {
+      "blockClass": "imagem-categoria-desktop",
+      "src": "assets/categorias/lash.webp",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-lash-designer"
+      }
+    }
+  },
+  // =================================
+  // categorias desktop - clinicas
+  // ================================
+  "disclosure-layout#clinicas": {
+    "children": [
+      "disclosure-trigger#clinicas",
+      "disclosure-content#clinicas"
+    ]
+  },
+  "disclosure-trigger#clinicas": {
+    "props": {
+      "blockClass": "categoria-trigger"
+    },
+    "children": [
+      "rich-text#clinicas-gatilho"
+    ]
+  },
+  "rich-text#clinicas-gatilho": {
+    "props": {
+      "blockClass": "texto-gatilho-categoria",
+      "text": "Clínicas e Hospitais"
+    }
+  },
+  "disclosure-content#clinicas": {
+    "props": {
+      "blockClass": "conteudo-imagem-categoria"
+    },
+    "children": [
+      "image#clinicas-img-cat"
+    ]
+  },
+  "image#clinicas-img-cat": {
+    "props": {
+      "blockClass": "imagem-categoria-desktop",
+      "src": "assets/categorias/clinicas.webp",
+      "link": {
+        "url": "/clinicas-e-hospitais/"
+      }
+    }
   },
   //coluna das imagens
   "flex-layout.col#categoria-nails": {
@@ -659,19 +985,6 @@
       "text": "Body Piercer",
       "blockClass": "label-categorias"
     }
-  },
-  //secao linha 2 - categorias - desktop
-  "flex-layout.row#imagens-segunda-linha-categorias": {
-    "props": {
-      "blockClass": "conteiner-imagens-secao-categorias",
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#categorias-odontologia",
-      "flex-layout.col#categorias-veterinaria",
-      "flex-layout.col#categorias-laboratorio",
-      "flex-layout.col#categorias-cli-hosp"
-    ]
   },
   //link para a categoria
   "flex-layout.col#categorias-odontologia": {
