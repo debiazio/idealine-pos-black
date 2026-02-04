@@ -1019,3 +1019,9 @@
     max-width: 80%;
   }
 }
+
+@media screen and (max-width: 1219px) {
+  .paragraph--texto-gatilho-categoria{
+    padding: 10px;
+  }
+}
