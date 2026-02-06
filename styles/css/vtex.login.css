@@ -37,7 +37,14 @@
   font-size: 14px;
 }
 
-/* mobile */
+@media screen and (max-width: 1200px) {
+  .profileIcon {
+  width: 40px;
+  height: 40px;
+  overflow: visible;
+}
+}
+  /* mobile */
 @media screen and (max-width: 1024px) {
   .profileIcon {
     width: 20px;

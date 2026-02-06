@@ -763,6 +763,19 @@
 }
 
 
+@media screen and (max-width: 1200px) {
+  .imageElement--heart-icon {
+    width: 40px;
+    max-width: 50px !important;
+  }
+
+  /* barra de pesquisa */
+.searchBarContainer {
+  width: unset;
+}
+}
+
+
 @media screen and (max-width: 1024px) {
   .searchBarContainer {
     border-radius: 12px;

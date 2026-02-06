@@ -1,10 +1,10 @@
-.flexRowContent--linha-disclosure-categorias-mobile{
+.flexRowContent--linha-disclosure-categorias-mobile {
   display: flex;
   gap: 2vw;
   padding: 0 20px;
 }
 
-.flexColChild--colunas-disclosure-mobile{
+.flexColChild--colunas-disclosure-mobile {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,7 @@
 }
 
 
-.flexRowContent--linha-disclosure-categorias-mobile .stretchChildrenWidth{
+.flexRowContent--linha-disclosure-categorias-mobile .stretchChildrenWidth {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1346,6 +1346,23 @@
   gap: 10px;
 }
 
+@media screen and (max-width: 1200px) {
+  .flexColChild--heart-icon {
+    margin-bottom: 0;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .flexRow--linha-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+}
+
 @media screen and (max-width: 1024px) {
   .flexRowContent--linha-economia {
     padding: 0 34px;
@@ -1999,7 +2016,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .flexRowContent--linha-disclosure-categorias-mobile{
+  .flexRowContent--linha-disclosure-categorias-mobile {
     padding: 0 20px 20px 20px;
   }
 

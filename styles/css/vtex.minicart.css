@@ -1,14 +1,13 @@
 
 .minicartIconContainer .cartIcon {
-  width: 0.875rem;
-  height: 0.875rem;
+  width: 100%;
   overflow: visible;
   margin-right: 28px;
   margin-bottom: 35px;
 }
 
 .minicartWrapperContainer {
-    align-items: center;
+  align-items: center;
 }
 
 .opened  {
@@ -30,6 +29,17 @@
 }
 
 
+@media screen  and (max-width: 1200px){
+  .minicartIconContainer .cartIcon {
+    width: 13px;
+    overflow: visible;
+    margin-right: 28px;
+    margin-bottom: 35px;
+    margin-left: 4px;
+    margin-top: 17px;
+  }
+
+}
 @media screen  and (max-width: 1024px){
   .minicartContainer :global(.vtex-button__label) {
     padding-top: 0;
