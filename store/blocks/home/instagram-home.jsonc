@@ -156,6 +156,50 @@
   "image#postagem1-coluna1-instagram": {
     "props": {
       "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/fevereiro/video-carnaval.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DUs82obCUfy/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#postagem2-coluna1-instagram": {
+    "props": {
+      "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/fevereiro/carnaval-campea.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DUjRXhmlHA_/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#postagem1-coluna2-instagram": {
+    "props": {
+      "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/fevereiro/carnaval-idealclave.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DUbLd1ojts0/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#postagem2-coluna2-instagram": {
+    "props": {
+      "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/fevereiro/teste-biologico.webp",
+      "alt": "Postagem Instagram ",
+      "link": {
+        "url": "https://www.instagram.com/p/DUJJtdsiddc/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#postagem1-coluna3-instagram": {
+    "props": {
+      "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/Janeiro/carrinho-autoclave.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
@@ -164,57 +208,13 @@
       }
     }
   },
-  "image#postagem2-coluna1-instagram": {
+  "image#postagem2-coluna3-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/Janeiro/estufa-esquenta.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
         "url": "https://www.instagram.com/p/DT0uQTFkiEi/",
-        "openNewTab": true
-      }
-    }
-  },
-  "image#postagem1-coluna2-instagram": {
-    "props": {
-      "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/Janeiro/dia-eteticista.webp",
-      "alt": "Postagem Instagram Idealine",
-      "link": {
-        "url": "https://www.instagram.com/p/DTp159ij6W_/",
-        "openNewTab": true
-      }
-    }
-  },
-  "image#postagem2-coluna2-instagram": {
-    "props": {
-      "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/Janeiro/boneco-ia.webp",
-      "alt": "Postagem Instagram ",
-      "link": {
-        "url": "https://www.instagram.com/p/DTgZLAViUkM/",
-        "openNewTab": true
-      }
-    }
-  },
-  "image#postagem1-coluna3-instagram": {
-    "props": {
-      "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/Janeiro/areia.webp",
-      "alt": "Postagem Instagram Idealine",
-      "link": {
-        "url": "https://www.instagram.com/p/DTffP2-DJnN/",
-        "openNewTab": true
-      }
-    }
-  },
-  "image#postagem2-coluna3-instagram": {
-    "props": {
-      "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/Janeiro/carrinho-clinica-estetica.webp",
-      "alt": "Postagem Instagram Idealine",
-      "link": {
-        "url": "https://www.instagram.com/p/DTc90kfDTjv/",
         "openNewTab": true
       }
     }
