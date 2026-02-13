@@ -166,8 +166,8 @@
   border: 3px solid var(--fonte-cor-normal) !important;
 }
 
-.skuSelectorItem--prod-din-sku-selector--110v::after {
-  content: " 110v ";
+.skuSelectorItem--prod-din-sku-selector::after {
+  content: " 127v ";
   font-size: 2.4vh;
   margin-left: 5px;
   font-weight: 500;
