@@ -31,5 +31,8 @@
   },
   "store.custom#dvm": {
     "path": "/tecnologia-dvm"
+  },
+  "store.custom#precheckout": {
+    "path": "/precheckout"
   }
 }

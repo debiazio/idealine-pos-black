@@ -11,7 +11,6 @@
       "__fold__",
       "flex-layout.row#shelf-mais-vendidos",
       "responsive-layout.mobile#banners-mobile",
-
       "responsive-layout.desktop#categorias",
       "responsive-layout.desktop#carrossel-5l-8l",
       "responsive-layout.desktop#img-como-usar",
@@ -32,7 +31,6 @@
       "responsive-layout.desktop#blog"
     ]
   },
-
   //  ESPAÇADOR
   "flex-layout.row#linha-line": {
     "props": {
@@ -58,7 +56,6 @@
       "allowCookies": true
     }
   },
-
   // LIST CONTEXT DO SLIDER HOME
   "list-context.image-list#home": {
     "children": [
@@ -396,7 +393,6 @@
       "showNavigationArrows": "never"
     }
   },
-
   // BLOGO
   "flex-layout.row#titulo-blog-home": {
     "props": {
