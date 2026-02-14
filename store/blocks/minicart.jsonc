@@ -10,6 +10,7 @@
   },
   "minicart.v2": {
     "props": {
+      // "customPixelEventId": "add-to-cart-button"
       "customPixelEventId": "add-to-cart-button"
 
     },
@@ -57,7 +58,8 @@
   },
   "minicart-checkout-button": {
     "props": {
-      "finishShoppingButtonLink": "/checkout/#/cart"
+      // "finishShoppingButtonLink": "/checkout/#/cart"
+      "finishShoppingButtonLink": "/precheckout"
     }
   },
   "checkout-summary.compact#minicart": {
