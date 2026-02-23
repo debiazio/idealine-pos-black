@@ -1,4 +1,3 @@
-
 .minicartIconContainer .cartIcon {
   width: 100%;
   overflow: visible;
@@ -10,7 +9,7 @@
   align-items: center;
 }
 
-.opened  {
+.opened {
   background-color: white;
 }
 
@@ -23,47 +22,47 @@
   border: 0;
 }
 
-.drawer{
+.drawer {
   z-index: 9999;
   background-color: white;
 }
 
 
-@media screen  and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
   .minicartIconContainer .cartIcon {
-    width: 13px;
+    width: 14px;
     overflow: visible;
     margin-right: 28px;
-    margin-bottom: 35px;
-    margin-left: 4px;
-    margin-top: 17px;
+    margin-bottom: 19px;
+    margin-left: 0px;
+    margin-top: 0px;
   }
 
 }
-@media screen  and (max-width: 1024px){
+
+@media screen and (max-width: 1024px) {
   .minicartContainer :global(.vtex-button__label) {
     padding-top: 0;
     padding-bottom: 0;
   }
 
   .minicartIconContainer .cartIcon {
-    width: 10px;
-    height: 8px;
+    width: unset;
+    height: 10px;
     overflow: visible;
     margin-right: 0;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
+    margin-top: -5px;
   }
 
-  .minicartIconContainer{
+  .minicartIconContainer {
     margin-right: 25px;
   }
 
-  .minicartQuantityBadgeDefault{
+  .minicartQuantityBadgeDefault {
     width: 0.7rem;
     height: 0.7rem;
     top: -0.4rem;
     right: -1.7rem;
   }
 }
-
-
