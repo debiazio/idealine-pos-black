@@ -156,6 +156,28 @@
   "image#postagem1-coluna1-instagram": {
     "props": {
       "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/fevereiro/carnaval-eh-sobre.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DU3FqEFiCIy/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#postagem2-coluna1-instagram": {
+    "props": {
+      "blockClass": "img-instagram",
+      "src": "assets/instagram-home/postagens/fevereiro/carnaval-belinha.webp",
+      "alt": "Postagem Instagram Idealine",
+      "link": {
+        "url": "https://www.instagram.com/p/DU0g7LtDZDl/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#postagem1-coluna2-instagram": {
+    "props": {
+      "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/fevereiro/video-carnaval.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
@@ -164,7 +186,7 @@
       }
     }
   },
-  "image#postagem2-coluna1-instagram": {
+  "image#postagem2-coluna2-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/fevereiro/carnaval-campea.webp",
@@ -175,7 +197,7 @@
       }
     }
   },
-  "image#postagem1-coluna2-instagram": {
+  "image#postagem1-coluna3-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/fevereiro/carnaval-idealclave.webp",
@@ -186,35 +208,13 @@
       }
     }
   },
-  "image#postagem2-coluna2-instagram": {
+  "image#postagem2-coluna3-instagram": {
     "props": {
       "blockClass": "img-instagram",
       "src": "assets/instagram-home/postagens/fevereiro/teste-biologico.webp",
       "alt": "Postagem Instagram ",
       "link": {
         "url": "https://www.instagram.com/p/DUJJtdsiddc/",
-        "openNewTab": true
-      }
-    }
-  },
-  "image#postagem1-coluna3-instagram": {
-    "props": {
-      "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/Janeiro/carrinho-autoclave.webp",
-      "alt": "Postagem Instagram Idealine",
-      "link": {
-        "url": "https://www.instagram.com/p/DUBVEdkjV0w/",
-        "openNewTab": true
-      }
-    }
-  },
-  "image#postagem2-coluna3-instagram": {
-    "props": {
-      "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/Janeiro/estufa-esquenta.webp",
-      "alt": "Postagem Instagram Idealine",
-      "link": {
-        "url": "https://www.instagram.com/p/DT0uQTFkiEi/",
         "openNewTab": true
       }
     }
