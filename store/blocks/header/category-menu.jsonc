@@ -29,10 +29,10 @@
         "text": "Ver tudo"
       },
       "blockClass": "menu-superior"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#categorias-ver-tudo"
-    ]
+    }
+    // "blocks": [
+    //   "vtex.menu@2.x:submenu#categorias-ver-tudo"
+    // ]
   },
   "vtex.menu@2.x:submenu#categorias-ver-tudo": {
     "props": {
