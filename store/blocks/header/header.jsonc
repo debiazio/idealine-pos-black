@@ -157,7 +157,7 @@
       "botaowhatsapp"
     ]
   },
-  // menu fixo (stick)
+  // menu fixo (stick) teste
   "sticky-layout#1-mobile": {
     "children": [
       "flex-layout.row#1-mobile",
