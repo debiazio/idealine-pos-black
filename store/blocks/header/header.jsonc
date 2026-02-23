@@ -13,7 +13,8 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#cabecalho-desktop"
+      "sticky-layout#cabecalho-desktop",
+      "botaowhatsapp"
     ]
   },
   "sticky-layout#cabecalho-desktop": {
@@ -152,7 +153,8 @@
   // mobile config
   "header-layout.mobile": {
     "children": [
-      "sticky-layout#1-mobile"
+      "sticky-layout#1-mobile",
+      "botaowhatsapp"
     ]
   },
   // menu fixo (stick)
