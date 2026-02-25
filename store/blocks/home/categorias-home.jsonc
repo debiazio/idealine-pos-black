@@ -2,7 +2,7 @@
   //SECAO COMPRE POR CATEGORIA - MOBILE
   "responsive-layout.mobile#categorias": {
     "children": [
-      "disclosurecategorias",
+      // "disclosurecategorias",
       "flex-layout.row#titulo-categorias-linha1",
       "flex-layout.row#categorias-disclosure-mobile"
     ]
