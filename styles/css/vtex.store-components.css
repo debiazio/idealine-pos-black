@@ -1,3 +1,10 @@
+.imageElement--selo-promocao{
+  width: 80px;
+    position: absolute;
+    z-index: 100;
+
+}
+
 .imageElement--imagem-categoria-mobile {
   border-radius: 0 0 20px 20px;
   margin-top: -16px;
