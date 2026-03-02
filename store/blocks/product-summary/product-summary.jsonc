@@ -1,7 +1,7 @@
 {
   "product-summary.shelf": {
     "children": [
-      // "condition-layout.product#selo-promocao-dia-consumidor", //para lembrar que isso pode ser feito
+"condition-layout.product#selo-promocao-dia-consumidor", //para lembrar que isso pode ser feito
       "stack-layout#prodsum",
       "product-summary-name", //nome
       "flex-layout.col#productRating", //avaliações
@@ -10,26 +10,26 @@
       "showifcollection"
     ]
   },
-  // "condition-layout.product#selo-promocao-dia-consumidor":{
-  //   "props": {
-  //     "conditions": [
-  //       {
-  //         "subject": "productClusters",
-  //         "arguments": {
-  //           "id": "220"
-  //         }
-  //       }
-  //     ],
-  //     "Then": "image#selo-promocao"
-  //   }
-  // },
-  // "image#selo-promocao":{
-  //   "props": {
-  //     "blockClass": "selo-promocao",
-  //     "src": "assets/mes-consumidor/LOGO 200X200 2.png",
-  //     "alt": "Selo dia consumidor"
-  //   }
-  // },
+  "condition-layout.product#selo-promocao-dia-consumidor":{
+    "props": {
+      "conditions": [
+        {
+          "subject": "productClusters",
+          "arguments": {
+            "id": "220"
+          }
+        }
+      ],
+      "Then": "image#selo-promocao"
+    }
+  },
+  "image#selo-promocao":{
+    "props": {
+      "blockClass": "selo-promocao",
+      "src": "assets/mes-consumidor/LOGO 200X200 2.png",
+      "alt": "Selo dia consumidor"
+    }
+  },
 
   "flex-layout.row#linha-prateleira": {
     "props": {
