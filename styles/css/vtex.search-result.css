@@ -1,19 +1,30 @@
+.orderByButton {
+  padding: 0;
+  margin: 16px;
+}
+
+.orderByText,
 .totalProductsMessage {
-  color: var(--fonte-cor-normal)!important;
+  color: var(--fonte-cor-normal) !important;
+}
+
+.orderByDropdown {
+  width: fit-content;
+
 }
 
 .orderByOptionItem--selected,
-.orderByOptionItem:hover{
+.orderByOptionItem:hover {
   color: black;
 }
 
 .orderByOptionItem,
 .filterPopupTitle,
-.totalProducts--layout{
-  color: var(--fonte-cor-normal)!important;
+.totalProducts--layout {
+  color: var(--fonte-cor-normal) !important;
 }
 
-.orderByOptionsContainer{
+.orderByOptionsContainer {
   z-index: 100;
 }
 
@@ -21,7 +32,7 @@
   border-color: white;
 }
 
-:global(.vtex-checkbox__label){
+:global(.vtex-checkbox__label) {
   color: white;
 }
 
@@ -42,8 +53,8 @@
   margin-bottom: 45px;
 }
 
-.gallery{
-  padding-left: 10px!important;
+.gallery {
+  padding-left: 10px !important;
 }
 
 .gallery .stackItem--fav-dinamic-background {
@@ -73,7 +84,7 @@
 }
 
 .caretIcon {
-  color: white;
+  color: rgb(201, 201, 201);
 }
 
 /* vtex-search-result-3-x-filterIsOpen */

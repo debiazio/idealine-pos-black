@@ -44,6 +44,7 @@
     "children": [
       // "breadcrumb.search",
       // "search-title.v2",
+      "order-by.v2",
       "flex-layout.row#results#template-cat"
     ]
   },
