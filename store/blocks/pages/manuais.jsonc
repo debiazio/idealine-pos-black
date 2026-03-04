@@ -206,7 +206,7 @@
     "props": {
       "blockClass": "link-duvidas-adicionais",
       "label": "Alguma outra dúvida? Nos mande um formulário com sua dúvida!",
-      "href": "/fale-conosco"
+      "href": "/institucional/fale-conosco"
     }
   },
   // TEXTO ASSIST
