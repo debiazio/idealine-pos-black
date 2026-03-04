@@ -145,7 +145,8 @@
     },
     "children": [
       "rich-text#titulo-duvidas",
-      "rich-text#texto-duvidas"
+      "rich-text#texto-duvidas",
+      "link#alguma-outra-duvida"
     ]
   },
   // COLUNA DA IMAGEM - COLUNA DIREITA - ASSIST
@@ -197,7 +198,15 @@
   "rich-text#texto-duvidas": {
     "props": {
       "blockClass": "texto-banner-final",
-      "text": "**Contato:** (41) 3668-2144\n**Horários de atendimento:** Segunda a sexta, das 8h às 22h, e aos sábados, das 10h às 19h30 (setor de vendas).\n**Pós-vendas:** Segunda a sábado, das 8h às 22h.\nAlguma outra dúvida? Nos mande um **formulário** com sua dúvida!"
+      "text": "**Contato:** (41) 3668-2144\n**Horários de atendimento:** Segunda a sexta, das 8h às 18h.\n**Pós-vendas:** Segunda a sábado, das 8h às 22h."
+    }
+  },
+  // TEXTO DÚVIDAS
+  "link#alguma-outra-duvida":{
+    "props": {
+      "blockClass": "link-duvidas-adicionais",
+      "label": "Alguma outra dúvida? Nos mande um formulário com sua dúvida!",
+      "href": "/fale-conosco"
     }
   },
   // TEXTO ASSIST

@@ -98,7 +98,7 @@
   "rich-text#texto-quem-somos2":{
     "props": {
       "blockClass": "conteudo-institucionais",
-      "text": "**STERMAX A FÁBRICA DA IDEALINE**\n**NOSSAS VANTAGENS**\n * Todos os produtos possuem **Registro ANVISA**\n **\n * Loja oficial da fábrica\n * **Mais de 30 anos de mercado**\n * A **marca mais vendida**\n * Produtos **com garantia**\n * Maior rede de **assistência técnica** do Brasil"
+      "text": "**STERMAX A FÁBRICA DA IDEALINE**\n**NOSSAS VANTAGENS**\n * Todos os produtos possuem **Registro ANVISA**\n \n * Loja oficial da fábrica\n * **Mais de 30 anos de mercado**\n * A **marca mais vendida**\n * Produtos **com garantia**\n * Maior rede de **assistência técnica** do Brasil"
     }
   },
   "flex-layout.col#imagem-quem-somos": {

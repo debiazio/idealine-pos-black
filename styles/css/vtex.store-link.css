@@ -1,3 +1,10 @@
+.label--link-duvidas-adicionais{
+  text-decoration: none;
+    color: #3f3f40;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .link--link-dvm-mobile {
   text-align: center;
   height: 48px;
