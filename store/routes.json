@@ -34,5 +34,8 @@
   },
   "store.custom#precheckout": {
     "path": "/precheckout"
+  },
+  "store.custom#noheaderfooter": {
+    "path": "/blog"
   }
 }
