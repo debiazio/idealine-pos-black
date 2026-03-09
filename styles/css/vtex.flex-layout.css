@@ -1,3 +1,7 @@
+/* .flexRow--linha-blog .container{
+  max-width: unset!important;
+} */
+
 .flexRowContent--linha-disclosure-categorias-mobile {
   display: flex;
   gap: 2vw;
