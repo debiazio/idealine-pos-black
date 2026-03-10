@@ -26,7 +26,7 @@
   "image#manual-flex": {
     "props": {
       "blockClass": "manual-imagem",
-      "src": "assets/manuais/manual-flex.webp",
+      "src": "assets/manuais/flex.webp",
       "alt": "Imagem de capa do manual"
     },
     "title": "Linha Flex"
@@ -46,7 +46,7 @@
     "props": {
       "blockClass": "link-ler-manuais",
       "label": "LER MANUAL",
-      "href": "https://stermax.com.br/images_idealine/manuais/Manual Linha FLEX.pdf",
+      "href": "https://stermax.com.br/images_idealine/manuais/marco/Manual_Linha%20FLEX%20-%20Rev.02_2024.pdf",
       "target": "_blank"
     },
     "title": "Link ler manual flex"
