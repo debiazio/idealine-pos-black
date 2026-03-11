@@ -1348,6 +1348,10 @@
 
 .flexRowContent--product-selecor-prod-din {
   gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 35px;
 }
 
 @media screen and (max-width: 1200px) {

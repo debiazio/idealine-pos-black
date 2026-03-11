@@ -293,6 +293,12 @@
           "arguments": {
             "id": "2902" // marcelo brito
           }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2974" // sweet silver
+          }
         }
       ],
       "matchType": "any",
@@ -583,6 +589,7 @@
       "link.product#bellinha-sweet-black",
       "link.product#bellinha-glowin",
       "link.product#marcelo-brito",
+      "link.product#sweet-silver",
       "appalterafundo"
     ]
   },
@@ -712,6 +719,7 @@
       "src": "assets/nova-pdp/miniaturas/glowin-miniatura.svg"
     }
   },
+  // bolinha com o link
   "link.product#marcelo-brito": {
     "props": {
       "blockClass": [
@@ -733,6 +741,28 @@
       "src": "assets/nova-pdp/miniaturas/marcelo-brito-miniatura.svg"
     }
   },
+  // bolinha com o link
+  //   "link.product#sweet-silver": {
+  //   "props": {
+  //     "blockClass": [
+  //       "label-botao",
+  //       "link-sweet-silver"
+  //     ],
+  //     "href": "/Autoclave-Idealclave-Bellinha-5-litros-com-tecnologia-DVM-sweet-silver/p"
+  //   },
+  //   "children": [
+  //     "image#sweet-silver"
+  //   ]
+  // },
+  // "image#sweet-silver": {
+  //   "props": {
+  //     "blockClass": [
+  //       "miniaturas",
+  //       "sweet-silver-miniatura"
+  //     ],
+  //     "src": "assets/nova-pdp/miniaturas/sweet-silver-miniatura.svg"
+  //   }
+  // },
   // TEXTO POS PDP
   "flex-layout.row#texto-pos-pdp": {
     "props": {
