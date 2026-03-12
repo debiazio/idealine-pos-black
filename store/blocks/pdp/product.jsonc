@@ -181,6 +181,7 @@
     },
     "children": [
       "flex-layout.row#description",
+      // "condition-layout.product#visualizador3d-sweet-silver", //vr
       "condition-layout.product#visualizador3d-sweet-pink", //vr
       "condition-layout.product#visualizador3d-sweet-black",
       "product-specification-group#table",
@@ -316,7 +317,8 @@
     "children": [
       "flex-layout.row#product-breadcrumb-comum-dinamic",
       "appalterafundo",
-      "flex-layout.row#linha-produto-fundo-dinamico"
+      "flex-layout.row#linha-produto-fundo-dinamico",
+      "condition-layout.product#visualizador3d-sweet-silver"
     ]
   },
   "flex-layout.row#product-breadcrumb-comum-dinamic": {
@@ -342,6 +344,7 @@
     "children": [
       "flex-layout.col#coluna-esquerda-fundo-dinamico",
       "flex-layout.col#coluna-direita-fundo-dinamico"
+
     ]
   },
   //COLUNA ESQUERDA - FUNDO DINAMICO
@@ -589,7 +592,7 @@
       "link.product#bellinha-sweet-black",
       "link.product#bellinha-glowin",
       "link.product#marcelo-brito",
-      // "link.product#sweet-silver",
+      "link.product#sweet-silver",
       "appalterafundo"
     ]
   },
@@ -742,27 +745,27 @@
     }
   },
   // bolinha com o link
-  //   "link.product#sweet-silver": {
-  //   "props": {
-  //     "blockClass": [
-  //       "label-botao",
-  //       "link-sweet-silver"
-  //     ],
-  //     "href": "/Autoclave-Idealclave-Bellinha-5-litros-com-tecnologia-DVM-sweet-silver/p"
-  //   },
-  //   "children": [
-  //     "image#sweet-silver"
-  //   ]
-  // },
-  // "image#sweet-silver": {
-  //   "props": {
-  //     "blockClass": [
-  //       "miniaturas",
-  //       "sweet-silver-miniatura"
-  //     ],
-  //     "src": "assets/nova-pdp/miniaturas/sweet-silver-miniatura.svg"
-  //   }
-  // },
+    "link.product#sweet-silver": {
+    "props": {
+      "blockClass": [
+        "label-botao",
+        "link-sweet-silver"
+      ],
+      "href": "/Autoclave-Idealclave-Bellinha-5-litros-com-tecnologia-DVM-sweet-silver/p"
+    },
+    "children": [
+      "image#sweet-silver"
+    ]
+  },
+  "image#sweet-silver": {
+    "props": {
+      "blockClass": [
+        "miniaturas",
+        "sweet-silver-miniatura"
+      ],
+      "src": "assets/nova-pdp/miniaturas/sweet-silver-miniatura.svg"
+    }
+  },
   // TEXTO POS PDP
   "flex-layout.row#texto-pos-pdp": {
     "props": {
@@ -1039,6 +1042,29 @@
     "children": [
       "image#icone360",
       "vr-bellinha-black"
+    ]
+  },
+  //CONDITIONAL DO VR sweet black
+  "condition-layout.product#visualizador3d-sweet-silver": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2974" //sweet silver
+          }
+        }
+      ],
+      "Then": "flex-layout.row#visualizador-360-sweet-silver" //visualizador 3d sweet silver
+    }
+  },
+  "flex-layout.row#visualizador-360-sweet-silver": {
+    "props": {
+      "blockClass": "conteiner-360"
+    },
+    "children": [
+      "image#icone360",
+      "vr-sweet-black"
     ]
   },
 
