@@ -28,7 +28,8 @@
   // LAYOUT DESKTOP
   "responsive-layout.desktop#availability": {
     "children": [
-      "condition-layout.product#fundo-dinamico"
+      "condition-layout.product#fundo-dinamico",
+      "condition-layout.product#visualizador3d-sweet-silver"
       // "condition-layout.product#availability"
     ]
   },
@@ -39,7 +40,6 @@
       // "condition-layout.product#mobile-availability"
     ]
   },
-
   "condition-layout.product#mobile-fundo-dinamico": {
     "props": {
       "blockClass": "condicional-fundo-dinamico",
@@ -152,7 +152,6 @@
       "Else": "flex-layout.row#mobile-product-main"
     }
   },
-
   //avalia se o produto está disponível - itens secundários
   "condition-layout.product#elementos-sec-pdp-availability": {
     "props": {
@@ -317,8 +316,7 @@
     "children": [
       "flex-layout.row#product-breadcrumb-comum-dinamic",
       "appalterafundo",
-      "flex-layout.row#linha-produto-fundo-dinamico",
-      "condition-layout.product#visualizador3d-sweet-silver"
+      "flex-layout.row#linha-produto-fundo-dinamico"
     ]
   },
   "flex-layout.row#product-breadcrumb-comum-dinamic": {
@@ -344,7 +342,6 @@
     "children": [
       "flex-layout.col#coluna-esquerda-fundo-dinamico",
       "flex-layout.col#coluna-direita-fundo-dinamico"
-
     ]
   },
   //COLUNA ESQUERDA - FUNDO DINAMICO
@@ -421,7 +418,6 @@
       "flex-layout.row#product-din-selector-produtos",
       "product-quantity",
       "condition-layout.product#disponivel-novo",
-
       "flex-layout.row#texto-pos-pdp"
     ]
   },
@@ -536,10 +532,9 @@
       "product-selling-price#prod-din",
       // "product-spot-price-savings#prod-din", //preco a vista com desconto
       "condition-layout.product#disponivel-novo-texto-preco-a-vista"
-
     ]
   },
-  "condition-layout.product#disponivel-novo-texto-preco-a-vista":{
+  "condition-layout.product#disponivel-novo-texto-preco-a-vista": {
     "props": {
       "conditions": [
         {
@@ -549,7 +544,6 @@
       "Then": "rich-text#a-vista"
     }
   },
-
   "rich-text#a-vista": {
     "props": {
       "text": " À VISTA",
@@ -745,7 +739,7 @@
     }
   },
   // bolinha com o link
-    "link.product#sweet-silver": {
+  "link.product#sweet-silver": {
     "props": {
       "blockClass": [
         "label-botao",
@@ -935,7 +929,6 @@
       "blockClass": "imagesMobile"
     }
   },
-
   "flex-layout.row#add-to-list-btn-din": {
     "props": {
       "blockClass": "linha-favoritos-dinamic-background"
@@ -990,7 +983,6 @@
       "width": "60%"
     }
   },
-
   //CONDITIONAL DO VR sweet pink
   "condition-layout.product#visualizador3d-sweet-pink": {
     "props": {
@@ -1067,13 +1059,11 @@
       "vr-sweet-black"
     ]
   },
-
-
   // rosa-gold 5l condicional
   "condition-layout.product#rosa-gold": {
     "props": {
       "conditions": [
-{
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Capacidade",
@@ -1140,8 +1130,6 @@
       // "image#rosa-gold-9"
     ]
   },
-
-
   // ideaclave rose gold 8 litros
   "condition-layout.product#rose-gold-laBelle-8l": {
     "props": {
@@ -2107,7 +2095,7 @@
     }
   },
   // CONDITIONAL NOVO DE DISPONIBILIDADE
-  "condition-layout.product#disponivel-novo":{
+  "condition-layout.product#disponivel-novo": {
     "props": {
       "conditions": [
         {
@@ -2117,8 +2105,7 @@
       "Then": "flex-layout.row#botoes-comprar-bucarcep",
       "Else": "flex-layout.row#availability"
     }
-},
-
+  },
   //SELETOR DE QUANTIDADE
   "product-quantity": {
     "props": {
@@ -2218,7 +2205,6 @@
   //     "flex-layout.col#product-right-col-availability"
   //   ]
   // },
-
   "flex-layout.row#availability": {
     "props": {
       "blockClass": "message-availability"
@@ -2289,13 +2275,12 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
-
-
-  "flex-layout.row#linha-certificados":{
+  "flex-layout.row#linha-certificados": {
     "props": {
       "blockClass": "linha-certificados",
       "colSizing": "auto"
-    },"children": [
+    },
+    "children": [
       "rich-text#certificacoes-titulo",
       "flex-layout.row#certificacoes"
     ]
