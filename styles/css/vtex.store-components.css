@@ -758,9 +758,8 @@
   display: flex;
   position: absolute;
   width: 45px;
-  padding: 15px;
+  padding: 30px 15px;
   cursor: grab;
-  user-select: none;
 }
 
 /* setas ocultas no desktop  */

@@ -1,8 +1,25 @@
+.wrapper--titulo-3d .heading-level-3 {
+  font-size: 64px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.paragraph--textos-3d {
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+}
+
 .paragraph--texto-gatilho-categoria-mobile {
   font-family: "rubik-bold";
   color: #696969;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 16px;
+
 }
 
 .paragraph--texto-gatilho-categoria {
@@ -637,6 +654,22 @@
 }
 
 @media only screen and (max-width: 1024px) {
+
+  .container--titulo-3d {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .wrapper--titulo-3d .heading-level-3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .paragraph--textos-3d {
+    font-size: 12px;
+  }
+
   .paragraph--texto-gatilho-categoria-mobile {
     font-size: 14px;
     text-align: center;

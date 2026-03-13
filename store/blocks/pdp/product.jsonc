@@ -29,14 +29,19 @@
   "responsive-layout.desktop#availability": {
     "children": [
       "condition-layout.product#fundo-dinamico",
-      "condition-layout.product#visualizador3d-sweet-silver"
+      "condition-layout.product#visualizador3d-sweet-silver",
+      "condition-layout.product#visualizador3d-sweet-pink",
+      "condition-layout.product#visualizador3d-sweet-black"
       // "condition-layout.product#availability"
     ]
   },
   // LAYOUT MOBILE
   "responsive-layout.mobile#availability": {
     "children": [
-      "condition-layout.product#mobile-fundo-dinamico"
+      "condition-layout.product#mobile-fundo-dinamico",
+      "condition-layout.product#visualizador3d-sweet-silver",
+      "condition-layout.product#visualizador3d-sweet-pink",
+      "condition-layout.product#visualizador3d-sweet-black"
       // "condition-layout.product#mobile-availability"
     ]
   },
@@ -180,9 +185,6 @@
     },
     "children": [
       "flex-layout.row#description",
-      // "condition-layout.product#visualizador3d-sweet-silver", //vr
-      "condition-layout.product#visualizador3d-sweet-pink", //vr
-      "condition-layout.product#visualizador3d-sweet-black",
       "product-specification-group#table",
       "flex-layout.row#reviews-and-ratings",
       "flex-layout.row#relatedProducts"
@@ -1002,6 +1004,15 @@
       "blockClass": "conteiner-360"
     },
     "children": [
+      "flex-layout.row#linha360textos",
+      "flex-layout.row#linha360imgs-sweetpink"
+    ]
+  },
+  "flex-layout.row#linha360imgs-sweetpink": {
+    "props": {
+      "blockClass": "linha360imgs"
+    },
+    "children": [
       "image#icone360",
       "vr-bellinha-rosa"
     ]
@@ -1032,11 +1043,20 @@
       "blockClass": "conteiner-360"
     },
     "children": [
+      "flex-layout.row#linha360textos",
+      "flex-layout.row#linha360imgs-sweetblack"
+    ]
+  },
+  "flex-layout.row#linha360imgs-sweetblack": {
+    "props": {
+      "blockClass": "linha360imgs"
+    },
+    "children": [
       "image#icone360",
       "vr-bellinha-black"
     ]
   },
-  //CONDITIONAL DO VR sweet black
+  //CONDITIONAL DO VR sweet silver
   "condition-layout.product#visualizador3d-sweet-silver": {
     "props": {
       "conditions": [
@@ -1052,7 +1072,40 @@
   },
   "flex-layout.row#visualizador-360-sweet-silver": {
     "props": {
-      "blockClass": "conteiner-360"
+      "blockClass": "conteiner-360",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha360textos",
+      "flex-layout.row#linha360imgs"
+    ]
+  },
+  // linha do texto
+  "flex-layout.row#linha360textos": {
+    "props": {
+      "blockClass": "linha360textos"
+    },
+    "children": [
+      "rich-text#titulo-textos360",
+      "rich-text#instrucoes-textos360"
+    ]
+  },
+  "rich-text#titulo-textos360": {
+    "props": {
+      "blockClass": "titulo-3d",
+      "text": "### Visualizador 3D"
+    }
+  },
+  "rich-text#instrucoes-textos360": {
+    "props": {
+      "blockClass": "textos-3d",
+      "text": "Clique sobre a imagem e arraste para ver todos os ângulos da sua autoclave"
+    }
+  },
+  // imagens do visualizador
+  "flex-layout.row#linha360imgs": {
+    "props": {
+      "blockClass": "linha360imgs"
     },
     "children": [
       "image#icone360",
