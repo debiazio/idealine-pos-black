@@ -2371,14 +2371,6 @@
       "alt": "Líder em vendas"
     }
   },
-  "flex-layout.col#coluna-certificado1": {
-    "props": {
-      "blockClass": "coluna-certificado"
-    },
-    "children": [
-      "image#certificado2"
-    ]
-  },
   "image#certificado2": {
     "props": {
       "src": "assets/certificado2.svg",

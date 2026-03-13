@@ -1,3 +1,16 @@
+.paragraph--titulo-cronometro-sweetsilver {
+  padding-top: 20px;
+  font-family: "montserrat-extrabold";
+  font-size: 2rem;
+  color: white;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.strong--titulo-cronometro-sweetsilver {
+  color: #F365D3;
+}
+
 .wrapper--titulo-3d .heading-level-3 {
   font-size: 64px;
   color: white;
@@ -654,6 +667,15 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .paragraph--titulo-cronometro-sweetsilver {
+    font-family: "montserrat-extrabold";
+    font-size: 1.3rem;
+    color: white;
+    margin: 0;
+    white-space: wrap;
+    text-align: center;
+  }
+
 
   .container--titulo-3d {
     display: flex;

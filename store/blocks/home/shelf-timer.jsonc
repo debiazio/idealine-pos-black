@@ -6,11 +6,11 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.row#linha-line",
-      "flex-layout.row#img-coracao-menor-mobile",
-      "flex-layout.row#linha-conteudo-cronometro",
-      "flex-layout.row#img-coracao-maior-mobile",
-      "flex-layout.row#linha-line"
+      // "flex-layout.row#linha-line",
+      // "flex-layout.row#img-coracao-menor-mobile",
+      "flex-layout.row#linha-conteudo-cronometro"
+      // "flex-layout.row#img-coracao-maior-mobile"
+      // "flex-layout.row#linha-line"
     ],
     "title": "Linha Promoção Relâmpago"
   },
@@ -21,8 +21,7 @@
       "colSizing": "equal"
     },
     "children": [
-      "flex-layout.col#coluna-cronometro-esquerda",
-      "flex-layout.col#coluna-cronometro-direita"
+      "flex-layout.col#coluna-cronometro-esquerda"
     ]
   },
   // COLUNA ESQUERDA
@@ -32,8 +31,8 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.row#linha-imagem-cronometro",
-      "flex-layout.row#linha-coracao-maior"
+      "flex-layout.row#linha-imagem-cronometro"
+      // "flex-layout.row#linha-coracao-maior"
     ]
   },
   // COLUNA DIREITA
@@ -43,9 +42,9 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.row#linha-coracao-menor",
-      "list-context.product-list#prateleira-cronometrada",
-      "flex-layout.row#linha-ver-mais"
+      "flex-layout.row#linha-coracao-menor"
+      // "list-context.product-list#prateleira-cronometrada"
+      // "flex-layout.row#linha-ver-mais"
     ]
   },
   // ITENS COLUNA ESQUERDA
@@ -56,8 +55,8 @@
       "colSizing": "auto"
     },
     "children": [
-      "image#promo-relampago",
-      "rich-text#titulo-cronometro",
+      // "image#promo-relampago",
+      "rich-text#titulo-cronometro-sweetsilver",
       "timershelf"
     ]
   },
@@ -70,10 +69,10 @@
     }
   },
   // TITULO
-  "rich-text#titulo-cronometro": {
+  "rich-text#titulo-cronometro-sweetsilver": {
     "props": {
-      "blockClass": "titulo-cronometro",
-      "text": "DESCONTO EXCLUSIVO DE **20% NA AUTOCLAVE**"
+      "blockClass": "titulo-cronometro-sweetsilver",
+      "text": "EM BREVE UM LANÇAMENTO **EDIÇÃO LIMITADA**"
     },
     "title": "Título cronômetro"
   },

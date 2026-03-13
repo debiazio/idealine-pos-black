@@ -213,9 +213,14 @@
 
 .flexRow--linha-shelf-timer {
   display: none;
-  background-image: url(assets/home-black/shelf-cronometrada/fundo-promo-relampago.webp);
-  background-position: center;
+  background-image: url(assets/home/shelf-cronometrada/fundo-cristal-sweet-silver.webp);
+  background-position: bottom;
   background-repeat: no-repeat;
+  height: 55vh;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .flexRowContent--linha-shelf-timer {
@@ -2042,8 +2047,8 @@
 
 @media screen and (max-width: 1024px) {
   .flexRowContent--linha360textos {
-  margin: 20px 0;
-}
+    margin: 20px 0;
+  }
 
 
   .flexRowContent--linha-disclosure-categorias-mobile {
@@ -2079,8 +2084,8 @@
 
   .flexRow--linha-shelf-timer {
     display: none;
-    background-image: url(assets/home-black/shelf-cronometrada/mobile/fundo-promo-relampago-mobile.png);
-    background-position: center;
+    background-image: url(assets/home/shelf-cronometrada/fundo-cristal-sweet-silver-mobile.webp);
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -2089,7 +2094,7 @@
     padding: 27px;
   }
 
-  .flexRowContent--conteiner-360{
+  .flexRowContent--conteiner-360 {
     flex-direction: column;
   }
 
