@@ -8,6 +8,27 @@
       "flex-layout.row#noheaderfooter-content"
     ]
   },
+
+  "store.custom#blog-category": {
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
+    "blocks": [
+      "flex-layout.row#blog-category-content"
+    ]
+  },
+
+  "store.custom#blog-post": {
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
+    "blocks": [
+      "flex-layout.row#blog-post-content"
+    ]
+  },
+
   "header#empty": {
     "blocks": [
       "header-layout.desktop#empty",
@@ -20,6 +41,7 @@
   "header-layout.mobile#empty": {
     "children": []
   },
+
   "footer#empty": {
     "blocks": [
       "footer-layout.desktop#empty",
@@ -32,6 +54,7 @@
   "footer-layout.mobile#empty": {
     "children": []
   },
+
   "flex-layout.row#noheaderfooter-content": {
     "props": {
       "blockClass": "linha-blog",
@@ -39,7 +62,26 @@
     },
     "children": [
       "blogidealine"
+    ]
+  },
 
+  "flex-layout.row#blog-category-content": {
+    "props": {
+      "blockClass": "linha-blog-categoria",
+      "fullWidth": true
+    },
+    "children": [
+      "blogidealine"
+    ]
+  },
+
+  "flex-layout.row#blog-post-content": {
+    "props": {
+      "blockClass": "linha-blog-post",
+      "fullWidth": true
+    },
+    "children": [
+      "blogpostidealine"
     ]
   }
 }
