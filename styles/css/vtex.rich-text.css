@@ -16,6 +16,8 @@
   color: white;
   padding: 0;
   margin: 0;
+  text-align: center;
+  text-wrap: nowrap;
 }
 
 .paragraph--textos-3d {

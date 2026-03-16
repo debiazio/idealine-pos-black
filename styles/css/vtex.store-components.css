@@ -757,7 +757,7 @@
 .imageElement--icone360 {
   display: flex;
   position: absolute;
-  width: 45px;
+  width: 70px;
   padding: 30px 15px;
   cursor: grab;
 }
