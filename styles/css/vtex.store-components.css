@@ -1015,12 +1015,17 @@
 
   }
 
-  .logoImage--logo-mobile {
-    /* padding: 0px 20px;
-    margin-top: 10px; */
+  .logoLink--logo-mobile {
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+  }
+
+  /* .logoImage--logo-mobile {
     width: 50%;
     height: auto;
-  }
+  } */
 
   .swiperCaretNext,
   .swiperCaret {
