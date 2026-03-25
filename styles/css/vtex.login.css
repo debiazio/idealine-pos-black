@@ -55,9 +55,11 @@
   :global(.vtex-login-2-x-profile),
   :global(.vtex-login-2-x-label) {
     display: flex;
-    text-align: LEFT;
+    text-align: left;
+    padding: 5px;
     font-size: 0.9rem;
-    color: var(--rosa-intallments)
+    color: var(--rosa-intallments);
+    font-family: "Rubik", sans-serif;
   }
 
 

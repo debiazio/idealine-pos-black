@@ -21,7 +21,7 @@
 }
 
 .openIconContainer {
-  background-color: #ffd7bb;
+  background-color: var(--rosa-installments);
   margin-left: 15px;
   border-radius: 6px;
   padding: 6px 12px;

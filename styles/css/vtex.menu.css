@@ -168,6 +168,10 @@
   align-items: center;
 }
 
+.styledLinkContent--menu-superior-mobile{
+  font-family: "Rubik", sans-serif;
+}
+
 @media screen and (max-width: 1204px) {
   .styledLinkContent--menu-superior {
     font-size: 0.9rem;

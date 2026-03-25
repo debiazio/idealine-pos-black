@@ -1,3 +1,8 @@
+
+.visuallyHidden{
+  font-family: "Rubik", sans-serif;
+}
+
 .imageElement--selo-promocao {
   width: 80px;
   position: absolute;
@@ -494,6 +499,10 @@
 .searchBarIcon--search-bar--search {
   background-color: transparent;
   color: #BFB8B8 !important;
+}
+
+.search-bar{
+  font-family: "Rubik", sans-serif;
 }
 
 
