@@ -21,12 +21,15 @@
 }
 
 .openIconContainer {
-  background-color: #FFD7BB;
+  background-color: #ffd7bb;
   margin-left: 15px;
-  border-radius: 15px;
+  border-radius: 6px;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
 }
 
-.closeIcon{
+.closeIcon {
   max-width: 15px;
 }
 
