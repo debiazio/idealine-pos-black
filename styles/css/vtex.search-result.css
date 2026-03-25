@@ -1,4 +1,14 @@
+.filter,
+.orderByButton,
+.orderByText,
+.filterPopupTitle  {
+  font-family: "Rubik", sans-serif;
+}
+
+
+
 .orderByButton {
+  font-family: "Rubik", sans-serif;
   padding: 0;
   margin: 16px;
 }
@@ -34,6 +44,7 @@
 
 :global(.vtex-checkbox__label) {
   color: white;
+  font-family: "Rubik", sans-serif;
 }
 
 :global(.vtex-checkbox__line-container) {

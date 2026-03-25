@@ -1,6 +1,6 @@
 /* idealine paleta */
 
-.parcelas-custom{
+.parcelas-custom {
   color: #e90b91;
 }
 
@@ -76,6 +76,7 @@
 body,
 html {
   touch-action: pan-y;
+  font-family: "Rubik", sans-serif;
 }
 
 
@@ -112,6 +113,7 @@ input:-webkit-autofill {
 
 /* WebKit + telas grandes */
 @media screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 0) {
+
   input[type="text"],
   input[type="email"],
   input[type="tel"] {

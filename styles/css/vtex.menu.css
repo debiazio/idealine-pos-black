@@ -1,3 +1,8 @@
+
+.styledLink--menu-superior{
+  font-family: "RubikIphone", sans-serif;
+}
+
 .styledLinkContainer--menu-footer-filho {
   margin: 5px 0;
 }
@@ -169,7 +174,7 @@
 }
 
 .styledLinkContent--menu-superior-mobile{
-  font-family: "Rubik", sans-serif;
+  font-family: "RubikIphone", sans-serif;
 }
 
 @media screen and (max-width: 1204px) {

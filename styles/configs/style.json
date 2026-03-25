@@ -267,7 +267,7 @@
             "letterSpacing": "0"
           },
           "heading-3": {
-            "fontFamily": "Rubik",
+            "fontFamily": "Rubik" ,
             "fontWeight": "700",
             "fontSize": "1.75rem",
             "textTransform": "initial",
