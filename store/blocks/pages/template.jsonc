@@ -31,7 +31,7 @@
       "querySchema": {
         "orderByField": "OrderByTopSaleDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 8,
+        "maxItemsPerPage": 12,
         "queryField": "208",
         "mapField": "productClusterIds"
       }

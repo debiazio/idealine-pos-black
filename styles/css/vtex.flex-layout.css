@@ -2,6 +2,12 @@
   max-width: unset!important;
 } */
 
+.flexCol--coluna-direita-mobile-header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
 .flexRowContent--linha-disclosure-categorias-mobile {
   display: flex;
   gap: 2vw;

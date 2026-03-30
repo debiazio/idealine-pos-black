@@ -149,7 +149,7 @@
     ],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "maxItems": 20
+      "maxItems": 12
     }
   },
   "product-summary.shelf": {
@@ -301,7 +301,7 @@
     "props": {
       "collection": "210",
       "orderBy": "OrderByReleaseDateDESC",
-      "maxItems": 50
+      "maxItems": 12
     },
     "title": "Prateleira 5 e 8 litros"
   },
@@ -340,7 +340,7 @@
     "props": {
       "orderBy": "OrderByPriceASC",
       "collection": "208",
-      "maxItems": 40
+      "maxItems": 12
     }
   },
   "slider-layout#prateleira-maior-capacidade": {
