@@ -1,7 +1,7 @@
 {
   "product-summary.shelf": {
     "children": [
-"condition-layout.product#selo-promocao-dia-consumidor", //para lembrar que isso pode ser feito
+// "condition-layout.product#selo-promocao-dia-consumidor", //para lembrar que isso pode ser feito
       "stack-layout#prodsum",
       "product-summary-name", //nome
       "flex-layout.col#productRating", //avaliações
