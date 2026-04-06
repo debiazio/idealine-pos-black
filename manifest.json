@@ -78,7 +78,8 @@
     "mfmgroup.shelftimer": "0.x",
     "mfmgroup.appformidealine": "0.x",
     "mfmgroup.precheckout": "0.x",
-    "mfmgroup.blog-idealine": "0.x"
+    "mfmgroup.blog-idealine": "0.x",
+    "mfmgroup.appativagarantia": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",

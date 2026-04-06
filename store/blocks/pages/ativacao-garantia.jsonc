@@ -4,7 +4,17 @@
       "blockClass": "pagina-ativacao"
     },
     "blocks": [
-      "flex-layout.row#banner-ativacao-garantia"
+      "flex-layout.row#conteudo-ativa-garantia"
+    ]
+  },
+  "flex-layout.row#conteudo-ativa-garantia": {
+    "props": {
+      "blockClass": "conteudo-ativa-garantia",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#banner-ativacao-garantia",
+      "flex-layout.row#app-custom-formulario-ativacao-garantia"
     ]
   },
   "flex-layout.row#banner-ativacao-garantia": {
@@ -27,9 +37,9 @@
     ]
   },
   // IMAGEM DO BANNER
-  "image#banner-img-ativacao-garantia":{
+  "image#banner-img-ativacao-garantia": {
     "props": {
-      "blockClass":"banner-img-ativaco-garantia",
+      "blockClass": "banner-img-ativaco-garantia",
       "alt": "Banner ativacao",
       "src": "assets/ativGarantia/banner-ativ.webp"
     }
@@ -45,7 +55,7 @@
     ]
   },
   // LINHA TITULO
-  "flex-layout.row#titulo-ativ-garantia":{
+  "flex-layout.row#titulo-ativ-garantia": {
     "props": {
       "blockClass": "linha-titulo-ativ-garantia",
       "colSizing": "auto"
@@ -55,14 +65,14 @@
     ]
   },
   // TITULO
-  "rich-text#titulo-ativ-garantia":{
+  "rich-text#titulo-ativ-garantia": {
     "props": {
       "blockClass": "titulo-ativ-garantia",
       "text": "Proteja seu equipamento por muito mais tempo"
     }
   },
   // LINHA BOTAO
-  "flex-layout.row#botao-ativ-garantia":{
+  "flex-layout.row#botao-ativ-garantia": {
     "props": {
       "blockClass": "linha-botao-ativ-garantia",
       "colSizing": "auto"
@@ -72,11 +82,20 @@
     ]
   },
   // BOTAO
-  "link#botao-ativ-garantia":{
+  "link#botao-ativ-garantia": {
     "props": {
       "blockClass": "link-ativ-garantia",
       "href": "#form",
       "label": "ative sua garantia estendida agora"
     }
+  },
+  // AQUI CARREGA O APP CUSTOM COM O FORM
+  "flex-layout.row#app-custom-formulario-ativacao-garantia": {
+    "props": {
+      "blockClass": "linha-app-custom-ativacao"
+    },
+    "children": [
+      "app-ativa-garantia"
+    ]
   }
 }

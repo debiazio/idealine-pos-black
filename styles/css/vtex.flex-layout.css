@@ -1,3 +1,9 @@
+
+.flexRowContent--linha-app-custom-ativacao .stretchChildrenWidth{
+  display: flex;
+  flex-direction: column;
+}
+
 .flexColChild--coluna-direita-ativacao-garantia {
   display: flex;
   flex-direction: column;
@@ -15,6 +21,13 @@
 .flexRowContent--linha-banner-ativacao {
   padding: 40px 20px;
   gap: 64px;
+}
+
+.flexRowContent--conteudo-ativa-garantia,
+.flexRow--conteudo-ativa-garantia {
+  display: flex;
+  flex-direction: column;
+  background-color: #FCF5EF;
 }
 
 /* .flexRow--linha-blog .container{
