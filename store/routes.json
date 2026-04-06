@@ -35,7 +35,6 @@
   "store.custom#precheckout": {
     "path": "/precheckout"
   },
-
   "store.custom#noheaderfooter": {
     "path": "/blog"
   },
@@ -44,5 +43,8 @@
   },
   "store.custom#blog-post": {
     "path": "/blog/:slug"
+  },
+  "store.custom#ativacao-garantia": {
+    "path": "/ativacao-garantia"
   }
 }

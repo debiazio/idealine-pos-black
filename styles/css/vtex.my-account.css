@@ -29,7 +29,9 @@
 }
 
 
-
+:global(.vtex-render__container-id-banner-ativacao-garantia){
+  background-color: #FCF5EF;
+}
 
 .link-0-x-childrenContainer--link-baixar-manuais button {
   border: none;

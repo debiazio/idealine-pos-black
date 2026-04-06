@@ -1,3 +1,22 @@
+.flexColChild--coluna-direita-ativacao-garantia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCol--coluna-direita-ativacao-garantia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--linha-banner-ativacao {
+  padding: 40px 20px;
+  gap: 64px;
+}
+
 /* .flexRow--linha-blog .container{
   max-width: unset!important;
 } */

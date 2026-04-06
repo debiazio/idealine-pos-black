@@ -1,0 +1,82 @@
+{
+  "store.custom#ativacao-garantia": {
+    "props": {
+      "blockClass": "pagina-ativacao"
+    },
+    "blocks": [
+      "flex-layout.row#banner-ativacao-garantia"
+    ]
+  },
+  "flex-layout.row#banner-ativacao-garantia": {
+    "props": {
+      "blockClass": "linha-banner-ativacao",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#coluna-esquerda-ativacao-garantia",
+      "flex-layout.col#coluna-direita-ativacao-garantia"
+    ]
+  },
+  // COLUNA DA ESQUERDA - IMAGEM
+  "flex-layout.col#coluna-esquerda-ativacao-garantia": {
+    "props": {
+      "blockClass": "coluna-esquerda-ativacao-garantia"
+    },
+    "children": [
+      "image#banner-img-ativacao-garantia"
+    ]
+  },
+  // IMAGEM DO BANNER
+  "image#banner-img-ativacao-garantia":{
+    "props": {
+      "blockClass":"banner-img-ativaco-garantia",
+      "alt": "Banner ativacao",
+      "src": "assets/ativGarantia/banner-ativ.webp"
+    }
+  },
+  // COLUNA DA DIREITA - TEXTOS
+  "flex-layout.col#coluna-direita-ativacao-garantia": {
+    "props": {
+      "blockClass": "coluna-direita-ativacao-garantia"
+    },
+    "children": [
+      "flex-layout.row#titulo-ativ-garantia",
+      "flex-layout.row#botao-ativ-garantia"
+    ]
+  },
+  // LINHA TITULO
+  "flex-layout.row#titulo-ativ-garantia":{
+    "props": {
+      "blockClass": "linha-titulo-ativ-garantia",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-ativ-garantia"
+    ]
+  },
+  // TITULO
+  "rich-text#titulo-ativ-garantia":{
+    "props": {
+      "blockClass": "titulo-ativ-garantia",
+      "text": "Proteja seu equipamento por muito mais tempo"
+    }
+  },
+  // LINHA BOTAO
+  "flex-layout.row#botao-ativ-garantia":{
+    "props": {
+      "blockClass": "linha-botao-ativ-garantia",
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#botao-ativ-garantia"
+    ]
+  },
+  // BOTAO
+  "link#botao-ativ-garantia":{
+    "props": {
+      "blockClass": "link-ativ-garantia",
+      "href": "#form",
+      "label": "ative sua garantia estendida agora"
+    }
+  }
+}

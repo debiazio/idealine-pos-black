@@ -1,3 +1,14 @@
+.paragraph--titulo-ativ-garantia{
+  font-family: "rubik-bold";
+  font-weight: 900;
+  font-size: 100px;
+  text-transform: uppercase;
+  color: #474747;
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+}
+
 .heading--titulo-template{
   font-family: "Rubik", sans-serif;
 }
