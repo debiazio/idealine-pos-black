@@ -196,6 +196,10 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .label--link-ativ-garantia{
+    font-size: 0.88rem;
+  }
+
   .label--link-ver-mais {
     font-size: 0.8rem;
   }

@@ -1,4 +1,4 @@
-.paragraph--titulo-ativ-garantia{
+.paragraph--titulo-ativ-garantia {
   font-family: "rubik-bold";
   font-weight: 900;
   font-size: 100px;
@@ -9,7 +9,7 @@
   line-height: 100%;
 }
 
-.heading--titulo-template{
+.heading--titulo-template {
   font-family: "Rubik", sans-serif;
 }
 
@@ -684,6 +684,12 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .paragraph--titulo-ativ-garantia {
+    padding: 20px 0;
+    font-size: 40px;
+  }
+
+
   .paragraph--titulo-cronometro-sweetsilver {
     font-family: "montserrat-extrabold";
     font-size: 1.3rem;
