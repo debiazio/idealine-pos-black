@@ -1,5 +1,14 @@
+.flexRow--linha-banner-ativacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-.flexRowContent--linha-app-custom-ativacao .stretchChildrenWidth{
+.flexRowContent--linha-banner-ativacao{
+  max-width: 1200px;
+}
+
+.flexRowContent--linha-app-custom-ativacao .stretchChildrenWidth {
   display: flex;
   flex-direction: column;
 }
