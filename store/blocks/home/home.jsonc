@@ -26,9 +26,7 @@
       "flex-layout.row#linha-line",
       "responsive-layout.desktop#instagram",
       "responsive-layout.mobile#instagram",
-      "flex-layout.row#titulo-blog-home",
-      "responsive-layout.mobile#blog",
-      "responsive-layout.desktop#blog"
+      "flex-layout.row#titulo-blog-home"
     ]
   },
   //  ESPAÇADOR
@@ -399,196 +397,15 @@
       "blockClass": "linha-blog"
     },
     "children": [
-      "rich-text#blog"
+      "homepostsidealine"
     ]
   },
-  "rich-text#blog": {
+   "homepostsidealine": {
     "props": {
-      "text": "## Blog Idealine ##",
-      "blockClass": "shelfTitle"
-    }
-  },
-  "responsive-layout.mobile#blog": {
-    "children": [
-      "flex-layout.row#blog-home-mobile"
-    ]
-  },
-  "responsive-layout.desktop#blog": {
-    "children": [
-      "flex-layout.row#blog-home"
-    ]
-  },
-  // DESKTOP
-  "flex-layout.row#blog-home": {
-    "props": {
-      "blockClass": "linha-blog",
-      "fullWidth": true
-    },
-    "children": [
-      "blog-latest-posts-preview.wordpress-latest-posts-preview"
-    ]
-  },
-  "blog-latest-posts-preview.wordpress-latest-posts-preview": {
-    "props": {
-      "blockClass": "sessao-blog",
-      "useTextOverlays": false,
-      "showExcerpts": true,
-      "showDates": false,
-      "showCategories": false,
-      "absoluteLinks": true,
-      "numberOfPosts": 3
-    }
-  },
-  // MOBILE
-  "flex-layout.row#blog-home-mobile": {
-    "props": {
-      "blockClass": "linha-blog-mobile"
-    },
-    "children": [
-      "slider-layout#blog-images-mobile"
-    ]
-  },
-  "slider-layout#blog-images-mobile": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "never",
-      "blockClass": "carrossel-mobile-blog"
-      // ,
-      // "autoplay": {
-      //   "timeout": 8000,
-      //   "stopOnHover": true
-      // }
-    },
-    "children": [
-      "link#blog-post1",
-      "link#blog-post2",
-      "link#blog-post3"
-    ]
-  },
-  "link#blog-post1": {
-    "props": {
-      "blockClass": "link-blog-post",
-      "openNewTab": true,
-      "href": "https://idealineblog.com.br/como-o-estresse-afeta-a-saude-bucal"
-    },
-    "children": [
-      "flex-layout.col#coluna-post-blog-1"
-    ]
-  },
-  "link#blog-post2": {
-    "props": {
-      "blockClass": "link-blog-post",
-      "openNewTab": true,
-      "href": "https://idealineblog.com.br/seguranca-e-higiene-explorando-os-quatro-principais-tipos-de-esterilizacao"
-    },
-    "children": [
-      "flex-layout.col#coluna-post-blog-2"
-    ]
-  },
-  "link#blog-post3": {
-    "props": {
-      "blockClass": "link-blog-post",
-      "openNewTab": true,
-      "href": "https://idealineblog.com.br/qual-a-autoclave-ideal-para-mim"
-    },
-    "children": [
-      "flex-layout.col#coluna-post-blog-3"
-    ]
-  },
-  // COLUNAS DO LAYOUT
-  "flex-layout.col#coluna-post-blog-1": {
-    "props": {
-      "blockClass": "colunas-post-blog"
-    },
-    "children": [
-      "image#img-post-blog1",
-      "rich-text#titulo-post-blog1",
-      "rich-text#subtitulo-post-blog1"
-    ]
-  },
-  "flex-layout.col#coluna-post-blog-2": {
-    "props": {
-      "blockClass": "colunas-post-blog"
-    },
-    "children": [
-      "image#img-post-blog2",
-      "rich-text#titulo-post-blog2",
-      "rich-text#subtitulo-post-blog2"
-    ]
-  },
-  "flex-layout.col#coluna-post-blog-3": {
-    "props": {
-      "blockClass": "colunas-post-blog"
-    },
-    "children": [
-      "image#img-post-blog3",
-      "rich-text#titulo-post-blog3",
-      "rich-text#subtitulo-post-blog3"
-    ]
-  },
-  // imagens blogs
-  "image#img-post-blog1": {
-    "props": {
-      "blockClass": "img-post-blog",
-      "src": "assets/home/blog/Briefing-8-Como-o-estresse-afeta-a-saude-bucal.webp",
-      "alt": "Imagem blog"
-    }
-  },
-  "image#img-post-blog2": {
-    "props": {
-      "blockClass": "img-post-blog",
-      "src": "assets/home/blog/Texto-7-Tipos-de-Esterilizacao.webp",
-      "alt": "Imagem blog"
-    }
-  },
-  "image#img-post-blog3": {
-    "props": {
-      "blockClass": "img-post-blog",
-      "src": "assets/home/blog/Texto-6-Autoclave-Ideal-para-mim.webp",
-      "alt": "Imagem blog"
-    }
-  },
-  // titulo post blogs
-  "rich-text#titulo-post-blog1": {
-    "props": {
-      "blockClass": "titulo-post-blog",
-      "text": "Como o estresse afeta a saúde bucal?"
-    }
-  },
-  "rich-text#titulo-post-blog2": {
-    "props": {
-      "blockClass": "titulo-post-blog",
-      "text": "Os quatro Principais tipos de Esterilização"
-    }
-  },
-  "rich-text#titulo-post-blog3": {
-    "props": {
-      "blockClass": "titulo-post-blog",
-      "text": "Qual a Autoclave ideal para mim?"
-    }
-  },
-  // subtitulo -previa -post blogs
-  "rich-text#subtitulo-post-blog1": {
-    "props": {
-      "blockClass": "subitiulo-post-blog",
-      "text": "Qual a relação entre estresse e saúde bucal?   O estresse tem uma forte relação com a saúde bucal, afetando-a de diversas maneiras, tanto diretas quanto indiretas. Quando o corpo está sob estresse, ele libera hormônios como o cortisol, que podem enfraquecer o sistema imunológico e contribuir para problemas bucais.  Para minimizar os impactos do […]"
-    }
-  },
-  "rich-text#subtitulo-post-blog2": {
-    "props": {
-      "blockClass": "subitiulo-post-blog",
-      "text": "Nesse artigo do Blog da Idealine, vamos explorar em profundidade a importância da esterilização, um processo crucial para garantir a segurança e a higiene em diversas indústrias, desde a área médica até a cosmética e a de alimentos. Entender a importância da esterilização é fundamental para assegurar a eliminação eficaz de micro-organismos potencialmente nocivos que […]"
-    }
-  },
-  "rich-text#subtitulo-post-blog3": {
-    "props": {
-      "blockClass": "subitiulo-post-blog",
-      "text": "Neste artigo, vamos abordar uma questão comum e crucial: como escolher a autoclave ideal? A compra de uma autoclave é uma decisão importante, seja para clínicas, salões de beleza, hospitais ou laboratórios, pois envolve a segurança e a eficiência dos processos de esterilização. Vamos explorar em detalhes os diferentes tipos de autoclave disponíveis no mercado, […]"
+      "title": "Blog Idealine",
+      "maxItems": 3,
+      "autoPlayMs": 4500
     }
   }
+
 }
