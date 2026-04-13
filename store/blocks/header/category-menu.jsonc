@@ -11,8 +11,8 @@
       "menu-item#mobiliario-tecnico",
       "menu-item#beleza-estetica",
       "menu-item#odontologia",
-      "menu-item#linha-veterinaria",
-      "menu-item#manuais",
+      // "menu-item#linha-veterinaria",
+      // "menu-item#manuais",
       "menu-item#dvm-desktop"
     ]
   },
@@ -33,14 +33,6 @@
     // "blocks": [
     //   "vtex.menu@2.x:submenu#categorias-ver-tudo"
     // ]
-  },
-  "vtex.menu@2.x:submenu#categorias-ver-tudo": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#categorias-ver-tudo"
-    ]
   },
   "vtex.menu@2.x:menu#categorias-ver-tudo": {
     "props": {
@@ -257,17 +249,6 @@
     //   "vtex.menu@2.x:submenu#categorias-beleza-estetica"
     // ]
   },
-  "vtex.menu@2.x:menu#categorias-beleza-estetica": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#submenuBelezaEstetica-autoclaves-home-care",
-      "menu-item#submenuBelezaEstetica-autoclaves-manicure",
-      "menu-item#submenuBelezaEstetica-autoclaves-podologia",
-      "menu-item#submenuBelezaEstetica-autoclaves-salao-beleza"
-    ]
-  },
   "menu-item#submenuBelezaEstetica-autoclaves-home-care": {
     "props": {
       "id": "menu-item-submenuBelezaEstetica",
@@ -346,14 +327,7 @@
     //   "vtex.menu@2.x:submenu#categorias-odontologia"
     // ]
   },
-  "vtex.menu@2.x:menu#categorias-odontologia": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#submenuOdontologia-autoclaves-odontologia"
-    ]
-  },
+
   "menu-item#submenuOdontologia-autoclaves-odontologia": {
     "props": {
       "id": "menu-item-submenuOdontologia",
@@ -369,32 +343,7 @@
       "blockClass": "menu-dropdown"
     }
   },
-  "menu-item#linha-veterinaria": {
-    "props": {
-      "id": "menu-principal",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/veterinaria",
-        "noFollow": false,
-        "tagTitle": "Linha Veterinária",
-        "text": "Linha Veterinária"
-      },
-      "blockClass": "menu-superior"
-    }
-    // "blocks": [
-    //   "vtex.menu@2.x:submenu#categorias-veterinaria"
-    // ]
-  },
-  "vtex.menu@2.x:menu#categorias-veterinaria": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#submenuVeterinaria-autoclaves-veterinaria"
-    ]
-  },
+
   "menu-item#submenuVeterinaria-autoclaves-veterinaria": {
     "props": {
       "id": "menu-item-submenuVeterinaria",
@@ -447,12 +396,6 @@
     // "blocks": [
     //   "vtex.menu@2.x:submenu#categorias-clinicas-hospitais"
     // ]
-  },
-  "vtex.menu@2.x:menu#categorias-clinicas-hospitais": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": []
   },
   "menu-item#idealclave-bellinha": {
     "props": {
@@ -559,9 +502,7 @@
       "menu-item#idealclave-bellinha-mobile",
       "menu-item#clinicas-hospitais-mobile",
       "menu-item#beleza-estetica-mobile",
-      "menu-item#odontologia-mobile",
-      "menu-item#linha-veterinaria-mobile",
-      "menu-item#manuais-mobile"
+      "menu-item#odontologia-mobile"
     ]
   },
   "menu-item#ver-tudo-mobile": {
@@ -581,15 +522,6 @@
     // "blocks": [
     //   "submenu.accordion#categorias-ver-tudo"
     // ]
-  },
-  "submenu.accordion#categorias-ver-tudo": {
-    "props": {
-      "width": "100%",
-      "blockClass": "ver-tudo-mobile"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#categorias-ver-tudo-mobile"
-    ]
   },
   "vtex.menu@2.x:menu#categorias-ver-tudo-mobile": {
     "children": [
@@ -641,11 +573,6 @@
     //   "submenu.accordion#categorias-beleza-estetica"
     // ]
   },
-  "vtex.menu@2.x:menu#categorias-beleza-estetica-mobile": {
-    "children": [
-      "flex-layout.col#beleza-estetica-mobile"
-    ]
-  },
   "flex-layout.col#beleza-estetica-mobile": {
     "children": [
       "menu-item#submenuBelezaEstetica-autoclaves-home-care",
@@ -672,39 +599,12 @@
     //   "submenu.accordion#categorias-odontologia"
     // ]
   },
-  "vtex.menu@2.x:menu#categorias-odontologia-mobile": {
-    "children": [
-      "flex-layout.col#odontologia-mobile"
-    ]
-  },
   "flex-layout.col#odontologia-mobile": {
     "children": [
       "menu-item#submenuOdontologia-autoclaves-odontologia"
     ]
   },
-  "menu-item#linha-veterinaria-mobile": {
-    "props": {
-      "id": "menu-principal-mobile",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/veterinaria",
-        "noFollow": false,
-        "tagTitle": "Linha Veterinária",
-        "text": "Linha Veterinária"
-      },
-      "blockClass": "menu-superior-mobile"
-    }
-    // "blocks": [
-    //   "submenu.accordion#categorias-veterinaria"
-    // ]
-  },
-  "vtex.menu@2.x:menu#categorias-veterinaria-mobile": {
-    "children": [
-      "flex-layout.col#veterinaria-mobile"
-    ]
-  },
+
   "flex-layout.col#veterinaria-mobile": {
     "children": [
       "menu-item#submenuVeterinaria-autoclaves-veterinaria"
@@ -725,21 +625,7 @@
       "blockClass": "menu-superior-mobile"
     }
   },
-  "menu-item#manuais-mobile": {
-    "props": {
-      "id": "menu-principal-mobile",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/ajuda/manuais-idealine",
-        "noFollow": false,
-        "tagTitle": "Manuais",
-        "text": "Manuais"
-      },
-      "blockClass": "menu-superior-mobile"
-    }
-  },
+
   "menu-item#idealclave-bellinha-mobile": {
     "props": {
       "id": "menu-principal-mobile",
@@ -772,11 +658,6 @@
     // "blocks": [
     //   "submenu.accordion#categorias-mobiliario-tecnico"
     // ]
-  },
-  "vtex.menu@2.x:menu##categorias-mobiliario-tecnico-mobile": {
-    "children": [
-      "flex-layout.col#mobiliario-tecnico-mobile"
-    ]
   },
   "flex-layout.col#mobiliario-tecnico-mobile": {
     "children": [
