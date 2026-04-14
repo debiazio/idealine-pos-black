@@ -35,7 +35,8 @@
       "flex-layout.row#linha-manuais-autoclaves-menores",
       "flex-layout.row#linha-manuais-autoclaves-maiores",
       "flex-layout.row#linha-manuais-autoclaves-novas",
-      "flex-layout.row#linha-manuais-quarta-linha"
+      "flex-layout.row#linha-manuais-quarta-linha",
+      "flex-layout.row#linha-manuais-quinta-linha"
     ],
     "title": "Manuais container"
   },
@@ -94,6 +95,18 @@
       "flex-layout.col#flex"
     ],
     "title": "Linha 4 dos manuais"
+  },
+  // COLUNAS DOS MANUAIS LINHA 4
+  "flex-layout.row#linha-manuais-quinta-linha": {
+    "props": {
+      "blockClass": "manuais-linhas",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#manual-plena42",
+      "flex-layout.col#coluna-ficha-tecnica-plena42"
+    ],
+    "title": "Linha 5 dos manuais"
   },
 
   // linha do BANNER DE BAIXO

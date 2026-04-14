@@ -1,0 +1,145 @@
+{
+  "flex-layout.col#manual-plena42": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-plena42",
+      "flex-layout.row#link-ler-manual-plena42",
+      "flex-layout.row#link-baixar-manual-plena42"
+    ],
+    "title": "Coluna manual plena42"
+  },
+  // SEÇÃO imagens
+  "flex-layout.row#imagem-manual-plena42": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#manual-plena42"
+    ],
+    "title": "Linha thumbnail manuais plena42"
+  },
+    // SEÇÃO DAS IMAGENS
+    "image#manual-plena42": {
+      "props": {
+        "blockClass": "manual-imagem",
+        "src": "assets/manuais/plena-thumb.webp",
+        "alt": "Imagem de capa do manual"
+      },
+      "title": "Linha plena42"
+    },
+     // seção LINHA DOS links "ler manual"
+  "flex-layout.row#link-ler-manual-plena42": {
+    "props": {
+      "blockClass": "mnuais-colunas"
+    },
+    "children": [
+      "link#ler-manual-plena42"
+    ],
+    "title": "Linha Ler manual plena42"
+  },
+  // SEÇÃO DOS LINKS LER MANUAL
+  "link#ler-manual-plena42": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER MANUAL",
+      "href": "https://stermax.com.br/images_idealine/manuais/MANUAL%20PLENA%2042.pdf",
+      "target": "_blank"
+    },
+    "title": "Link ler manual plena42"
+  },
+  // SEÇÃO linhas DOS LINKS DOWNLOAD
+  "flex-layout.row#link-baixar-manual-plena42": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-plena42"
+    ],
+    "title": "Linha botao baixar manual plena42"
+  },
+  // SEÇÃO DOS LINKS PARA BAIXAR
+  "flex-layout.row#baixar-manual-plena42": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-plena42"
+    ],
+    "title": "Link baixar manuais - Flex"
+  },
+    // COLUNA FICHA TECNICA - IDEALCLAVE plena42
+    "flex-layout.col#coluna-ficha-tecnica-plena42": {
+      "props": {
+        "blockClass": "manuais-colunas",
+        "preventVerticalStretch": true
+      },
+      "children": [
+        "flex-layout.row#imagem-ficha-tecnica-plena42",
+        "flex-layout.row#link-ler-ficha-tecnica-plena42",
+        "flex-layout.row#link-baixar-ficha-tecnica-plena42"
+      ],
+      "title": "Coluna ficha técnica plena42"
+    },
+      // LINHA IMAGEM FICHA TÉCNICA plena42
+  "flex-layout.row#imagem-ficha-tecnica-plena42": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#ficha-tecnica-plena42"
+    ],
+    "title": "Linha imagem ficha tecnica plena42"
+  },
+    // IMAGE FICHA TÉCNICA plena42
+    "image#ficha-tecnica-plena42": {
+      "props": {
+        "blockClass": "manual-imagem",
+        "src": "assets/manuais/thumb-plena-ft.webp",
+        "alt": "plena42"
+      },
+      "title": "plena42 ficha ténica"
+    },
+      // LINHA LER FICHA TECNICA plena42
+  "flex-layout.row#link-ler-ficha-tecnica-plena42": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-ficha-tecnica-plena42"
+    ],
+    "title": "Linha ler ficha técnica plena42"
+  },
+  // LINK LER FICHA TECNICA plena42
+  "link#ler-ficha-tecnica-plena42": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER FICHA TÉCNICA",
+      "target": "_blank",
+      "href": "https://stermax.com.br/images_idealine/manuais/FT.PLENA%2042.pdf"
+    },
+    "title": "Link ler manual plena42"
+  },
+  // LINHA BOTAO DOWNLOAD FICHA TECNICA plena42
+  "flex-layout.row#link-baixar-ficha-tecnica-plena42": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-ficha-tecnica-plena42"
+    ],
+    "title": "Linha botao baixar ficha técnica plena42"
+  },
+  // LINHA BOTAO BAIXAR FICHA TECNICA plena42
+  "flex-layout.row#baixar-ficha-tecnica-plena42": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-plena42-ft"
+    ],
+    "title": "Link baixar ficha técnica plena42"
+  }
+}
