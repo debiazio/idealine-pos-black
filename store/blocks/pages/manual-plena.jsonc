@@ -97,7 +97,7 @@
     "image#ficha-tecnica-plena42": {
       "props": {
         "blockClass": "manual-imagem",
-        "src": "assets/manuais/thumb-plena-ft.webp",
+        "src": "assets/manuais/CAPAS-ft-PLENA.webp",
         "alt": "plena42"
       },
       "title": "plena42 ficha ténica"
