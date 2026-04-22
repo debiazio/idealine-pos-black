@@ -780,6 +780,7 @@
   width: 70px;
   padding: 30px 15px;
   cursor: grab;
+  z-index: 1;
 }
 
 /* setas ocultas no desktop  */

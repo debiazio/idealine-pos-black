@@ -31,7 +31,12 @@
       "condition-layout.product#fundo-dinamico",
       "condition-layout.product#visualizador3d-sweet-silver",
       "condition-layout.product#visualizador3d-sweet-pink",
-      "condition-layout.product#visualizador3d-sweet-black"
+      // "condition-layout.product#visualizador3d-sweet-black",
+      "condition-layout.product#visualizador3d-rose-gold",
+      "condition-layout.product#visualizador3d-rosa",
+      "condition-layout.product#visualizador3d-perola",
+      "condition-layout.product#visualizador3d-sweet-black",
+      "condition-layout.product#visualizador3d-dr-marcelo"
       // "condition-layout.product#availability"
     ]
   },
@@ -41,7 +46,12 @@
       "condition-layout.product#mobile-fundo-dinamico",
       "condition-layout.product#visualizador3d-sweet-silver",
       "condition-layout.product#visualizador3d-sweet-pink",
-      "condition-layout.product#visualizador3d-sweet-black"
+      // "condition-layout.product#visualizador3d-sweet-black",
+      "condition-layout.product#visualizador3d-rose-gold",
+      "condition-layout.product#visualizador3d-rosa",
+      "condition-layout.product#visualizador3d-perola",
+      "condition-layout.product#visualizador3d-sweet-black",
+      "condition-layout.product#visualizador3d-dr-marcelo"
       // "condition-layout.product#mobile-availability"
     ]
   },
@@ -1014,7 +1024,7 @@
     },
     "children": [
       "image#icone360",
-      "vr-bellinha-rosa"
+      "vr-sweet-pink"
     ]
   },
   "image#icone360": {
@@ -1024,36 +1034,165 @@
       "alt": "Ícone 360°"
     }
   },
-  //CONDITIONAL DO VR sweet black
+
+  //CONDITIONAL DO VR ROSE GOLD
+  "condition-layout.product#visualizador3d-rose-gold": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2796" //ROSE GOLD
+          }
+        }
+      ],
+      "Then": "flex-layout.row#visualizador-360-rose-gold" //visualizador 3d bellinha perola
+    }
+  },
+  "flex-layout.row#visualizador-360-rose-gold": {
+    "props": {
+      "blockClass": "conteiner-360"
+    },
+    "children": [
+      "flex-layout.row#linha360textos",
+      "flex-layout.row#linha360imgs-rose-gold"
+    ]
+  },
+  "flex-layout.row#linha360imgs-rose-gold": {
+    "props": {
+      "blockClass": "linha360imgs"
+    },
+    "children": [
+      "image#icone360",
+      "vr-rose-gold"
+    ]
+  },
+  //CONDITIONAL DO VR ROSA
+  "condition-layout.product#visualizador3d-rosa": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2795" //ROSA
+          }
+        }
+      ],
+      "Then": "flex-layout.row#visualizador-360-rosa" //visualizador 3d bellinha perola
+    }
+  },
+  "flex-layout.row#visualizador-360-rosa": {
+    "props": {
+      "blockClass": "conteiner-360"
+    },
+    "children": [
+      "flex-layout.row#linha360textos",
+      "flex-layout.row#linha360imgs-rosa"
+    ]
+  },
+  "flex-layout.row#linha360imgs-rosa": {
+    "props": {
+      "blockClass": "linha360imgs"
+    },
+    "children": [
+      "image#icone360",
+      "vr-rosa"
+    ]
+  },
+  //CONDITIONAL DO VR PEROLA
+  "condition-layout.product#visualizador3d-perola": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2797" //PEROLA
+          }
+        }
+      ],
+      "Then": "flex-layout.row#visualizador-360-perola" //visualizador 3d bellinha perola
+    }
+  },
+  "flex-layout.row#visualizador-360-perola": {
+    "props": {
+      "blockClass": "conteiner-360"
+    },
+    "children": [
+      "flex-layout.row#linha360textos",
+      "flex-layout.row#linha360imgs-perola"
+    ]
+  },
+  "flex-layout.row#linha360imgs-perola": {
+    "props": {
+      "blockClass": "linha360imgs"
+    },
+    "children": [
+      "image#icone360",
+      "vr-perola"
+    ]
+  },
+  //CONDITIONAL DO VR DR MARCELO
+  "condition-layout.product#visualizador3d-dr-marcelo": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2798" //DR MARCELO
+          }
+        }
+      ],
+      "Then": "flex-layout.row#visualizador-360-dr-marcelo" //visualizador 3d bellinha perola
+    }
+  },
+  "flex-layout.row#visualizador-360-dr-marcelo": {
+    "props": {
+      "blockClass": "conteiner-360"
+    },
+    "children": [
+      "flex-layout.row#linha360textos",
+      "flex-layout.row#linha360imgs-dr-marcelo"
+    ]
+  },
+  "flex-layout.row#linha360imgs-dr-marcelo": {
+    "props": {
+      "blockClass": "linha360imgs"
+    },
+    "children": [
+      "image#icone360",
+      "vr-dr-marcelo"
+    ]
+  },
+  //CONDITIONAL DO VR SWEET BLACK
   "condition-layout.product#visualizador3d-sweet-black": {
     "props": {
       "conditions": [
         {
           "subject": "productId",
           "arguments": {
-            "id": "2948" //sweet black
+            "id": "2948" //SWEET BLACK
           }
         }
       ],
-      "Then": "flex-layout.row#visualizador-360-black" //visualizador 3d bellinha perola
+      "Then": "flex-layout.row#visualizador-360-sweet-black" //visualizador 3d bellinha perola
     }
   },
-  "flex-layout.row#visualizador-360-black": {
+  "flex-layout.row#visualizador-360-sweet-black": {
     "props": {
       "blockClass": "conteiner-360"
     },
     "children": [
       "flex-layout.row#linha360textos",
-      "flex-layout.row#linha360imgs-sweetblack"
+      "flex-layout.row#linha360imgs-sweet-black"
     ]
   },
-  "flex-layout.row#linha360imgs-sweetblack": {
+  "flex-layout.row#linha360imgs-sweet-black": {
     "props": {
       "blockClass": "linha360imgs"
     },
     "children": [
       "image#icone360",
-      "vr-bellinha-black"
+      "vr-sweet-black"
     ]
   },
   //CONDITIONAL DO VR sweet silver
@@ -1109,7 +1248,7 @@
     },
     "children": [
       "image#icone360",
-      "vr-sweet-black"
+      "vr-sweet-silver"
     ]
   },
   // rosa-gold 5l condicional
