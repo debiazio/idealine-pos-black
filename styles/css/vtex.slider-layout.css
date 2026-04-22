@@ -57,6 +57,11 @@
 .imageElementLink--carousel {
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+.imageElement--carousel{
+  height: 100%;
 }
 
 .sliderTrack--carousel {
