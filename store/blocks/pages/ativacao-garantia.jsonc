@@ -95,7 +95,7 @@
       "blockClass": "linha-app-custom-ativacao"
     },
     "children": [
-      // "app-ativa-garantia"
+      "app-ativa-garantia"
     ]
   }
 }
