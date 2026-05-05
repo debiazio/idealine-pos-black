@@ -211,10 +211,10 @@
   "image#postagem2-coluna3-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/abril/rose-gold.webp",
+      "src": "assets/instagram-home/postagens/abril/video-ballinha.webp",
       "alt": "Postagem Instagram ",
       "link": {
-        "url": "https://www.instagram.com/p/DWG8ehOjcT7/",
+        "url": "https://www.instagram.com/p/DWEf6kiiVix/",
         "openNewTab": true
       }
     }
