@@ -2450,8 +2450,8 @@
       "slider-layout#idealine-indica"
     ],
     "props": {
-      "category": "28",
-      "orderBy": "OrderByPriceDESC"
+      "collection": "228",
+      "orderBy": "OrderByReleaseDateDESC"
     }
   },
   "slider-layout#idealine-indica": {
