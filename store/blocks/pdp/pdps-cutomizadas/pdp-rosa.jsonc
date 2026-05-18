@@ -1,0 +1,33 @@
+{
+  "condition-layout.product#visualizador3d-rosa": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2795"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#visualizador-360-rosa"
+    }
+  },
+  "flex-layout.row#visualizador-360-rosa": {
+    "props": {
+      "blockClass": "conteiner-360"
+    },
+    "children": [
+      "flex-layout.row#linha360textos",
+      "flex-layout.row#linha360imgs-rosa"
+    ]
+  },
+  "flex-layout.row#linha360imgs-rosa": {
+    "props": {
+      "blockClass": "linha360imgs"
+    },
+    "children": [
+      "image#icone360",
+      "vr-rosa"
+    ]
+  }
+}

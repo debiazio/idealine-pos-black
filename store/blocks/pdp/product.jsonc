@@ -31,13 +31,11 @@
       "condition-layout.product#fundo-dinamico",
       "condition-layout.product#visualizador3d-sweet-silver",
       "condition-layout.product#visualizador3d-sweet-pink",
-      // "condition-layout.product#visualizador3d-sweet-black",
       "condition-layout.product#visualizador3d-rose-gold",
       "condition-layout.product#visualizador3d-rosa",
       "condition-layout.product#visualizador3d-perola",
       "condition-layout.product#visualizador3d-sweet-black",
       "condition-layout.product#visualizador3d-dr-marcelo"
-      // "condition-layout.product#availability"
     ]
   },
   // LAYOUT MOBILE
@@ -46,13 +44,11 @@
       "condition-layout.product#mobile-fundo-dinamico",
       "condition-layout.product#visualizador3d-sweet-silver",
       "condition-layout.product#visualizador3d-sweet-pink",
-      // "condition-layout.product#visualizador3d-sweet-black",
       "condition-layout.product#visualizador3d-rose-gold",
       "condition-layout.product#visualizador3d-rosa",
       "condition-layout.product#visualizador3d-perola",
       "condition-layout.product#visualizador3d-sweet-black",
       "condition-layout.product#visualizador3d-dr-marcelo"
-      // "condition-layout.product#mobile-availability"
     ]
   },
   "condition-layout.product#mobile-fundo-dinamico": {
@@ -583,195 +579,7 @@
       "blockClass": "titulo-cores"
     }
   },
-  // SELETOR DE PRODUTOS PDP
-  "flex-layout.row#product-din-selector-produtos": {
-    "props": {
-      "blockClass": "product-selecor-prod-din",
-      "fullWidth": true,
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "link.product#bellinha-rosa",
-      "link.product#bellinha-rose-gold",
-      "link.product#bellinha-perola",
-      "link.product#bellinha-sweet-pink",
-      "link.product#bellinha-sweet-black",
-      "link.product#bellinha-glowin",
-      "link.product#marcelo-brito",
-      "link.product#sweet-silver",
-      "appalterafundo"
-    ]
-  },
-  "link.product#bellinha-rosa": {
-    "props": {
-      "blockClass": [
-        "label-botao",
-        "link-bell-rosa"
-      ],
-      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-rosa/p"
-    },
-    "children": [
-      "image#rosa-miniatura"
-    ]
-  },
-  "image#rosa-miniatura": {
-    "props": {
-      "blockClass": [
-        "miniaturas",
-        "rosa-miniatura"
-      ],
-      "src": "assets/nova-pdp/miniaturas/rosa-miniatura.png"
-    }
-  },
-  "link.product#bellinha-rose-gold": {
-    "props": {
-      "blockClass": [
-        "label-botao",
-        "link-bell-rose-gold"
-      ],
-      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-rose-gold/p"
-    },
-    "children": [
-      "image#rose-gold-miniatura"
-    ]
-  },
-  "image#rose-gold-miniatura": {
-    "props": {
-      "blockClass": [
-        "miniaturas",
-        "rose-gold-miniatura"
-      ],
-      "src": "assets/nova-pdp/miniaturas/rose-gold-miniatura.png"
-    }
-  },
-  "link.product#bellinha-perola": {
-    "props": {
-      "blockClass": [
-        "label-botao",
-        "link-bell-perola"
-      ],
-      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-perola/p"
-    },
-    "children": [
-      "image#perola-miniatura"
-    ]
-  },
-  "image#perola-miniatura": {
-    "props": {
-      "blockClass": [
-        "miniaturas",
-        "perola-miniatura"
-      ],
-      "src": "assets/nova-pdp/miniaturas/perola-miniatura.png"
-    }
-  },
-  "link.product#bellinha-sweet-pink": {
-    "props": {
-      "blockClass": [
-        "label-botao",
-        "link-sweet-pink"
-      ],
-      "href": "/autoclave-bellinha-5l-sweet-pink/p"
-    },
-    "children": [
-      "image#sweet-pink-miniatura"
-    ]
-  },
-  "image#sweet-pink-miniatura": {
-    "props": {
-      "blockClass": [
-        "miniaturas",
-        "pink-miniatura"
-      ],
-      "src": "assets/nova-pdp/miniaturas/sweet-pink-miniatura.svg"
-    }
-  },
-  "link.product#bellinha-sweet-black": {
-    "props": {
-      "blockClass": [
-        "label-botao",
-        "link-sweet-black"
-      ],
-      "href": "/autoclave-bellinha-5l-sweet-black/p"
-    },
-    "children": [
-      "image#sweet-black-miniatura"
-    ]
-  },
-  "image#sweet-black-miniatura": {
-    "props": {
-      "blockClass": [
-        "miniaturas",
-        "black-miniatura"
-      ],
-      "src": "assets/nova-pdp/miniaturas/sweet-black-miniatura.svg"
-    }
-  },
-  "link.product#bellinha-glowin": {
-    "props": {
-      "blockClass": [
-        "label-botao",
-        "link-glowin"
-      ],
-      "href": "/autoclave-bellinha-5-litros-tecnologia-dvm-idealovers-glowin/p"
-    },
-    "children": [
-      "image#glowin-miniatura"
-    ]
-  },
-  "image#glowin-miniatura": {
-    "props": {
-      "blockClass": [
-        "miniaturas",
-        "glowin-miniatura"
-      ],
-      "src": "assets/nova-pdp/miniaturas/glowin-miniatura.svg"
-    }
-  },
-  // bolinha com o link
-  "link.product#marcelo-brito": {
-    "props": {
-      "blockClass": [
-        "label-botao",
-        "link-marcelo-brito"
-      ],
-      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p"
-    },
-    "children": [
-      "image#marcelo-brito"
-    ]
-  },
-  "image#marcelo-brito": {
-    "props": {
-      "blockClass": [
-        "miniaturas",
-        "marcelo-brito-miniatura"
-      ],
-      "src": "assets/nova-pdp/miniaturas/marcelo-brito-miniatura.svg"
-    }
-  },
-  // bolinha com o link
-  "link.product#sweet-silver": {
-    "props": {
-      "blockClass": [
-        "label-botao",
-        "link-sweet-silver"
-      ],
-      "href": "/Autoclave-Idealclave-Bellinha-5-litros-com-tecnologia-DVM-sweet-silver/p"
-    },
-    "children": [
-      "image#sweet-silver"
-    ]
-  },
-  "image#sweet-silver": {
-    "props": {
-      "blockClass": [
-        "miniaturas",
-        "sweet-silver-miniatura"
-      ],
-      "src": "assets/nova-pdp/miniaturas/sweet-silver-miniatura.svg"
-    }
-  },
+
   // TEXTO POS PDP
   "flex-layout.row#texto-pos-pdp": {
     "props": {
@@ -833,8 +641,6 @@
       // "sku-selector", -- apagar
       // "flex-layout.row#mobile-quantidade-cep", -- apagar
       "flex-layout.row#vantagens-pgto-a-vista",
-      "condition-layout.product#rosa-gold",
-      "condition-layout.product#rosa-gold-padrao2",
       "condition-layout.product#rose-gold-laBelle-8l",
       "condition-layout.product#rose-gold-labelle-8l-padrao2",
       "condition-layout.product#rose-gold-idealclave-8l",
@@ -888,8 +694,6 @@
       // "sku-selector", -- apagar
       // "flex-layout.row#mobile-quantidade-cep", -- apagar
       "flex-layout.row#vantagens-pgto-a-vista",
-      "condition-layout.product#rosa-gold",
-      "condition-layout.product#rosa-gold-padrao2",
       "condition-layout.product#rose-gold-laBelle-8l",
       "condition-layout.product#rose-gold-labelle-8l-padrao2",
       "condition-layout.product#rose-gold-idealclave-8l",
@@ -966,10 +770,6 @@
   "flex-layout.col#product-left-col": {
     "children": [
       "stack-layout",
-      // "condition-layout.product#visualizador3d-sweet-pink",
-      // "condition-layout.product#visualizador3d-sweet-black",
-      "condition-layout.product#rosa-gold",
-      "condition-layout.product#rosa-gold-padrao2",
       "condition-layout.product#rose-gold-laBelle-8l",
       "condition-layout.product#rose-gold-labelle-8l-padrao2",
       "condition-layout.product#rose-gold-idealclave-8l",
@@ -995,333 +795,8 @@
       "width": "60%"
     }
   },
-  //CONDITIONAL DO VR sweet pink
-  "condition-layout.product#visualizador3d-sweet-pink": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2945" //sweet pink
-          }
-        }
-      ],
-      "Then": "flex-layout.row#visualizador-360" //visualizador 3d bellinha perola
-    }
-  },
-  "flex-layout.row#visualizador-360": {
-    "props": {
-      "blockClass": "conteiner-360"
-    },
-    "children": [
-      "flex-layout.row#linha360textos",
-      "flex-layout.row#linha360imgs-sweetpink"
-    ]
-  },
-  "flex-layout.row#linha360imgs-sweetpink": {
-    "props": {
-      "blockClass": "linha360imgs"
-    },
-    "children": [
-      "image#icone360",
-      "vr-sweet-pink"
-    ]
-  },
-  "image#icone360": {
-    "props": {
-      "blockClass": "icone360",
-      "src": "assets/360-degrees.svg",
-      "alt": "Ícone 360°"
-    }
-  },
 
-  //CONDITIONAL DO VR ROSE GOLD
-  "condition-layout.product#visualizador3d-rose-gold": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2796" //ROSE GOLD
-          }
-        }
-      ],
-      "Then": "flex-layout.row#visualizador-360-rose-gold" //visualizador 3d bellinha perola
-    }
-  },
-  "flex-layout.row#visualizador-360-rose-gold": {
-    "props": {
-      "blockClass": "conteiner-360"
-    },
-    "children": [
-      "flex-layout.row#linha360textos",
-      "flex-layout.row#linha360imgs-rose-gold"
-    ]
-  },
-  "flex-layout.row#linha360imgs-rose-gold": {
-    "props": {
-      "blockClass": "linha360imgs"
-    },
-    "children": [
-      "image#icone360",
-      "vr-rose-gold"
-    ]
-  },
-  //CONDITIONAL DO VR ROSA
-  "condition-layout.product#visualizador3d-rosa": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2795" //ROSA
-          }
-        }
-      ],
-      "Then": "flex-layout.row#visualizador-360-rosa" //visualizador 3d bellinha perola
-    }
-  },
-  "flex-layout.row#visualizador-360-rosa": {
-    "props": {
-      "blockClass": "conteiner-360"
-    },
-    "children": [
-      "flex-layout.row#linha360textos",
-      "flex-layout.row#linha360imgs-rosa"
-    ]
-  },
-  "flex-layout.row#linha360imgs-rosa": {
-    "props": {
-      "blockClass": "linha360imgs"
-    },
-    "children": [
-      "image#icone360",
-      "vr-rosa"
-    ]
-  },
-  //CONDITIONAL DO VR PEROLA
-  "condition-layout.product#visualizador3d-perola": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2797" //PEROLA
-          }
-        }
-      ],
-      "Then": "flex-layout.row#visualizador-360-perola" //visualizador 3d bellinha perola
-    }
-  },
-  "flex-layout.row#visualizador-360-perola": {
-    "props": {
-      "blockClass": "conteiner-360"
-    },
-    "children": [
-      "flex-layout.row#linha360textos",
-      "flex-layout.row#linha360imgs-perola"
-    ]
-  },
-  "flex-layout.row#linha360imgs-perola": {
-    "props": {
-      "blockClass": "linha360imgs"
-    },
-    "children": [
-      "image#icone360",
-      "vr-perola"
-    ]
-  },
-  //CONDITIONAL DO VR DR MARCELO
-  "condition-layout.product#visualizador3d-dr-marcelo": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2798" //DR MARCELO
-          }
-        }
-      ],
-      "Then": "flex-layout.row#visualizador-360-dr-marcelo" //visualizador 3d bellinha perola
-    }
-  },
-  "flex-layout.row#visualizador-360-dr-marcelo": {
-    "props": {
-      "blockClass": "conteiner-360"
-    },
-    "children": [
-      "flex-layout.row#linha360textos",
-      "flex-layout.row#linha360imgs-dr-marcelo"
-    ]
-  },
-  "flex-layout.row#linha360imgs-dr-marcelo": {
-    "props": {
-      "blockClass": "linha360imgs"
-    },
-    "children": [
-      "image#icone360",
-      "vr-dr-marcelo"
-    ]
-  },
-  //CONDITIONAL DO VR SWEET BLACK
-  "condition-layout.product#visualizador3d-sweet-black": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2948" //SWEET BLACK
-          }
-        }
-      ],
-      "Then": "flex-layout.row#visualizador-360-sweet-black" //visualizador 3d bellinha perola
-    }
-  },
-  "flex-layout.row#visualizador-360-sweet-black": {
-    "props": {
-      "blockClass": "conteiner-360"
-    },
-    "children": [
-      "flex-layout.row#linha360textos",
-      "flex-layout.row#linha360imgs-sweet-black"
-    ]
-  },
-  "flex-layout.row#linha360imgs-sweet-black": {
-    "props": {
-      "blockClass": "linha360imgs"
-    },
-    "children": [
-      "image#icone360",
-      "vr-sweet-black"
-    ]
-  },
-  //CONDITIONAL DO VR sweet silver
-  "condition-layout.product#visualizador3d-sweet-silver": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2974" //sweet silver
-          }
-        }
-      ],
-      "Then": "flex-layout.row#visualizador-360-sweet-silver" //visualizador 3d sweet silver
-    }
-  },
-  "flex-layout.row#visualizador-360-sweet-silver": {
-    "props": {
-      "blockClass": "conteiner-360",
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.row#linha360textos",
-      "flex-layout.row#linha360imgs"
-    ]
-  },
-  // linha do texto
-  "flex-layout.row#linha360textos": {
-    "props": {
-      "blockClass": "linha360textos"
-    },
-    "children": [
-      "rich-text#titulo-textos360",
-      "rich-text#instrucoes-textos360"
-    ]
-  },
-  "rich-text#titulo-textos360": {
-    "props": {
-      "blockClass": "titulo-3d",
-      "text": "### Visualizador 3D"
-    }
-  },
-  "rich-text#instrucoes-textos360": {
-    "props": {
-      "blockClass": "textos-3d",
-      "text": "Clique sobre a imagem e arraste para ver todos os ângulos da sua autoclave"
-    }
-  },
-  // imagens do visualizador
-  "flex-layout.row#linha360imgs": {
-    "props": {
-      "blockClass": "linha360imgs"
-    },
-    "children": [
-      "image#icone360",
-      "vr-sweet-silver"
-    ]
-  },
-  // rosa-gold 5l condicional
-  "condition-layout.product#rosa-gold": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "8L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "5L"
-          }
-        }
-      ],
-      "matchType": "any",
-      "Then": "flex-layout.row#custom-pdp-layout-rosa-gold"
-    }
-  },
-  // rosa-gold 5l condicional padrao 2
-  "condition-layout.product#rosa-gold-padrao2": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Cor",
-            "value": "Rose Gold"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "5L"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#custom-pdp-layout-rosa-gold"
-    }
-  },
-  "flex-layout.row#custom-pdp-layout-rosa-gold": {
-    "props": {
-      "blockClass": "conteiner-pai--imagens-extras"
-    },
-    "children": [
-      "flex-layout.col#fotos-rosa-gold"
-    ],
-    "title": "Fotos Rose Gold 5l"
-  },
-  "flex-layout.col#fotos-rosa-gold": {
-    "props": {
-      "blockClass": "imagens-extras"
-    },
-    "children": [
-      // "video#rose-gold-5l",
-      // "image#rosa-gold-1",
-      // "image#rosa-gold-2",
-      // "image#rosa-gold-3",
-      // "image#rosa-gold-4",
-      // "image#rosa-gold-5",
-      // "image#rosa-gold-6",
-      // "image#rosa-gold-7",
-      // "image#rosa-gold-8",
-      // "image#rosa-gold-9"
-    ]
-  },
+
   // ideaclave rose gold 8 litros
   "condition-layout.product#rose-gold-laBelle-8l": {
     "props": {

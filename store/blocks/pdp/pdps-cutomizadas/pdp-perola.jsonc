@@ -1,0 +1,33 @@
+{
+  "condition-layout.product#visualizador3d-perola": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2797" //PEROLA
+          }
+        }
+      ],
+      "Then": "flex-layout.row#visualizador-360-perola"
+    }
+  },
+  "flex-layout.row#visualizador-360-perola": {
+    "props": {
+      "blockClass": "conteiner-360"
+    },
+    "children": [
+      "flex-layout.row#linha360textos",
+      "flex-layout.row#linha360imgs-perola"
+    ]
+  },
+  "flex-layout.row#linha360imgs-perola": {
+    "props": {
+      "blockClass": "linha360imgs"
+    },
+    "children": [
+      "image#icone360",
+      "vr-perola"
+    ]
+  }
+}

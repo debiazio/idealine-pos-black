@@ -1,0 +1,174 @@
+{
+  // SELETOR DE PRODUTOS PDP
+  "flex-layout.row#product-din-selector-produtos": {
+    "props": {
+      "blockClass": "product-selecor-prod-din",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "link.product#bellinha-rosa",
+      "link.product#bellinha-rose-gold",
+      "link.product#bellinha-perola",
+      "link.product#bellinha-sweet-pink",
+      "link.product#bellinha-sweet-black",
+      "link.product#marcelo-brito",
+      "link.product#sweet-silver",
+      "appalterafundo"
+    ]
+  },
+  // bolinha rosa
+  "link.product#bellinha-rosa": {
+    "props": {
+      "blockClass": [
+        "label-botao",
+        "link-bell-rosa"
+      ],
+      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-rosa/p"
+    },
+    "children": [
+      "image#rosa-miniatura"
+    ]
+  },
+  "image#rosa-miniatura": {
+    "props": {
+      "blockClass": [
+        "miniaturas",
+        "rosa-miniatura"
+      ],
+      "src": "assets/nova-pdp/miniaturas/rosa-miniatura.png"
+    }
+  },
+  // bolinha rose gold
+  "link.product#bellinha-rose-gold": {
+    "props": {
+      "blockClass": [
+        "label-botao",
+        "link-bell-rose-gold"
+      ],
+      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-rose-gold/p"
+    },
+    "children": [
+      "image#rose-gold-miniatura"
+    ]
+  },
+  "image#rose-gold-miniatura": {
+    "props": {
+      "blockClass": [
+        "miniaturas",
+        "rose-gold-miniatura"
+      ],
+      "src": "assets/nova-pdp/miniaturas/rose-gold-miniatura.png"
+    }
+  },
+  // bolinha perola
+  "link.product#bellinha-perola": {
+    "props": {
+      "blockClass": [
+        "label-botao",
+        "link-bell-perola"
+      ],
+      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-perola/p"
+    },
+    "children": [
+      "image#perola-miniatura"
+    ]
+  },
+  "image#perola-miniatura": {
+    "props": {
+      "blockClass": [
+        "miniaturas",
+        "perola-miniatura"
+      ],
+      "src": "assets/nova-pdp/miniaturas/perola-miniatura.png"
+    }
+  },
+  // bollinha sweet pink
+  "link.product#bellinha-sweet-pink": {
+    "props": {
+      "blockClass": [
+        "label-botao",
+        "link-sweet-pink"
+      ],
+      "href": "/autoclave-bellinha-5l-sweet-pink/p"
+    },
+    "children": [
+      "image#sweet-pink-miniatura"
+    ]
+  },
+  "image#sweet-pink-miniatura": {
+    "props": {
+      "blockClass": [
+        "miniaturas",
+        "pink-miniatura"
+      ],
+      "src": "assets/nova-pdp/miniaturas/sweet-pink-miniatura.svg"
+    }
+  },
+  // bolinha link sweet black
+  "link.product#bellinha-sweet-black": {
+    "props": {
+      "blockClass": [
+        "label-botao",
+        "link-sweet-black"
+      ],
+      "href": "/autoclave-bellinha-5l-sweet-black/p"
+    },
+    "children": [
+      "image#sweet-black-miniatura"
+    ]
+  },
+  "image#sweet-black-miniatura": {
+    "props": {
+      "blockClass": [
+        "miniaturas",
+        "black-miniatura"
+      ],
+      "src": "assets/nova-pdp/miniaturas/sweet-black-miniatura.svg"
+    }
+  },
+  // bolinha com o link
+  "link.product#marcelo-brito": {
+    "props": {
+      "blockClass": [
+        "label-botao",
+        "link-marcelo-brito"
+      ],
+      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p"
+    },
+    "children": [
+      "image#marcelo-brito"
+    ]
+  },
+  "image#marcelo-brito": {
+    "props": {
+      "blockClass": [
+        "miniaturas",
+        "marcelo-brito-miniatura"
+      ],
+      "src": "assets/nova-pdp/miniaturas/marcelo-brito-miniatura.svg"
+    }
+  },
+  // bolinha silver
+  "link.product#sweet-silver": {
+    "props": {
+      "blockClass": [
+        "label-botao",
+        "link-sweet-silver"
+      ],
+      "href": "/Autoclave-Idealclave-Bellinha-5-litros-com-tecnologia-DVM-sweet-silver/p"
+    },
+    "children": [
+      "image#sweet-silver"
+    ]
+  },
+  "image#sweet-silver": {
+    "props": {
+      "blockClass": [
+        "miniaturas",
+        "sweet-silver-miniatura"
+      ],
+      "src": "assets/nova-pdp/miniaturas/sweet-silver-miniatura.svg"
+    }
+  }
+}

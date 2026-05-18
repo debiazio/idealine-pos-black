@@ -1,0 +1,44 @@
+{
+  "condition-layout.product#visualizador3d-sweet-silver": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2974" //sweet silver
+          }
+        }
+      ],
+      "Then": "flex-layout.row#visualizador-360-sweet-silver" 
+    }
+  },
+  "flex-layout.row#visualizador-360-sweet-silver": {
+    "props": {
+      "blockClass": "conteiner-360",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha360textos",
+      "flex-layout.row#linha360imgs"
+    ]
+  },
+  // linha do texto
+  "flex-layout.row#linha360textos": {
+    "props": {
+      "blockClass": "linha360textos"
+    },
+    "children": [
+      "rich-text#titulo-textos360",
+      "rich-text#instrucoes-textos360"
+    ]
+  },
+  "flex-layout.row#linha360imgs": {
+    "props": {
+      "blockClass": "linha360imgs"
+    },
+    "children": [
+      "image#icone360",
+      "vr-sweet-silver"
+    ]
+  }
+}

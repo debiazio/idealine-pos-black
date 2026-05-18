@@ -1,0 +1,34 @@
+{
+  //CONDITIONAL DO VR SWEET BLACK
+  "condition-layout.product#visualizador3d-sweet-black": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2948" 
+          }
+        }
+      ],
+      "Then": "flex-layout.row#visualizador-360-sweet-black"
+    }
+  },
+  "flex-layout.row#visualizador-360-sweet-black": {
+    "props": {
+      "blockClass": "conteiner-360"
+    },
+    "children": [
+      "flex-layout.row#linha360textos",
+      "flex-layout.row#linha360imgs-sweet-black"
+    ]
+  },
+  "flex-layout.row#linha360imgs-sweet-black": {
+    "props": {
+      "blockClass": "linha360imgs"
+    },
+    "children": [
+      "image#icone360",
+      "vr-sweet-black"
+    ]
+  }
+}

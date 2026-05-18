@@ -1,0 +1,14 @@
+{
+  "rich-text#titulo-textos360": {
+    "props": {
+      "blockClass": "titulo-3d",
+      "text": "### Visualizador 3D"
+    }
+  },
+  "rich-text#instrucoes-textos360": {
+    "props": {
+      "blockClass": "textos-3d",
+      "text": "Clique sobre a imagem e arraste para ver todos os ângulos da sua autoclave"
+    }
+  }
+}
