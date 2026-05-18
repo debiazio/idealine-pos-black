@@ -14,6 +14,7 @@
       "link.product#bellinha-sweet-black",
       "link.product#marcelo-brito",
       "link.product#sweet-silver",
+      // "link.product#lilac",
       "appalterafundo"
     ]
   },
@@ -169,6 +170,28 @@
         "sweet-silver-miniatura"
       ],
       "src": "assets/nova-pdp/miniaturas/sweet-silver-miniatura.svg"
+    }
+  },
+  // bolinha lilac
+  "link.product#lilac": {
+    "props": {
+      "blockClass": [
+        "label-botao",
+        "link-lilac"
+      ],
+      "href": "/Autoclave-Idealclave-Bellinha-5-litros-com-tecnologia-DVM-lilac/p"
+    },
+    "children": [
+      "image#lilac"
+    ]
+  },
+  "image#lilac": {
+    "props": {
+      "blockClass": [
+        "miniaturas",
+        "lilac-miniatura"
+      ],
+      "src": "assets/nova-pdp/miniaturas/teste-bolinha-menor.png"
     }
   }
 }
