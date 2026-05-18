@@ -59,7 +59,8 @@
   "minicart-checkout-button": {
     "props": {
       // "finishShoppingButtonLink": "/checkout/#/cart"
-      "finishShoppingButtonLink": "/precheckout"
+      // "finishShoppingButtonLink": "/precheckout" //removido em 18/05/2026 á pedido do Andrei
+      "finishShoppingButtonLink": "/checkout/#/payment"
     }
   },
   "checkout-summary.compact#minicart": {
