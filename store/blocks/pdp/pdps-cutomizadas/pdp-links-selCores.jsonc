@@ -12,9 +12,9 @@
       "link.product#bellinha-perola",
       "link.product#bellinha-sweet-pink",
       "link.product#bellinha-sweet-black",
-      "link.product#marcelo-brito",
+      // "link.product#marcelo-brito",
       "link.product#sweet-silver",
-      // "link.product#lilac",
+      "link.product#lilac",
       "appalterafundo"
     ]
   },
@@ -25,7 +25,8 @@
         "label-botao",
         "link-bell-rosa"
       ],
-      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-rosa/p"
+      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-rosa/p/",
+      "rel": "_blank"
     },
     "children": [
       "image#rosa-miniatura"
@@ -47,7 +48,7 @@
         "label-botao",
         "link-bell-rose-gold"
       ],
-      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-rose-gold/p"
+      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-rose-gold/p/"
     },
     "children": [
       "image#rose-gold-miniatura"
@@ -69,7 +70,7 @@
         "label-botao",
         "link-bell-perola"
       ],
-      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-perola/p"
+      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-perola/p/"
     },
     "children": [
       "image#perola-miniatura"
@@ -135,7 +136,7 @@
         "label-botao",
         "link-marcelo-brito"
       ],
-      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p"
+      "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p/"
     },
     "children": [
       "image#marcelo-brito"
@@ -157,7 +158,7 @@
         "label-botao",
         "link-sweet-silver"
       ],
-      "href": "/Autoclave-Idealclave-Bellinha-5-litros-com-tecnologia-DVM-sweet-silver/p"
+      "href": "/Autoclave-Idealclave-Bellinha-5-litros-com-tecnologia-DVM-sweet-silver/p/"
     },
     "children": [
       "image#sweet-silver"
@@ -179,7 +180,7 @@
         "label-botao",
         "link-lilac"
       ],
-      "href": "/Autoclave-Idealclave-Bellinha-5-litros-com-tecnologia-DVM-lilac/p"
+      "href": "/#/"
     },
     "children": [
       "image#lilac"
@@ -191,7 +192,9 @@
         "miniaturas",
         "lilac-miniatura"
       ],
-      "src": "assets/nova-pdp/miniaturas/teste-bolinha-menor.png"
+      "src": "assets/nova-pdp/miniaturas/bolinha-lilac.webp",
+      "alt": "Selector Lilac",
+      "title": "Selector Lilac"
     }
   }
 }

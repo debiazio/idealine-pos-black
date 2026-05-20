@@ -271,7 +271,7 @@
   max-height: unset !important;
   border-radius: 15px;
   margin-bottom: 80px;
-  margin-left: 1px;
+  padding-left: 1px;
   object-fit: none;
 }
 
@@ -279,9 +279,11 @@
   border-radius: 12px;
 }
 
-.productImagesGallerySlide--product-image-dinamic:first-child {
+/* oculta a primeira imagem do carrossel */
+/* .productImagesGallerySlide--product-image-dinamic:first-child {
   visibility: hidden;
-}
+} */
+
 
 .productImagesGallerySlide--product-image-dinamic {
   margin: 0
@@ -927,7 +929,7 @@
 
   .productImageTag {
     max-height: unset !important;
-
+    padding-left: 0;
     margin-bottom: 0;
     margin-left: 0;
   }

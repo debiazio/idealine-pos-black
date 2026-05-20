@@ -35,6 +35,7 @@
       "condition-layout.product#visualizador3d-rosa",
       "condition-layout.product#visualizador3d-perola",
       "condition-layout.product#visualizador3d-sweet-black",
+      // "condition-layout.product#visualizador3d-lilac",
       "condition-layout.product#visualizador3d-dr-marcelo"
     ]
   },
@@ -48,6 +49,7 @@
       "condition-layout.product#visualizador3d-rosa",
       "condition-layout.product#visualizador3d-perola",
       "condition-layout.product#visualizador3d-sweet-black",
+      // "condition-layout.product#visualizador3d-lilac",
       "condition-layout.product#visualizador3d-dr-marcelo"
     ]
   },
@@ -155,6 +157,12 @@
           "subject": "productId",
           "arguments": {
             "id": "2951" //kit sweet pink
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2928" //lilac - 2928 é um código provisorio para teste
           }
         }
       ],
@@ -287,12 +295,6 @@
         {
           "subject": "productId",
           "arguments": {
-            "id": "2951" //kit sweet pink
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
             "id": "2798" // marcelo brito
           }
         },
@@ -308,6 +310,12 @@
             "id": "2974" // sweet silver
           }
         }
+        // {
+        //   "subject": "productId",
+        //   "arguments": {
+        //     "id": "2827" // lilac - 2827 é um código provisorio para teste
+        //   }
+        // }
       ],
       "matchType": "any",
       "Then": "flex-layout.row#secao-background-product",
@@ -579,7 +587,6 @@
       "blockClass": "titulo-cores"
     }
   },
-
   // TEXTO POS PDP
   "flex-layout.row#texto-pos-pdp": {
     "props": {
@@ -795,8 +802,6 @@
       "width": "60%"
     }
   },
-
-
   // ideaclave rose gold 8 litros
   "condition-layout.product#rose-gold-laBelle-8l": {
     "props": {
@@ -1615,12 +1620,12 @@
             "id": "2829"
           }
         },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2827"
-          }
-        },
+        // {
+        //   "subject": "productId",
+        //   "arguments": {
+        //     "id": "2827"
+        //   }
+        // },
         {
           "subject": "productId",
           "arguments": {
