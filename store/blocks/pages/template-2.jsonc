@@ -27,7 +27,7 @@
   },
   "rich-text#titulo-template-copy": {
     "props": {
-      "text": "Título template",
+      "text": "# Título template #",
       "blockClass": "titulo-template"
     },
     "title": "Título template"

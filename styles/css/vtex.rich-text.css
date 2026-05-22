@@ -203,22 +203,33 @@
 }
 
 .container--sub-mobile-deals {
-  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 6vh;
   max-width: 280px;
 }
 
 .paragraph--sub-mobile-deals {
   font-family: "montserrat-regular";
   color: var(--fonte-cor-normal);
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .paragraph--deals {
-  font-family: "montserrat-bold";
+  font-family: "montserrat-bold", sans-serif;
   color: var(--fonte-cor-normal);
   font-size: 12px;
-  margin: 19px 0;
+  margin: 10px 0;
+}
+
+.paragraph--deals:hover {
+  color: #3d3d3d;
+  transition: all 0.3s ease;
 }
 
 .wrapper--texto-pos-pdp {
