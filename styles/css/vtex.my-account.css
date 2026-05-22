@@ -121,13 +121,13 @@ input:-webkit-autofill {
 }
 
 
-/* oculta a segunda imagem do carrossel */
-:global(.vtex-store-components-3-x-productImagesGallerySlide--product-image-dinamic):nth-child(2) {
+/* oculta a primeira imagem do carrossel */
+:global(.vtex-store-components-3-x-productImagesGallerySlide--product-image-dinamic):first-child {
   visibility: hidden;
 }
 
-/* oculta a segunda imagem do carrossel */
-.productImagesGallerySlide--product-image-dinamic:nth-child(2) {
+/* oculta a primeira imagem do carrossel */
+.productImagesGallerySlide--product-image-dinamic:first-child {
   visibility: hidden;
 }
 
