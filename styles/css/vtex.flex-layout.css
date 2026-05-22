@@ -1434,6 +1434,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRow--related-products {
+    padding: unset;
+  }
+  
   .flexRow--mobile-deals{
     height: 100%;
   }

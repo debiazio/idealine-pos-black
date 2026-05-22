@@ -1937,7 +1937,7 @@
   "slider-layout#idealine-indica": {
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
+        "desktop": 4,
         "tablet": 3,
         "phone": 2
       },
