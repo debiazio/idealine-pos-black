@@ -1434,6 +1434,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRow--mobile-deals{
+    height: 100%;
+  }
+
   .flexRowContent--linha-economia {
     padding: 0 34px;
   }
@@ -1619,6 +1623,7 @@
   }
 
   .flexRowContent--mobile-deals {
+    height: 100px;
     display: flex;
     flex-direction: row;
   }
@@ -2236,6 +2241,7 @@
   }
 
   .flexRow--deals {
+    padding: 20px 10px;
     height: 200px;
   }
 
