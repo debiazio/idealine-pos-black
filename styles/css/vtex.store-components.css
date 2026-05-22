@@ -90,6 +90,7 @@
 
 .image--hover {
   z-index: 99 !important;
+  border-radius: 20px;
 }
 
 .imageElement--imgs-pgto-icons {

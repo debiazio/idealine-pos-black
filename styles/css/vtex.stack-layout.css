@@ -23,14 +23,12 @@
 }
 
 .stackItem--sacola-icone {
-  top: 85%;
+  top: 65%;
   bottom: 0;
   width: 100%;
+  padding-right: 10px;
   display: flex;
   justify-content: flex-end;
-}
-
-.stackItem--sacola-icone {
   position: absolute;
   z-index: 99!important;
 }

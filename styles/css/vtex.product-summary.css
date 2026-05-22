@@ -4,6 +4,12 @@
 
   .hoverImage {
     z-index: 99;
+    border-radius: 9px;
+  }
+
+  .image--hover {
+    z-index: 99 !important;
+    border-radius: 9px;
   }
 
   .productNameContainer {
@@ -40,11 +46,11 @@
   }
 
   :global(.vtex-product-summary-2-x-imageNormal) {
-    border-radius: 20px;
+    border-radius: 9px;
 
   }
 
-  .imageNormal {
+  /* .imageNormal {
     background-color: transparent;
     width: 100% !important;
     height: 100% !important;
@@ -52,9 +58,9 @@
     max-width: unset;
     max-height: unset;
 
-  }
+  } */
 
-    .nameContainer {
+  .nameContainer {
     padding: 10px;
   }
 
@@ -79,16 +85,18 @@
 
 
   .imageContainer {
+    width: 100%;
     text-align: center;
+    top: -45px;
+    border-radius: 20px;
   }
 
   .image {
-    border-radius: 0.25rem;
-    width: 400px;
-    height: 100%;
-    object-fit: contain;
-    max-width: unset;
-    max-height: unset;
+    /* width: 400px;
+    height: 100%; */
+    object-fit: unset!important;
+    /* max-width: unset;
+    max-height: unset; */
   }
 
   /* teste */

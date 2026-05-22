@@ -82,7 +82,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "never",
+      "showNavigationArrows": "always",
       "blockClass": "carousel",
       "autoplay": {
         "timeout": 8000,
@@ -164,7 +164,7 @@
       },
       "infinite": true,
       "blockClass": "shelf",
-      "showNavigationArrows": "never"
+      "showNavigationArrows": "always"
     }
   },
   // SESSÃO DESKTOP - IMAGENS COMO USAR
@@ -313,7 +313,7 @@
       "infinite": true,
       "fullWidth": true,
       "blockClass": "shelf",
-      "showNavigationArrows": "never"
+      "showNavigationArrows": "always"
     }
   },
   "flex-layout.row#shelf2": {
@@ -350,7 +350,7 @@
       },
       "infinite": true,
       "blockClass": "shelf",
-      "showNavigationArrows": "never"
+      "showNavigationArrows": "always"
     }
   },
   "flex-layout.row#shelf3": {
@@ -388,7 +388,7 @@
       "infinite": true,
       "fullWidth": true,
       "blockClass": "shelf",
-      "showNavigationArrows": "never"
+      "showNavigationArrows": "always"
     }
   },
   // BLOGO

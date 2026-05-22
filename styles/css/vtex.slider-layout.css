@@ -36,11 +36,11 @@
 
 
 .sliderTrack--shelf {
-  gap: 20px;
+  gap: 30px;
 }
 
 .sliderTrackContainer--shelf {
-  padding: 20px 0 68px 0;
+  padding: 20px 30px 68px 30px;
 }
 
 .sliderLayoutContainer {
