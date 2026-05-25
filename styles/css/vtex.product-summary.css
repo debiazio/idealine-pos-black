@@ -21,12 +21,13 @@
     /* padding: 15px !important; */
     margin: 0;
     padding-bottom: 0;
+    max-width: unset !important;
 
   }
 
   .containerNormal {
-    width: 100% !important;
-    max-width: unset !important;
+    /* width: 100% !important;
+    max-width: unset !important; */
     box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: #fffafe;
   }
@@ -50,15 +51,11 @@
 
   }
 
-  /* .imageNormal {
-    background-color: transparent;
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: contain;
-    max-width: unset;
+  .imageNormal {
+
     max-height: unset;
 
-  } */
+  }
 
   .nameContainer {
     padding: 10px;
@@ -91,13 +88,6 @@
     border-radius: 20px;
   }
 
-  .image {
-    /* width: 400px;
-    height: 100%; */
-    object-fit: unset!important;
-    /* max-width: unset;
-    max-height: unset; */
-  }
 
   /* teste */
 
