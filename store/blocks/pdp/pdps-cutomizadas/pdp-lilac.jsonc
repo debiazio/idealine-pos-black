@@ -6,10 +6,17 @@
         {
           "subject": "productId",
           "arguments": {
-            "id": "2827" // id de teste provisorio
+            "id": "2980" //lilac - unitário
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2979" //lilac - kit
           }
         }
       ],
+      "matchType": "any",
       "Then": "flex-layout.row#visualizador-360-lilac"
     }
   },
@@ -31,7 +38,5 @@
       "vr-lilac"
     ]
   },
-  "vr-lilac": {
-
-  }
+  "vr-lilac": {}
 }
