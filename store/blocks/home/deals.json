@@ -90,13 +90,13 @@
   },
   "rich-text#parcelas": {
     "props": {
-      "text": "**PARCELE\n EM ATÉ 10X**",
+      "text": "**PARCELE\n EM ATÉ 6X**",
       "blockClass": "deals"
     }
   },
   "rich-text#subtitulo-parcelas":{
     "props": {
-      "text": "Com a gente você pode parcelar em ate 10x sem juros no cartão de crédito",
+      "text": "Com a gente você pode parcelar em ate 6x sem juros no cartão de crédito",
       "blockClass": "sub-mobile-deals"
     }
   },
