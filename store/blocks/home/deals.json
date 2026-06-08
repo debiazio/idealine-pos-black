@@ -79,7 +79,7 @@
     "children": [
       "image#parcelas",
       "rich-text#parcelas",
-      "rich-text#subtitulo-parcelas"
+      "rich-text#subtitulo-parcelas-6x"
     ]
   },
   "image#parcelas": {
@@ -94,7 +94,7 @@
       "blockClass": "deals"
     }
   },
-  "rich-text#subtitulo-parcelas":{
+  "rich-text#subtitulo-parcelas-6x":{
     "props": {
       "text": "Com a gente você pode parcelar em ate 6x sem juros no cartão de crédito",
       "blockClass": "sub-mobile-deals"
