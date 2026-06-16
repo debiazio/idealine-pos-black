@@ -6,8 +6,8 @@
       "product-summary-name", //nome
       "flex-layout.col#productRating", //avaliações
       // "product-summary-space",
-      "flex-layout.row#linha-prateleira",
-      "showifcollection"
+      "flex-layout.row#linha-prateleira"
+      // "showifcollection" // desativado a pedido da Renata
     ]
   },
   "condition-layout.product#selo-promocao-dia-consumidor":{
