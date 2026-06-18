@@ -582,7 +582,7 @@
   "product-installments#prod-din": {
     "props": {
       "blockClass": "prod-din-preco-parcelado",
-      "message": "ou até {installmentsNumber}x de {installmentValue} sem juros no cartão",
+      "message": "ou até {installmentsNumber}x de {installmentValue} sem juros",
       "installmentsCriteria": "max-quantity"
     }
   },

@@ -1,13 +1,13 @@
 {
   "product-summary.shelf": {
     "children": [
-// "condition-layout.product#selo-promocao-dia-consumidor", //para lembrar que isso pode ser feito
+      // "condition-layout.product#selo-promocao-dia-consumidor", //para lembrar que isso pode ser feito
+      "showifcollection",
       "stack-layout#prodsum",
       "product-summary-name", //nome
       "flex-layout.col#productRating", //avaliações
       // "product-summary-space",
-      "flex-layout.row#linha-prateleira",
-      "showifcollection"
+      "flex-layout.row#linha-prateleira"
     ]
   },
   "condition-layout.product#selo-promocao-dia-consumidor":{
@@ -36,8 +36,8 @@
       "blockClass": "linha-prateleira-duas-colunas"
     },
     "children": [
-      "flex-layout.col#coluna1-parcelamento",
-      "flex-layout.col#coluna2-parcelamento"
+      "flex-layout.col#coluna1-parcelamento"
+      // "flex-layout.col#coluna2-parcelamento"
     ]
   },
   "flex-layout.col#coluna1-parcelamento": {
@@ -45,13 +45,37 @@
       "blockClass": "coluna-parcelamento"
     },
     "children": [
-      "product-installments#summary", // parcelamento
-      "product-installments#summary-segunda-linha",
-      // "bundle",
       "product-list-price#summary", //preco de: quanto custava
-      "product-selling-price" //preço por
+      "product-selling-price", //preço
+      "rich-text#pixouavista",
+      "flex-layout.row#linhaparcelas-texto-sem-juros"
+
+      // "product-installments#summary-segunda-linha"
+      // "bundle",
       // "product-spot-price-savings"//removido para teste gif
     ]
+  },
+  "flex-layout.row#linhaparcelas-texto-sem-juros":{
+    "props": {
+      "blockClass": "linhaparcelas-texto-sem-juros",
+      "colSizing": "auto"
+    },
+    "children": [
+      "product-installments#summary-teste", // parcelamento
+      "rich-text#texto-semjuros"
+    ]
+  },
+  "rich-text#texto-semjuros":{
+    "props": {
+      "blockClass": "textosemjuros",
+      "text": "SEM JUROS"
+    }
+  },
+  "rich-text#pixouavista":{
+    "props": {
+      "blockClass": "nopixouavista",
+      "text": "No pix ou à vista"
+    }
   },
   "flex-layout.col#coluna2-parcelamento": {
     "props": {
@@ -138,7 +162,7 @@
   "product-list-price#summary": {
     "props": {
       "blockClass": "summary",
-      "message": "de { listPriceValue}"
+      "message": "{ listPriceValue}"
     }
   },
   "product-spot-price-savings": {
@@ -148,10 +172,10 @@
       // "message": "OU {newSpotPriceValue} À VISTA  NO BOLETO (3% DE DESCONTO)"
     }
   },
-  "product-installments#summary": {
+  "product-installments#summary-teste": {
     "props": {
       "blockClass": "summary",
-      "message": "{hasMoreThanOne, select, true { {installmentsNumber}x de {installmentValue} sem juros no cartão}  false { }}"
+      "message": "{hasMoreThanOne, select, true { ou {installmentsNumber}x de {installmentValue}}  false { }}"
     }
   },
   "product-installments#summary-segunda-linha": {

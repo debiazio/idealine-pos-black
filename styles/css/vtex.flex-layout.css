@@ -1,3 +1,11 @@
+.flexRowContent--linhaparcelas-texto-sem-juros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+
 .flexColChild--coluna-deal {
   display: flex;
   flex-direction: column;
@@ -1437,8 +1445,8 @@
   .flexRow--related-products {
     padding: unset;
   }
-  
-  .flexRow--mobile-deals{
+
+  .flexRow--mobile-deals {
     height: 100%;
   }
 
@@ -1980,12 +1988,15 @@
   align-items: center;
 }
 
+
+
 .flexRowContent--linha-prateleira-duas-colunas .stretchChildrenWidth :global(.vtex-product-price-1-x-installments--summary) {
   width: 100% !important;
-  color: var(--rosa-installments);
+  /* color: var(--rosa-installments); */
   font-family: "inter-bold";
-  font-size: 22px;
+  font-size: 20px;
 }
+
 
 .flexRowContent--linha-prateleira-duas-colunas .stretchChildrenWidth :global(.vtex-product-price-1-x-savings--desconto) {
   width: 40% !important;
@@ -2112,6 +2123,13 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--linhaparcelas-texto-sem-juros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
   .flexRowContent--linha360textos {
     margin: 20px 0;
   }
@@ -2250,7 +2268,7 @@
   }
 
   .flexRowContent--linha-prateleira-duas-colunas .stretchChildrenWidth :global(.vtex-product-price-1-x-installments--summary) {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .flexCol--insta-col-3 {

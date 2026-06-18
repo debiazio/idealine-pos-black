@@ -197,7 +197,7 @@
     },
     "children": [
       "product-selling-price#summary",
-      "product-installments#summary"
+      "product-installments#summary-teste"
     ]
   },
   "vtex.store-components:product-brand#summaryListMobile": {
