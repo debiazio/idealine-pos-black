@@ -45,8 +45,9 @@
       "blockClass": "coluna-parcelamento"
     },
     "children": [
-      "product-list-price#summary", //preco de: quanto custava
-      "product-selling-price", //preço
+      "product-list-price#summary", //preco de: quanto custav
+      // "product-selling-price", //preço padrão //removido para aplicar o custom dos 10%
+      "aplicapromo",
       "rich-text#pixouavista",
       "flex-layout.row#linhaparcelas-texto-sem-juros"
 

@@ -59,7 +59,7 @@
   "minicart-checkout-button": {
     "props": {
       // "finishShoppingButtonLink": "/checkout/#/cart"
-      "finishShoppingButtonLink": "/precheckout" 
+      "finishShoppingButtonLink": "/precheckout"
       // "finishShoppingButtonLink": "/checkout/#/payment"
     }
   },

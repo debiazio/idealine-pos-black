@@ -557,7 +557,8 @@
       "fullWidth": true
     },
     "children": [
-      "product-selling-price#prod-din",
+      // "product-selling-price#prod-din",
+      "aplicapromo",
       // "product-spot-price-savings#prod-din", //preco a vista com desconto
       "condition-layout.product#disponivel-novo-texto-preco-a-vista"
     ]
