@@ -557,8 +557,8 @@
       "fullWidth": true
     },
     "children": [
-      // "product-selling-price#prod-din",
-      "aplicapromo",
+      "product-selling-price#prod-din",
+      // "aplicapromo",
       // "product-spot-price-savings#prod-din", //preco a vista com desconto
       "condition-layout.product#disponivel-novo-texto-preco-a-vista"
     ]
@@ -1384,8 +1384,8 @@
       "flex-layout.row#add-to-list-btn",
       "product-rating-summary", // avaliações
       "flex-layout.row#list-price-savings", // preco sem desconto, riscado
-      "aplicapromo",
-      // "flex-layout.row#selling-price", // preco a vista
+      // "aplicapromo",
+      "flex-layout.row#selling-price", // preco a vista
       "product-installments", // preco parcelas
       "product-spot-price-savings",
       "sku-selector",

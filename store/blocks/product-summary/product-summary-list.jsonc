@@ -123,8 +123,8 @@
   },
   "flex-layout.col#priceSummaryListDesktop": {
     "children": [
-      // "product-selling-price#summary",
-      "aplicapromo",
+      "product-selling-price#summary",
+      // "aplicapromo",
       "product-list-price#summary"
     ]
   },
@@ -197,8 +197,8 @@
       "preventVerticalStretch": true
     },
     "children": [
-      // "product-selling-price#summary",
-      "aplicapromo",
+      "product-selling-price#summary",
+      // "aplicapromo",
       "product-installments#summary-teste"
     ]
   },
