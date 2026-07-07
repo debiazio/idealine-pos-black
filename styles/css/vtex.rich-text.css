@@ -1,3 +1,7 @@
+.headingLevel3--titulo-template{
+  padding: 0 20px;
+}
+
 .paragraph--nopixouavista {
   color: var(--fonte-cor-normal);
   margin: 0;

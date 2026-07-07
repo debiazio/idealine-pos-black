@@ -1,11 +1,12 @@
-.galleryItem--normal{
-  max-width: 40%!important;
+.galleryItem--normal {
+  max-width: 50% !important;
+  min-width: 30%;
 }
 
 .filter,
 .orderByButton,
 .orderByText,
-.filterPopupTitle  {
+.filterPopupTitle {
   font-family: "Rubik", sans-serif;
 }
 
