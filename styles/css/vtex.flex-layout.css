@@ -888,7 +888,7 @@
 }
 
 .flexRow--footer-merchant-desktop {
-  background-color: #474747;
+  background-color: #FEBBCE;
 }
 
 /* .flexRow--credits {
@@ -900,13 +900,13 @@
 } */
 
 .flexRow--linha-formaspgto-logo-compreCom {
-  background: #474747;
+  background: #FEBBCE;
   padding: 30px 200px;
 }
 
 .flexRow--footer-2-desktop {
-  border-top: 14px solid #FEBBCE;
-  background: #474747;
+  /* border-top: 14px solid #FEBBCE; */
+  background: #FEBBCE;
   padding: 30px 200px;
 }
 
