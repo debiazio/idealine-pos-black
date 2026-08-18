@@ -1,4 +1,4 @@
-.headingLevel3--titulo-template{
+.headingLevel3--titulo-template {
   padding: 0 20px;
 }
 
@@ -713,6 +713,26 @@
 
 .container--texto-obrigatorio-modal {
   display: none;
+}
+
+@media only screen and (max-width: 1465px) {
+  .paragraph--nopixouavista {
+    font-size: 14px;
+  }
+
+  .paragraph--textosemjuros {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .paragraph--nopixouavista {
+    font-size: 12px;
+  }
+
+  .paragraph--textosemjuros {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {

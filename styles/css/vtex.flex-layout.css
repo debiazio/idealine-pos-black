@@ -1442,6 +1442,16 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .filterPopupButton {
+    padding: 0 40px;
+  }
+
+  .flexRowContent--template-copy-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .flexRow--related-products {
     padding: unset;
   }
@@ -2120,6 +2130,19 @@
 .flexRowContent--linha-coracao-mobile-maior,
 .flexRowContent--linha-coracao-mobile-menor {
   display: none;
+}
+
+
+
+@media screen and (max-width: 1465px) {
+    .flexRowContent--linha-prateleira-duas-colunas .stretchChildrenWidth :global(.vtex-product-price-1-x-installments--summary) {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1200px) {
+    .flexRowContent--linha-prateleira-duas-colunas .stretchChildrenWidth :global(.vtex-product-price-1-x-installments--summary) {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 1024px) {

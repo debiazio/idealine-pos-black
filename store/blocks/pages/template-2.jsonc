@@ -2,9 +2,10 @@
   "store.custom#template-categoria-2": {
     "blocks": [
       "flex-layout.row#template-copy-linha-1",
-      "flex-layout.row#template-copy-linha-2"
+      "search-result-layout.customQuery#template-copy-cat"
     ]
   },
+
   "flex-layout.row#template-copy-linha-1": {
     "props": {
       "blockClass": "template-copy-line",
@@ -17,7 +18,8 @@
     ],
     "title": "Linha 1 - template-copy"
   },
-  "image#banner-template-copy":{
+
+  "image#banner-template-copy": {
     "props": {
       "blockClass": "banner-template",
       "src": "assets/banner_menu_idealine_beleza_e_estetica.webp",
@@ -25,6 +27,7 @@
     },
     "title": "Banner template"
   },
+
   "rich-text#titulo-template-copy": {
     "props": {
       "text": "# Título template #",
@@ -32,42 +35,66 @@
     },
     "title": "Título template"
   },
-  "flex-layout.row#template-copy-linha-2": {
-    "props": {
-      "blockClass": "template-copy-linha-2"
-    },
-    "children": [
-      "search-result-layout.customQuery#template-copy-cat"
-    ]
-  },
+
   "search-result-layout.customQuery#template-copy-cat": {
     "props": {
       "querySchema": {
+        "queryField": "208",
+        "mapField": "productClusterIds",
         "orderByField": "OrderByTopSaleDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 12,
-        "queryField": "208",
-        "mapField": "productClusterIds"
+        "maxItemsPerPage": 12
       }
     },
     "blocks": [
-      "search-result-layout.desktop#template-copy"
+      "search-result-layout.desktop#template-copy",
+      "search-result-layout.mobile#template-copy",
+      "search-not-found-layout#template-copy"
     ]
   },
+
   "search-result-layout.desktop#template-copy": {
     "children": [
-      // "breadcrumb.search",
-      // "search-title.v2",
       "order-by.v2",
-      "flex-layout.row#results#template-copy-cat"
+      "flex-layout.row#results-template-copy-cat"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "defaultGalleryLayout": "grid"
+    }
+  },
+
+  "search-result-layout.mobile#template-copy": {
+    "children": [
+      "order-by.v2",
+      "flex-layout.row#results-template-copy-cat"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "defaultGalleryLayout": "grid"
+    }
+  },
+
+  "search-not-found-layout#template-copy": {
+    "children": [
+      "not-found"
     ]
   },
-  "flex-layout.row#results#template-copy-cat": {
+
+  "flex-layout.row#results-template-copy-cat": {
+    "props": {
+      "blockClass": "template-copy-results",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
     "children": [
       "flex-layout.col#filter-template-copy",
       "flex-layout.col#search-template-copy"
     ]
   },
+
   "flex-layout.col#filter-template-copy": {
     "props": {
       "width": "20%"
@@ -76,18 +103,25 @@
       "filter-navigator.v3"
     ]
   },
+
   "flex-layout.col#search-template-copy": {
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true
+    },
     "children": [
-      "search-content"
+      "search-content#template-copy"
     ]
   },
-  "search-content": {
+
+  "search-content#template-copy": {
     "blocks": [
-      "gallery",
+      "gallery#template-copy",
       "not-found"
     ]
   },
-  "gallery": {
+
+  "gallery#template-copy": {
     "blocks": [
       "product-summary.shelf"
     ]

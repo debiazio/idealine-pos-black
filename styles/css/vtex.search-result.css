@@ -1,6 +1,25 @@
+.container--layout {
+  padding: 0 67px;
+}
+
+.filters--layout {
+  width: max-content;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
 .galleryItem--normal {
-  max-width: 50% !important;
+  flex-basis: 30% !important;
+  max-width: unset !important;
   min-width: 30%;
+}
+
+.galleryTitle--layout {
+  padding: 0 50px;
+  text-transform: capitalize;
 }
 
 .filter,
@@ -70,6 +89,8 @@
 }
 
 .gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   padding-left: 10px !important;
 }
 
@@ -107,4 +128,21 @@
 
 .searchNotFoundOops {
   display: none !important;
+}
+
+@media screen and (max-width: 660px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .container--layout {
+    padding: 0 37px;
+  }
+
+}
+
+@media screen and (max-width: 460px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
 }
