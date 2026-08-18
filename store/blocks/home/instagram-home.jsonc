@@ -156,10 +156,10 @@
   "image#postagem1-coluna1-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/junho/mulher-indo.webp",
+      "src": "assets/instagram-home/postagens/agosto/ela-sempre-esteve-aqui.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
-        "url": "https://www.instagram.com/p/DZP6lBfOFLE/",
+        "url": "https://www.instagram.com/p/DcCHlJOPlUy/",
         "openNewTab": true
       }
     }
@@ -167,10 +167,10 @@
   "image#postagem2-coluna1-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/junho/combina.webp",
+      "src": "assets/instagram-home/postagens/agosto/popup-beauty.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
-        "url": "https://www.instagram.com/p/DZNRceMAL3w/",
+        "url": "https://www.instagram.com/p/DbvgSHqOvfk/",
         "openNewTab": true
       }
     }
@@ -178,10 +178,10 @@
   "image#postagem1-coluna2-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/junho/pantone.webp",
+      "src": "assets/instagram-home/postagens/agosto/espaco-beauty.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
-        "url": "https://www.instagram.com/p/DZI_KARp2QE/",
+        "url": "https://www.instagram.com/p/DbtB-LZgJAB/?img_index=1",
         "openNewTab": true
       }
     }
@@ -189,10 +189,10 @@
   "image#postagem2-coluna2-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/junho/delicada-na-cor.webp",
+      "src": "assets/instagram-home/postagens/agosto/brinde-beauty.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
-        "url": "https://www.instagram.com/p/DZGZMlWOoRQ/",
+        "url": "https://www.instagram.com/p/Dboe29EP7Fw/",
         "openNewTab": true
       }
     }
@@ -200,10 +200,10 @@
   "image#postagem1-coluna3-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/junho/agradecimento-feira.webp",
+      "src": "assets/instagram-home/postagens/agosto/unha.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
-        "url": "https://www.instagram.com/p/DZFhfvCgL6i/",
+        "url": "https://www.instagram.com/p/Dbnz13GxbI9/",
         "openNewTab": true
       }
     }
@@ -211,10 +211,10 @@
   "image#postagem2-coluna3-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/junho/nao-desista-dos-sonhos.webp",
+      "src": "assets/instagram-home/postagens/agosto/exp-beauty.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
-        "url": "https://www.instagram.com/p/DZDrNm9PJKo/",
+        "url": "https://www.instagram.com/p/DblK5rKABBt/",
         "openNewTab": true
       }
     }
