@@ -1,5 +1,7 @@
 .headingLevel3--titulo-template {
-  padding: 0 20px;
+  padding: 10px 20px;
+  margin: 0;
+  text-align: center;
 }
 
 .paragraph--nopixouavista {

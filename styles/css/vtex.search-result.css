@@ -130,6 +130,10 @@
   display: none !important;
 }
 
+  .orderByDropdown{
+    margin-left: auto;
+  }
+
 @media screen and (max-width: 660px) {
   .gallery {
     grid-template-columns: 1fr 1fr;
@@ -144,5 +148,15 @@
 @media screen and (max-width: 460px) {
   .gallery {
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .orderByDropdown{
+    margin-left: unset;
+  }
+  .filterPopupButton {
+    margin: 0 16px;
+    padding: 0;
+    height: unset;
   }
 }
