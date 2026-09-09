@@ -130,9 +130,9 @@
   display: none !important;
 }
 
-  .orderByDropdown{
-    margin-left: auto;
-  }
+.orderByDropdown {
+  margin-left: auto;
+}
 
 @media screen and (max-width: 660px) {
   .gallery {
@@ -140,20 +140,26 @@
   }
 
   .container--layout {
-    padding: 0 37px;
+    padding: 0 12px;
   }
 
 }
 
 @media screen and (max-width: 460px) {
   .gallery {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
+
 @media screen and (max-width: 1024px) {
-  .orderByDropdown{
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .orderByDropdown {
     margin-left: unset;
   }
+
   .filterPopupButton {
     margin: 0 16px;
     padding: 0;

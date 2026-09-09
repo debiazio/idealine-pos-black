@@ -1265,7 +1265,7 @@
 }
 
 .flexRowContent--footer-mobile-principal {
-  background-color: black;
+  background-color: #febbce;
   color: white;
   padding: 30px;
 }
@@ -2243,7 +2243,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 15px;
+    /* padding: 0 15px; */
   }
 
   .flexCol--coluna-parcelamento {
