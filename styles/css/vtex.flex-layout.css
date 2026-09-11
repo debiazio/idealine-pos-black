@@ -1,3 +1,15 @@
+.flexRow--linha-filtro-orderby-mobile {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexRowContent--linha-filtro-orderby-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 13px; 
+}
+
 .flexRowContent--linhaparcelas-texto-sem-juros {
   display: flex;
   justify-content: flex-start;
