@@ -98,7 +98,7 @@
     "image#ficha-tecnica-vida-30-42-60-75l": {
       "props": {
         "blockClass": "manual-imagem",
-        "src": "assets/fichas-tecnicas/CAPAS FT_VIDA 30 A 75L.webp",
+        "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/403585c9-3bc3-48b4-b1d9-a65bb75fee21___5b0b07017d7062e4d624b37e91fd0386.webp",
         "alt": "Linha Vida 30l, 42l, 60l e 75l"
       },
       "title": "Linha Vida  ficha-tecnica 30l, 42l, 60l e 75l"
@@ -119,7 +119,7 @@
         "blockClass": "link-ler-manuais",
         "target": "_blank",
         "label": "LER FICHA TÉCNICA",
-        "href": "https://stermax.com.br/images_idealine/manuais/abril/FT.VIDA30.42.60.75L-%20ATUALIZADO.pdf"
+        "href": "https://stermax.com.br/images_idealine/manuais/setembo/FT.VIDA30.60.75L-%20ATUALIZADO%20%281%29.pdf"
       },
       "title": "Link ler ficha-tecnica VIDA 30 A 75L"
     },
