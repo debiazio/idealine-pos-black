@@ -25,7 +25,7 @@
   "image#manual-vida-21l": {
     "props": {
       "blockClass": "manual-imagem",
-      "src": "assets/manuais/vida-21l.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/77593cfc-cd7b-4c50-8b4a-1817dd5e84d1___5aae836e8be2367d2d173543b54ec426.webp",
       "alt": "Imagem de capa do manual"
     },
     "title": "Vida 21 litros imagem"

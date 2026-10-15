@@ -26,7 +26,7 @@
   "image#manual-vida-75l-vertical": {
     "props": {
       "blockClass": "manual-imagem",
-      "src": "assets/manuais/vida.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/9b1ccfc2-3ef9-40d7-ac8b-839903b6dbcb___fa9ed1c81863da8c852fe567f6157da5.webp",
       "alt": "Linha Vida 75l Vertical"
     },
     "title": "Linha Vida 75l Vertical manual"

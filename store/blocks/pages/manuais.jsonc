@@ -61,8 +61,8 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "flex-layout.col#coluna-labelle-5litros",
-      "flex-layout.col#coluna-la-belle-8-litros",
+      "flex-layout.col#opta-12l",
+      "flex-layout.col#ficha-tecnica-opta-12l",
       "flex-layout.col#coluna-vida-21l",
       "flex-layout.col#coluna-ficha-tecnica-vida-21l"
     ],
@@ -75,10 +75,10 @@
       "preventHorizontalStretch": true
     },
     "children": [
+      "flex-layout.col#manual-plena42",
+      "flex-layout.col#coluna-ficha-tecnica-plena42",
       "flex-layout.col#coluna-vida-30-a-75l",
-      "flex-layout.col#coluna-ficha-tecnica-vida-30-a-75l",
-      "flex-layout.col#vida-75l",
-      "flex-layout.col#ficha-tecnica-vida-75l"
+      "flex-layout.col#coluna-ficha-tecnica-vida-30-a-75l"
     ],
     "title": "Linha 3 dos manuais"
   },
@@ -89,8 +89,8 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "flex-layout.col#opta-12l",
-      "flex-layout.col#ficha-tecnica-opta-12l",
+      "flex-layout.col#vida-75l",
+      "flex-layout.col#ficha-tecnica-vida-75l",
       "flex-layout.col#extra",
       "flex-layout.col#flex"
     ],
@@ -103,12 +103,11 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "flex-layout.col#manual-plena42",
-      "flex-layout.col#coluna-ficha-tecnica-plena42"
+      "flex-layout.col#coluna-la-belle-8-litros",
+      "flex-layout.col#coluna-labelle-5litros"
     ],
     "title": "Linha 5 dos manuais"
   },
-
   // linha do BANNER DE BAIXO
   "flex-layout.row#manuais-banner-final": {
     "props": {
@@ -215,7 +214,7 @@
     }
   },
   // TEXTO DÚVIDAS
-  "link#alguma-outra-duvida":{
+  "link#alguma-outra-duvida": {
     "props": {
       "blockClass": "link-duvidas-adicionais",
       "label": "Alguma outra dúvida? Nos mande um formulário com sua dúvida!",

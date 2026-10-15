@@ -26,7 +26,7 @@
     "image#manual-opta-12": {
       "props": {
         "blockClass": "manual-imagem",
-        "src": "assets/manuais/opta.webp",
+        "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/8836fecd-6c5d-4e1e-9d55-15b9fc2f097c___1c8322f25192424433b9196761315580.webp",
         "alt": "Linha Opta 12l"
       },
       "title": "MANUAL Opta 12l"
