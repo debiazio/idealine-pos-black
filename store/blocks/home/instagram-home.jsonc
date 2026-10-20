@@ -156,10 +156,10 @@
   "image#postagem1-coluna1-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/agosto/ela-sempre-esteve-aqui.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/d4ee7df6-94a4-4423-ba1d-15aac18291dc___d2746db9f44fa24be4cc0cb16630ad42.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
-        "url": "https://www.instagram.com/p/DcCHlJOPlUy/",
+        "url": "https://www.instagram.com/p/DeuxEGav0Da/",
         "openNewTab": true
       }
     }
@@ -167,10 +167,10 @@
   "image#postagem2-coluna1-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/agosto/popup-beauty.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/c6a3404d-bbff-425b-bd49-e3a3e34cec9c___6a27d39d183b2385bc886a898dcceb94.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
-        "url": "https://www.instagram.com/p/DbvgSHqOvfk/",
+        "url": "https://www.instagram.com/p/DeuM9EWASzp/",
         "openNewTab": true
       }
     }
@@ -178,10 +178,10 @@
   "image#postagem1-coluna2-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/agosto/espaco-beauty.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/a5423e61-75e8-414c-bda8-790947b1eb73___f89a55c67fedf34f19e7dff2b7ce9414.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
-        "url": "https://www.instagram.com/p/DbtB-LZgJAB/?img_index=1",
+        "url": "https://www.instagram.com/p/Detu301FT-9/?img_index=1",
         "openNewTab": true
       }
     }
@@ -189,10 +189,10 @@
   "image#postagem2-coluna2-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/agosto/brinde-beauty.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/5ea4c4ed-d47f-4760-b2af-13356a346f49___5205d6d716f16c429c500264f3ebac9c.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
-        "url": "https://www.instagram.com/p/Dboe29EP7Fw/",
+        "url": "https://www.instagram.com/p/Derz7E6sBky/",
         "openNewTab": true
       }
     }
@@ -200,10 +200,10 @@
   "image#postagem1-coluna3-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/agosto/unha.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/00f81a39-d4a4-446e-9406-366cb0a2ea5b___6231bccd0a2945e547f163e961f60cea.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
-        "url": "https://www.instagram.com/p/Dbnz13GxbI9/",
+        "url": "https://www.instagram.com/p/DerQPfnAfQR/",
         "openNewTab": true
       }
     }
@@ -211,10 +211,10 @@
   "image#postagem2-coluna3-instagram": {
     "props": {
       "blockClass": "img-instagram",
-      "src": "assets/instagram-home/postagens/agosto/exp-beauty.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/62f7ca55-ae11-4b2a-9a9d-feafc2a3501f___9c336086169d0b1e089b8929236dd043.webp",
       "alt": "Postagem Instagram Idealine",
       "link": {
-        "url": "https://www.instagram.com/p/DblK5rKABBt/",
+        "url": "https://www.instagram.com/p/DekXqWgvHG_/",
         "openNewTab": true
       }
     }
