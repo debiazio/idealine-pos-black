@@ -1,3 +1,7 @@
+.reviewInfo{
+  display: none;
+}
+
 .reviewsRatingCount{
   color: var(--fonte-cor-normal);
 }
