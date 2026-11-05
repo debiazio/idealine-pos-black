@@ -1928,7 +1928,7 @@
   },
   "rich-text#vantagens-pgto-a-vista": {
     "props": {
-      "text": "Pague com pix ou boleto e **ganhe 3% de desconto!**\nEscolha sua forma de pagamento e aproveite ;)\nOfertas promocionais, cupons, brindes e descontos não são acumulativos e estão sujeitos à disponibilidade (verifique na finalização da compra).",
+      "text": "Pague com pix ou boleto e **ganhe desconto!**\nEscolha sua forma de pagamento e aproveite ;)\nOfertas promocionais, cupons, brindes e descontos não são acumulativos e estão sujeitos à disponibilidade (verifique na finalização da compra).",
       "blockClass": "texto-vantagens"
     }
   },
