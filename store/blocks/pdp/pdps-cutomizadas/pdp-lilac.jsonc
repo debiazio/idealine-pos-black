@@ -14,12 +14,6 @@
           "arguments": {
             "id": "2979" //lilac - kit
           }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2831" //simulacao
-          }
         }
       ],
       "matchType": "any",
