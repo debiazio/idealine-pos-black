@@ -1,16 +1,15 @@
 /* vtex-add-to-cart-button-0-x-tooltipLabelText vtex-add-to-cart-button-0-x-tooltipLabelText--botao-comprar */
-.buttonText--botao-comprar{
+.buttonText--botao-comprar {
   font-weight: 900;
   font-size: 2.4vh;
 }
 
-.tooltipLabelText--botao-comprar{
-  color: black;
+.tooltipLabelText--botao-comprar {
+  color: var(--bf-text-on-accent, #151515);
 }
 
-
 .buttonDataContainer--botao-icone-sacola {
-  background-image: url('assets/carrinho.webp');
+  background-image: url("assets/carrinho.webp");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -18,38 +17,29 @@
   height: 40px;
   display: inline-block;
   margin-right: -15px;
-  transition: transform 0.3s ease; /* Transição suave para a transformação */
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.5s ease-out;
 }
 
 /* Efeito de aumentar ao passar o mouse */
 .buttonDataContainer--botao-icone-sacola:hover {
-  transform: scale(1.1); /* Aumenta 10% ao passar o mouse */
+  transform: scale(1.1);
 }
 
-/* Retorna ao tamanho original suavemente ao tirar o mouse */
-.buttonDataContainer--botao-icone-sacola {
-  transition: transform 0.5s ease-out; /* Volta ao tamanho original de forma suave */
-}
-
-.buttonText--botao-icone-sacola{
+.buttonText--botao-icone-sacola {
   display: none;
 }
 
-.buttonDataContainer--botao-icone-sacola {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-/* Tooltip (texto) */
+/* Tooltip */
 .buttonDataContainer--botao-icone-sacola::after {
   content: "Clique para adicionar à sacola";
   position: absolute;
   bottom: 22%;
   left: -150%;
   transform: translateX(-50%);
-  background-color: var(--rosa-installments);
-  color: white;
+  background-color: var(--bf-accent, #ffd400);
+  color: var(--bf-text-on-accent, #151515);
   padding: 1px 5px;
   border-radius: 5px;
   font-size: 11px;
@@ -66,7 +56,6 @@
   opacity: 1;
   visibility: visible;
 }
-
 
 @media screen and (max-width: 1024px) {
   .buttonDataContainer--botao-icone-sacola {

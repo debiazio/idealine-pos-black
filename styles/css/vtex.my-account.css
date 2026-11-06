@@ -1,19 +1,32 @@
-/* idealine paleta */
+/* Paleta Black Friday — altere estas variáveis para trocar o tema */
+:global(:root) {
+  --bf-bg: #FEBBCE;
+  --bf-surface: #474747;
+  --bf-text: #ffffff;
+  --bf-accent: #ae39ae;
+  --bf-text-on-accent: #151515;
 
-.parcelas-custom {
-  color: #e90b91;
+  --newsletter-white: #ffffff;
+  --newsletter-black: #000000;
+  --newsletter-gray: #696969;
+  --newsletter-roleta-pink: #F466BE;
+  --newsletter-roleta-pink-hover: #FF44B7BD;
+  --newsletter-roleta-blue: #246FBF;
+  --newsletter-roleta-input-bg: #FCF5EF;
+  --newsletter-roleta-placeholder: #3D3D3D91;
+  --cor-fundo-botao-compra: #eef3f7;
+  --cor-texto-botao-comprar: #0f3e99;
+  --cor-fundo-botao-comprar-hover: #dbe9fd;
+
+  --cor-link-marca: #0067C7;
 }
 
+/* Paleta original da loja */
 :root {
   --fonte-cor-normal: #696969;
-  /* --fonte-cor-normal: #696969; */
-  /* --fonte-cor-black: #ffffff; */
-  --fundo: #ffffff;
+  --fundo: #000000;
 
-  --rosa-installments: #FEBBCE;
-
-
-
+  --rosa-installments: #febbce;
   --rosa-da-rosa: #fc51a7;
   --rosa-pink-escuro: #e90b91;
   --pink: #ff3eb5;
@@ -28,7 +41,9 @@
   --sombra: #70809038;
 }
 
-
+.parcelas-custom {
+  color: #e90b91;
+}
 
 .link-0-x-childrenContainer--link-baixar-manuais button {
   border: none;
@@ -46,8 +61,7 @@
 
 :global(.vtex-textarea__label),
 :global(.vtex-input__label) {
-  /* padding: 10px; */
-  padding-top: 0px;
+  padding-top: 0;
   font-size: 1.1rem;
 }
 
@@ -63,7 +77,6 @@
 *,
 *:hover,
 *:focus {
-  /* transition:.5s ease all; */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -moz-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -74,10 +87,10 @@
 
 body,
 html {
+  background-color: var(--bf-surface);
   touch-action: pan-y;
   font-family: "Rubik", sans-serif;
 }
-
 
 html {
   scroll-behavior: smooth;
@@ -91,15 +104,13 @@ html {
   outline: 0;
 }
 
-/* remove background do autocomplete chrome */
+/* remove background do autocomplete Chrome */
 input:-webkit-autofill {
   -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
   -webkit-transition-delay: 9999s;
 }
 
-
-
-/* ajusta bug de zoom nos inputs do iphone */
+/* ajusta bug de zoom nos inputs do iPhone */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 
   input[type="text"],
@@ -120,22 +131,13 @@ input:-webkit-autofill {
   }
 }
 
-
 /* oculta a primeira imagem do carrossel */
-:global(.vtex-store-components-3-x-productImagesGallerySlide--product-image-dinamic):first-child {
-  visibility: hidden;
-}
-
-/* oculta a primeira imagem do carrossel */
+:global(.vtex-store-components-3-x-productImagesGallerySlide--product-image-dinamic):first-child,
 .productImagesGallerySlide--product-image-dinamic:first-child {
   visibility: hidden;
 }
 
-
-
-
-/* flexColChild--botao-de-comprar */
-/* botao hover PDP */
+/* botão buscar CEP */
 :global(.vtex-flex-layout-0-x-flexColChild--coluna-buscar-cep) button {
   background-color: var(--white);
   position: relative;
@@ -143,8 +145,8 @@ input:-webkit-autofill {
   border: none;
   border-radius: 5px;
   transition: transform 0.5s ease, box-shadow 0.3s ease;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
-  margin: 1px 1px 1px 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  margin: 1px;
   width: 100%;
   max-height: 5vh;
   min-height: 5vh;
@@ -156,7 +158,8 @@ input:-webkit-autofill {
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--botao-de-comprar) button {
-  background-color: #FEBBCE;
+  background-color: var(--bf-accent);
+  color: var(--bf-text-on-accent);
   position: relative;
   overflow: hidden;
   border: none;
@@ -164,17 +167,15 @@ input:-webkit-autofill {
   min-height: 5vh;
   height: auto;
   transition: transform 0.5s ease, box-shadow 0.3s ease;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
-
-  /* width: 300px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
-
 
 :global(.vtex-flex-layout-0-x-flexColChild--botao-de-comprar) button:hover {
   transform: scale(1.02);
   transition: transform 0.5s ease, box-shadow 0.3s ease;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-  background-color: #FEBBCE;
+  background-color: var(--bf-accent);
+  color: var(--bf-text-on-accent);
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--coluna-buscar-cep) button:hover {
@@ -182,10 +183,7 @@ input:-webkit-autofill {
   transition: transform 0.5s ease, box-shadow 0.3s ease;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
   background-color: var(--preto-raisin);
-
 }
-
-
 
 @keyframes shimmer {
   0% {
@@ -197,15 +195,17 @@ input:-webkit-autofill {
   }
 }
 
-/* botão submit newletter */
+/* botão submit newsletter */
 :global(.vtex-store-newsletter-1-x-formSubmitContainer) button {
-  background-color: #696969;
+  background-color: var(--bf-accent);
+  color: var(--bf-text-on-accent);
   border-radius: 12px;
   border: none;
 }
 
 :global(.vtex-store-newsletter-1-x-formSubmitContainer) button:hover {
-  background-color: #5c5c5c;
+  background-color: #e6bf00;
+  color: var(--bf-text-on-accent);
   border-radius: 12px;
   border: none;
 }
@@ -216,28 +216,25 @@ input:-webkit-autofill {
 }
 
 :global(.vtex-toast) {
-  background-color: var(--rosa-installments);
+  background-color: var(--bf-surface);
+  color: var(--bf-text);
 }
 
 :global(.vtex-numeric-stepper-container) {
   display: flex;
   flex-direction: row;
   margin: 0;
-  padding: 35px 20px 10px 0px;
+  padding: 35px 20px 10px 0;
 }
-
 
 .vflexColChild--black-friday-faq-listagem[aria-expanded="true"] .caretIcon {
   transform: translateY(10px);
-  /* Move o ícone 10px para baixo */
   transition: transform 0.3s ease-in-out;
-  /* Transição suave */
 }
 
 .emailInputContainer--inputs-form-roleta input {
   color: #bcb2ba;
 }
-
 
 @media screen and (max-width: 1024px) {
   :global(.vtex-numeric-stepper-container) {

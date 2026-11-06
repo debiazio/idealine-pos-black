@@ -1,9 +1,14 @@
+.content--loginOptions {
+  background-color: var(--bf-surface, #242424);
+}
+
 .formTitle {
-  color: var(--fonte-cor-normal);
+  color: var(--bf-text, #ffffff);
 }
 
 .button :global(.vtex-login-2-x-button) {
-  background-color: #535353!important;
+  background-color: var(--bf-accent, #ffd400) !important;
+  color: var(--bf-text-on-accent, #151515) !important;
 }
 
 .container {
@@ -24,7 +29,6 @@
 .container :global(.vtex-button) {
   border: 0;
   /* padding-top: 28px; */
-
 }
 
 .container :global(.vtex-button__label) {
@@ -35,16 +39,18 @@
 .profile {
   text-transform: capitalize;
   font-size: 14px;
+  color: var(--bf-text, #ffffff);
 }
 
 @media screen and (max-width: 1200px) {
   .profileIcon {
-  width: 40px;
-  height: 40px;
-  overflow: visible;
+    width: 40px;
+    height: 40px;
+    overflow: visible;
+  }
 }
-}
-  /* mobile */
+
+/* Mobile */
 @media screen and (max-width: 1024px) {
   .profileIcon {
     width: 20px;
@@ -58,10 +64,7 @@
     text-align: left;
     padding: 5px;
     font-size: 0.9rem;
-    color: var(--rosa-intallments);
+    color: var(--bf-text, #ffffff);
     font-family: "RubikIphone", sans-serif;
   }
-
-
-
 }
