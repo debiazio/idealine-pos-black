@@ -1,0 +1,35 @@
+{
+  "store.custom#teste-game": {
+    "props": {
+      "blockClass": "pagina-teste-game"
+    },
+    "blocks": [
+      "flex-layout.row#teste-game"
+    ]
+  },
+  "flex-layout.row#teste-game":{
+    "children": [
+      "modal-trigger#roleta",
+      "rich-text#teste-game"
+    ]
+  },
+  "rich-text#teste-game":{
+    "props": {
+      "text": "tela de teste missao mobelle"
+    }
+  },
+    "modal-trigger#roleta": {
+    "props": {
+      "trigger": "load"
+    },
+    "children": [
+      "modal-layout#roleta"
+    ]
+  },
+    "modal-layout#roleta": {
+    "props": {},
+    "children": [
+      "kart-blackfriday"
+    ]
+  }
+}

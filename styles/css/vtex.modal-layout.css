@@ -1,3 +1,13 @@
+.paperNotFullScreen {
+  background-color: transparent;
+}
+
+.paperScrollContent {
+  width: 70vw;
+  background-color: transparent;
+}
+
+
 .closeIcon--roleta-header {
   width: 20px;
 }
@@ -18,6 +28,17 @@
   backdrop-filter: blur(5px);
 }
 
+
+@media (max-width: 900px) {
+  .paperScrollContent {
+    width: 100%;
+    background-color: transparent;
+  }
+
+  .paperNotFullScreen {
+    margin: 1rem;
+  }
+}
 
 @media screen and (min-width: 40em) {
   .paper--quickview {
@@ -90,7 +111,7 @@
 
 .triggerContainer {
   outline: none;
-  background-color: black;
+  background-color: var(--bf-bg);
 }
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {

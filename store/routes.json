@@ -46,5 +46,8 @@
   },
   "store.custom#ativacao-garantia": {
     "path": "/ativacao-garantia"
+  },
+  "store.custom#teste-game": {
+    "path": "/teste-game"
   }
 }
