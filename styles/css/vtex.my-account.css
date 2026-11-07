@@ -4,7 +4,7 @@
   --bf-surface: #474747;
   --bf-text: #ffffff;
   --bf-accent: #e67fe6;
-  --bf-text-on-accent: #151515;
+  --bf-text-on-accent: #FFF;
 
   --newsletter-white: #ffffff;
   --newsletter-black: #000000;
@@ -23,7 +23,7 @@
 
 /* Paleta original da loja */
 :root {
-  --fonte-cor-normal: #696969;
+  --fonte-cor-normal: #FFFFFF;
   --fundo: #000000;
 
   --rosa-installments: #febbce;
@@ -39,6 +39,14 @@
   --white: #fffefd;
   --blush-lavanda: #fff3fd;
   --sombra: #70809038;
+}
+
+
+:global(.vtex-render__container-id-manuais-lista),
+:global(.vtex-render__container-id-template-copy-cat) {
+  background: linear-gradient(to bottom right,
+      var(--bf-surface, #474747) 0%,
+      #333333 100%);
 }
 
 .parcelas-custom {
@@ -204,7 +212,7 @@ input:-webkit-autofill {
 }
 
 :global(.vtex-store-newsletter-1-x-formSubmitContainer) button:hover {
-  background-color: #e6bf00;
+  background-color: #FEBBCE;
   color: var(--bf-text-on-accent);
   border-radius: 12px;
   border: none;

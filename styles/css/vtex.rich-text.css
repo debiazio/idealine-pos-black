@@ -69,7 +69,7 @@
 
 .paragraph--texto-gatilho-categoria-mobile {
   font-family: "rubik-bold";
-  color: #696969;
+  color: var(--fonte-cor-normal);
   text-transform: uppercase;
   font-size: 16px;
 }
@@ -82,7 +82,7 @@
   margin: 0;
   padding: 88px 29px;
   font-family: "rubik-bold";
-  color: #696969;
+  color: var(--fonte-cor-normal);
   text-transform: uppercase;
   font-size: 18px;
 }
@@ -246,14 +246,14 @@
   margin: 10px 0;
 }
 
-.paragraph--deals:hover {
+/* .paragraph--deals:hover {
   color: #3d3d3d;
   transition: all 0.3s ease;
-}
+} */
 
 .wrapper--texto-pos-pdp {
   font-size: small;
-  color: #696969;
+  color: var(--fonte-cor-normal);
 }
 
 .container--texto-ou {
@@ -655,7 +655,7 @@
 
 /* botao cep */
 .paragraph--texto-botao-frete {
-  color: #696969;
+  color: var(--fundo);
   font-size: 2.4vh;
   font-weight: 900;
   padding: 6px;
@@ -1033,7 +1033,7 @@
   }
 
   .paragraph--texto-botao-frete {
-    color: #696969;
+    color: var(--fundo);
   }
 
   .container--dia-consumidor-tag-falsa {

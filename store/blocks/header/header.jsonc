@@ -122,7 +122,7 @@
   "image#heart-icon": {
     "props": {
       "title": "Favoritos",
-      "src": "assets/header/favoritos.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/daf8f08c-5491-4e7c-a5eb-36118d01e664___e611836011c28f215e072f41e298ccaf.png",
       "link": {
         "url": "account#/wishlist",
         "noFollow": false,
@@ -137,7 +137,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/header/logo-idealine.webp",
+      "url": " https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/74643215-02df-479e-a6b9-d6dc21bd9151___7ebe6aaf834b8b9f9299d19766b95b27.png",
       "width": "274",
       "height": "42"
     }
@@ -302,7 +302,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/header/logo-idealine.webp",
+      "url": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/74643215-02df-479e-a6b9-d6dc21bd9151___7ebe6aaf834b8b9f9299d19766b95b27.png",
       "blockClass": "logo-mobile"
     }
   }

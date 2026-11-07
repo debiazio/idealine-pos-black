@@ -9,10 +9,10 @@
 } */
 
 .flexRowContent--productSpecificationGroup {
-  border: 1px groove var(--magnolia);
+  border: 1px groove var(--bf-surface);
   margin-top: 20px;
   border-top: 10px solid var(--rosa-installments);
-  margin: 20px;
+
   width: auto;
   padding: 20px;
   color: var(--fonte-cor-normal);

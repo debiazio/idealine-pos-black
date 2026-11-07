@@ -20,9 +20,10 @@
       "responsive-layout.mobile#categorias",
       "flex-layout.row#linha-line",
       "responsive-layout.desktop#prateleira-maior-capacidade",
+      "responsive-layout.mobile#prateleira-maior-capacidade",
       "flex-layout.row#linha-line",
       "responsive-layout.desktop#prateleira-madu-nova",
-
+      "responsive-layout.mobile#prateleira-madu-nova",
       "responsive-layout.desktop#instagram",
       "responsive-layout.mobile#instagram",
       "flex-layout.row#titulo-blog-home",
@@ -336,6 +337,11 @@
     ]
   },
   // linha da prateleira de maior capacidade
+  "responsive-layout.mobile#prateleira-maior-capacidade": {
+    "children": [
+      "flex-layout.row#prateleira-maior-capacidade"
+    ]
+  },
   "responsive-layout.desktop#prateleira-maior-capacidade": {
     "children": [
       "flex-layout.row#prateleira-maior-capacidade"
@@ -352,7 +358,6 @@
       "flex-layout.row#linha-line"
     ]
   },
-
   "rich-text#prateleira-maior-capacidade": {
     "props": {
       "text": "## Autoclaves Horizontais",
@@ -384,8 +389,12 @@
       "showNavigationArrows": "always"
     }
   },
-
   // linha da prateleira de maior capacidade
+  "responsive-layout.mobile#prateleira-madu-nova": {
+    "children": [
+      "flex-layout.row#prateleira-madu-nova"
+    ]
+  },
   "responsive-layout.desktop#prateleira-madu-nova": {
     "children": [
       "flex-layout.row#prateleira-madu-nova"

@@ -74,11 +74,11 @@
 }
 
 .productDescriptionText--texto-descricao {
-  color: var(--fonte-cor-normal);
+  color: var(--fundo);
 }
 
 .productDescriptionTitle--texto-descricao {
-  color: var(--fonte-cor-normal);
+  color: var(--fundo);
 }
 
 .valueWrapper {
@@ -460,7 +460,7 @@
 }
 
 .searchBarContainer :global(.vtex-input-prefix__group) {
-  border: 4px solid #BFB8B8;
+  border: 4px solid var(--rosa-installments);
   border-radius: 26px;
   align-items: center;
   height: 42px;
@@ -623,7 +623,7 @@
 
 /* cep botao de busca */
 .shippingContainer :global(.vtex-button__label) {
-  color: var(--preto-raisin);
+  color: var(--fonte-cor-normal);
   margin: 0;
   padding: 0;
 }

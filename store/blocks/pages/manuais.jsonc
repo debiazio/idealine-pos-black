@@ -187,14 +187,14 @@
   "image#imagem-duvidas": {
     "props": {
       "blockClass": "imagem-colunas-de-baixo",
-      "src": "assets/icone-idealclave-fale-conosco.webp"
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/1b008463-fedc-4d56-950b-51a3326e0410___596cec3dc26481d40273b91d8e150a94.png"
     }
   },
   // ASSIST
   "image#imagem-assist": {
     "props": {
       "blockClass": "imagem-colunas-de-baixo",
-      "src": "assets/icone-idealclave-duvidas.webp"
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/1b008463-fedc-4d56-950b-51a3326e0410___596cec3dc26481d40273b91d8e150a94.png"
     }
   },
   // TEXTO DUVIDAS

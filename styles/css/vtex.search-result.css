@@ -33,6 +33,7 @@
   font-family: "Rubik", sans-serif;
   padding: 0;
   margin: 16px;
+  background-color: transparent;
 }
 
 .orderByText,
@@ -79,7 +80,9 @@
 }
 
 .filters--layout {
-  background-color: var(--bf-surface);
+  background: linear-gradient(to bottom right,
+  var(--bf-surface, #474747) 0%,
+  #333333 100%);
   border-radius: 25px;
   padding: 10px;
   margin-bottom: 45px;

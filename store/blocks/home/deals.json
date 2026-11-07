@@ -25,7 +25,7 @@
   },
   "image#deal1": {
     "props": {
-      "src": "assets/home/icon-caminhao.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/e66fef70-b11f-47e4-85c5-a80c5cf277de___b6bc751dfea123e7aae8edb9b1ecb1c1.png",
       "blockClass": "img-deals"
     }
   },
@@ -55,7 +55,7 @@
   },
   "image#deal2": {
     "props": {
-      "src": "assets/home/icon-garantia.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/46fe11da-e6fe-44c0-bb03-72836a198ba3___2cd23fa129bbacc39d13e73cbd273398.png",
       "blockClass": "img-deals"
     }
   },
@@ -84,7 +84,7 @@
   },
   "image#parcelas": {
     "props": {
-      "src": "assets/home/icon-cartao.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/5a0eb7b2-fcb4-4b7c-8978-9892b92f801a___f6e7080892fddbac5d75fea5e424a608.png",
       "blockClass": "img-deals"
     }
   },
@@ -113,7 +113,7 @@
   },
   "image#deal4": {
     "props": {
-      "src": "assets/home/icon-boleto.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/6bd22ddd-2bc8-48b2-94f6-896fd6b220b9___c87e65a60e60368af0305bcdcc2311f9.png",
       "blockClass": "img-deals"
     }
   },
@@ -142,7 +142,7 @@
   },
   "image#deal5": {
     "props": {
-      "src": "assets/home/icon-site-seguro.webp",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/6a41564f-2a7b-4d63-8d5f-cf55fb1440b5___2b7e5ce563927780db5e33ddcd9ba89e.png",
       "blockClass": "img-deals"
     }
   },
