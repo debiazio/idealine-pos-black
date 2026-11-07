@@ -23,10 +23,7 @@
   padding-bottom: 0.4rem;
 }
 
-
-
 @supports (backdrop-filter: blur(5px)) {
-
   :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
   :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile),
   .flexRow--menu-itens {
@@ -46,7 +43,6 @@
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
   /* background-color: #f0f0f0; */
   background-color: var(--fundo);
-
 }
 
 /* resize the logo for neat effect */
@@ -55,7 +51,6 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-
   :global(.vtex-sticky-layout-0-x-container) :global(.vtex-store-components-3-x-logoLink),
   :global(.vtex-sticky-layout-0-x-container) :global(.vtex-minicart-2-x-openIconContainer),
   :global(.vtex-sticky-layout-0-x-container) :global(.vtex-store-components-3-x-searchBarContainer),

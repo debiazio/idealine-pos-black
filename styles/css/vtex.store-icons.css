@@ -1,38 +1,40 @@
 .expandIcon {
-  color: #727273;
+  color: var(--cor-icone-expansao, #727273);
 }
 
 .caretIcon {
-  background-color: black;
-  color: white;
+  background-color: var(--cor-fundo-icone, #000000);
+  color: var(--cor-icone, #ffffff);
   border-radius: 50%;
   padding: 10px;
   position: absolute;
   margin-top: 75px;
 }
 
-.caretIcon--cima{
+.caretIcon--cima {
   margin-top: 162px;
 }
 
-.caretIcon--cima-prazo{
+.caretIcon--cima-prazo {
   margin-top: 309px;
 }
 
-.caretIcon--cima-pgto{
+.caretIcon--cima-pgto {
   margin-top: 399px;
 }
-.caretIcon--cima-trocas{
+
+.caretIcon--cima-trocas {
   margin-top: 311px;
 }
-.caretIcon--cima-seguro{
+
+.caretIcon--cima-seguro {
   margin-top: 370px;
 }
-.caretIcon--cima-promocao{
+
+.caretIcon--cima-promocao {
   margin-top: 129px;
 }
 
-.caretIcon--cima-aproveitar{
+.caretIcon--cima-aproveitar {
   margin-top: 245px;
 }
-

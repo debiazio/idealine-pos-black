@@ -424,7 +424,8 @@
     },
     "children": [
       "flex-layout.row#titulo-categorias-linha1",
-      "flex-layout.row#categorias-disclosure"
+      "flex-layout.row#categorias-disclosure",
+      "flex-layout.row#linha-line"
       // "flex-layout.row#imagens-categorias",
       // "flex-layout.row#imagens-segunda-linha-categorias"
     ]

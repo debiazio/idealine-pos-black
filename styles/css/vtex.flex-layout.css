@@ -1,3 +1,23 @@
+.flexRow--linha-line,
+.flexRow--linha-blog,
+.flexRow--conteiner-instagram-desktop,
+.flexRow--linha-img-como-usar,
+.flexRow--carrosselprodutos {
+  background: linear-gradient(to bottom right,
+      var(--bf-surface, #474747) 0%,
+      #333333 100%);
+}
+
+.flexRowContent--linha-blog .stretchChildrenWidth{
+  margin: 64px 0;
+}
+
+.flexRowContent--carrosselprodutos {
+  display: flex;
+  flex-direction: column;
+}
+
+
 .flexRow--linha-filtro-orderby-mobile {
   display: flex;
   flex-direction: row;
@@ -103,6 +123,7 @@
 
 .flexRowContent--linha-disclosure-categorias-desktop {
   max-width: 1600px;
+  padding-bottom: 64px;
 }
 
 /* .flexRowContent--linha-disclosure-categorias-desktop .stretchChildrenWidth {
@@ -451,6 +472,13 @@
   display: none;
 }
 
+.flexRow--container-compre-por-categoria,
+.flexRow--shelf-mais-vendidos {
+  background: linear-gradient(to bottom right,
+      var(--bf-surface, #474747) 0%,
+      #333333 100%);
+}
+
 .flexRowContent--shelf-mais-vendidos {
   display: flex;
   flex-direction: column;
@@ -602,8 +630,6 @@
 .flexRowContent--linha-blog {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 20px;
 }
 
 .flexRowContent--video75litros {
@@ -617,7 +643,7 @@
 }
 
 .flexRow--container-compre-por-categoria {
-  margin-bottom: 65px;
+  /* padding-bottom: 65px; */
   display: flex;
   justify-content: center;
 }
@@ -685,6 +711,7 @@
 }
 
 @media screen and (min-width: 40em) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
@@ -692,6 +719,7 @@
 }
 
 @media screen and (min-width: 80rem) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 0.25rem;
@@ -731,6 +759,9 @@
   flex-direction: row;
   align-items: center;
   padding: 20px 0;
+  background: linear-gradient(to bottom right,
+      var(--bf-surface, #474747) 0%,
+      #333333 100%);
 }
 
 .flexRow--deals .stretchChildrenWidth {
@@ -847,7 +878,7 @@
 }
 
 .flexRow--footer-merchant-desktop {
-  background-color: var(--bf-bg, #151515);
+  background-color: var(--fundo, #151515);
 }
 
 /* .flexRow--credits {
@@ -855,12 +886,12 @@
 } */
 
 .flexRow--linha-formaspgto-logo-compreCom {
-  background: var(--bf-bg, #151515);
+  background: var(--fundo, #151515);
   padding: 30px 200px;
 }
 
 .flexRow--footer-2-desktop {
-  background: var(--bf-bg, #151515);
+  background: var(--fundo, #151515);
   padding: 30px 200px;
 }
 

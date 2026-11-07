@@ -124,15 +124,16 @@
   height: 56px !important;
   border: 3px solid var(--bf-accent, #ffd400);
   position: relative;
-  top: 12px;
+  top: 11px;
   border-radius: 0 0 12px 12px;
   transition: all 0.3s ease;
 }
 
 .styledLinkContainer--dvm-menu:hover {
+  background: radial-gradient(circle, #ffffff 0%, var(--bf-accent, #ffffff) 100%);
   transform: scale(1.03);
-  transition: all 0.3s ease;
 }
+
 
 .styledLinkContent--dvm-menu {
   color: var(--bf-text-on-accent, #151515) !important;

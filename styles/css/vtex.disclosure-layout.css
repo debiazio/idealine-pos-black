@@ -41,12 +41,20 @@
   border: none;
   width: unset !important;
   height: 100%;
-  /* margin: 32px; */
   padding: 0;
   background-color: var(--bf-surface);
   color: var(--bf-text);
   box-shadow: 1px 3px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: filter 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+
+.trigger--categoria-trigger--hidden:hover {
+  filter: brightness(1.08);
+  transform: scale(1.03);
+  box-shadow: 1px 5px 8px 0px rgba(0, 0, 0, 0.35);
+}
+
 
 .trigger--disclosure-blackfriday {
   display: flex;

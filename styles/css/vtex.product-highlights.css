@@ -6,15 +6,14 @@
 }
 
 .productHighlightText {
-  background: var(--rosa-da-rosa);
+  background: var(--bf-accent);
   border-radius: 20px;
   padding: 5px 10px;
-  color: white;
+  color: var(--bf-text-on-accent);
 }
 
-
 @media screen and (max-width: 1024px) {
-  .productHighlightText{
+  .productHighlightText {
     font-size: 10px;
   }
 }

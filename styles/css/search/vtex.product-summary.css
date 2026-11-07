@@ -13,8 +13,9 @@
 .brandName--summaryListMobile {
   font-weight: 400;
   font-size: 0.875rem;
-  color: black;
+  color: var(--newsletter-black);
 }
+
 
 .container--listLayout {
   max-width: none !important;

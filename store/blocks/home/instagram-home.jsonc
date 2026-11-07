@@ -1,7 +1,8 @@
 {
   "responsive-layout.desktop#instagram": {
     "children": [
-      "flex-layout.row#conteiner-instagram-desktop"
+      "flex-layout.row#conteiner-instagram-desktop",
+      "flex-layout.row#linha-line"
     ]
   },
   "responsive-layout.mobile#instagram": {
@@ -18,6 +19,7 @@
     "children": [
       "flex-layout.row#titulo-instagram",
       "flex-layout.row#conteiner-imagens-instagram-desktop"
+
     ]
   },
   // LINHA DO TITULO

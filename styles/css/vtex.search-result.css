@@ -29,8 +29,6 @@
   font-family: "Rubik", sans-serif;
 }
 
-
-
 .orderByButton {
   font-family: "Rubik", sans-serif;
   padding: 0;
@@ -44,12 +42,11 @@
 
 .orderByDropdown {
   width: fit-content;
-
 }
 
 .orderByOptionItem--selected,
 .orderByOptionItem:hover {
-  color: black;
+  color: var(--bf-accent);
 }
 
 .orderByOptionItem,
@@ -63,11 +60,11 @@
 }
 
 .filter__container {
-  border-color: white;
+  border-color: var(--bf-text);
 }
 
 :global(.vtex-checkbox__label) {
-  color: white;
+  color: var(--bf-text);
   font-family: "Rubik", sans-serif;
 }
 
@@ -78,11 +75,11 @@
 }
 
 :global(.vtex-checkbox__inner-container) {
-  border-color: white;
+  border-color: var(--bf-text);
 }
 
 .filters--layout {
-  background-color: var(--rosa-installments);
+  background-color: var(--bf-surface);
   border-radius: 25px;
   padding: 10px;
   margin-bottom: 45px;
@@ -103,25 +100,23 @@
   display: none;
 }
 
-
 /* vtex-search-result-3-x- */
 
 /* .filterAvailable {
-  background-color: var(--rosa-installments);
+  background-color: var(--bf-surface);
 } */
 
 .filterTitleSpan {
   margin: 5px 10px;
-  color: white;
+  color: var(--bf-text);
 }
-
 
 .filterTemplateOverflow {
   padding: 10px;
 }
 
 .caretIcon {
-  color: rgb(201, 201, 201);
+  color: var(--bf-text);
 }
 
 /* vtex-search-result-3-x-filterIsOpen */
@@ -142,7 +137,6 @@
   .container--layout {
     padding: 0 12px;
   }
-
 }
 
 @media screen and (max-width: 460px) {

@@ -10,19 +10,12 @@
   padding: 10px;
 }
 
-
-
-
-
 .container--share-button-response {
-  /* Cor translúcida */
-  background: rgba(255, 255, 255, 0.1);
-
-  /* Efeito de vidro */
+  background: rgba(21, 21, 21, 0.85);
+  color: var(--bf-text, #ffffff);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
-
 
 @media screen and (max-width: 1024px) {
   .trigger--share-button-trigger {

@@ -1,18 +1,17 @@
-.defaultErrorMessage--formulario-roleta{
-  color: #ffffff
+.defaultErrorMessage--formulario-roleta {
+  color: var(--newsletter-white);
 }
 
 .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex__icon-check),
-.confirmationCheckboxContainer--aceito-termos :global(.vtex__icon-check){
-  color: #F466BE;
+.confirmationCheckboxContainer--aceito-termos :global(.vtex__icon-check) {
+  color: var(--newsletter-roleta-pink);
 }
 
 .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__box),
-.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__box){
-  background-color: #FFFFFF;
+.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__box) {
+  background-color: var(--newsletter-white);
   border-radius: 5px;
 }
-
 
 .newsletterForm {
   display: flex;
@@ -29,15 +28,16 @@
 
 .nameInputContainer :global(.vtex-styleguide-9-x-input),
 .emailInputContainer :global(.vtex-styleguide-9-x-input) {
-  padding: 8px 15px 8px 15px;
-  background: #FCF5EF;
+  padding: 8px 15px;
+  background: var(--newsletter-roleta-input-bg);
   border-radius: 10px;
-  border: 4px solid #696969;
+  border: 4px solid var(--newsletter-gray);
 }
+
 .nameInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input),
 .emailInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input),
-.phoneInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input){
-  padding: 8px 15px 8px;
+.phoneInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input) {
+  padding: 8px 15px;
   background: transparent;
 }
 
@@ -47,18 +47,17 @@
   border: none;
 }
 
-
 .phoneInputContainer--inputs-form-roleta,
 .nameInputContainer--inputs-form-roleta,
 .emailInputContainer--inputs-form-roleta {
-  border: 2px solid #246FBF;
+  border: 2px solid var(--newsletter-roleta-blue);
   border-radius: 10px;
 }
 
 .phoneInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input)::placeholder,
 .nameInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input)::placeholder,
 .emailInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input)::placeholder {
-  color: #3D3D3D91!important;
+  color: var(--newsletter-roleta-placeholder) !important;
   font-family: "Rubik";
   font-weight: 400;
   font-size: 18px;
@@ -66,13 +65,13 @@
 
 .nameInputContainer :global(.vtex-styleguide-9-x-input)::placeholder,
 .emailInputContainer :global(.vtex-styleguide-9-x-input)::placeholder {
-  color: #696969;
+  color: var(--newsletter-gray);
   font-size: 18px;
 }
 
 .nameInputContainer--newsletter-footer :global(.vtex-styleguide-9-x-input)::placeholder,
 .emailInputContainer--newsletter-footer :global(.vtex-styleguide-9-x-input)::placeholder {
-  color: #696969;
+  color: var(--newsletter-gray);
   width: 100px;
 }
 
@@ -89,49 +88,38 @@
   text-align: left;
 }
 
-
-/* form -roleta */
+/* Formulário da roleta */
 .newsletterForm--formulario-roleta {
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: center;
   align-items: center;
-  gap: 50px
+  gap: 50px;
 }
-
-
 
 .nameInputContainer,
 .emailInputContainer,
 .phoneInputContainer {
   width: 446px;
-  color: #696969;
+  color: var(--newsletter-gray);
   margin-bottom: 7px;
 }
 
 .nameInputContainer :global(.vtex-input__label),
 .emailInputContainer :global(.vtex-input__label),
 .phoneInputContainer :global(.vtex-input__label) {
-  color: #696969;
+  color: var(--newsletter-gray);
 }
 
-
-/* .phoneInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-hideDecorators) {
-  background-color: white;
-  color: gray !important;
-} */
-
 .phoneInputContainer--inputs-form-roleta :global(.vtex-input__label) {
-  color: white;
+  color: var(--newsletter-white);
   margin-bottom: 20px;
 }
 
 .emailInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group) {
-  color: black;
+  color: var(--newsletter-black);
 }
-
-
 
 .defaultSuccessMessage--formulario-roleta {
   width: 100%;
@@ -141,36 +129,27 @@
   width: 100%;
 }
 
-.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label) {
-  color: #FFFFFF;
-  font-family: "Rubik";
-  font-weight: 500;
-  font-size: 10px;
-}
-
+.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label),
 .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label) {
-  color: #FFFFFF;
+  color: var(--newsletter-white);
   font-family: "Rubik";
   font-weight: 500;
   font-size: 10px;
 }
-
-
-
 
 .formSubmitContainer--submit-button {
   border: none;
   padding-top: 5px;
 }
 
-.formSubmitContainer--submit-button :global(.vtex-button__label){
+.formSubmitContainer--submit-button :global(.vtex-button__label) {
   width: 446px;
 }
 
 .formSubmitContainer--submit-button :global(.vtex-button) {
   border: none;
-  background-color: #F466BE;
-  color: #ffffff;
+  background-color: var(--newsletter-roleta-pink);
+  color: var(--newsletter-white);
   font-size: 16px;
   cursor: pointer;
   border-radius: 8px;
@@ -178,33 +157,24 @@
 }
 
 .formSubmitContainer--submit-button :global(.vtex-button):hover {
-  background-color: #FF44B7BD;
+  background-color: var(--newsletter-roleta-pink-hover);
   color: #969696;
 }
 
-
-.phoneInputContainer--inputs-form-roleta {
-  background-color: #ffff;
-}
-
-.emailInputContainer--inputs-form-roleta {
-  background-color: #ffff;
-}
-
+.phoneInputContainer--inputs-form-roleta,
+.emailInputContainer--inputs-form-roleta,
 .nameInputContainer--inputs-form-roleta {
-  background-color: #ffff;
+  background-color: var(--newsletter-white);
 }
 
-/* email error */
+/* Erros dos campos */
 .phoneInputContainer--inputs-form-roleta :global(.vtex-input__error),
 .nameInputContainer--inputs-form-roleta :global(.vtex-input__error),
 .emailInputContainer--inputs-form-roleta :global(.vtex-input__error) {
-  background-color: black;
+  background-color: var(--newsletter-black);
   margin: 0;
-  padding: 10px 0px 0 0;
+  padding: 10px 0 0;
 }
-
-
 
 @media screen and (max-width: 380px) {
   .newsletterForm {
@@ -218,10 +188,9 @@
   }
 }
 
-
 @media screen and (max-width: 1024px) {
   .nameInputContainer--newsletter-footer,
-  .emailInputContainer--newsletter-footer{
+  .emailInputContainer--newsletter-footer {
     width: unset;
   }
 
@@ -231,7 +200,7 @@
 
   .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label) {
     text-decoration: underline;
-    color: #ffff;
+    color: var(--newsletter-white);
     font-size: 10px;
     margin-top: 3px;
   }
@@ -256,7 +225,7 @@
     margin-left: 40px;
   }
 
-  .newsletterForm--newsletter-footer{
+  .newsletterForm--newsletter-footer {
     margin-left: 0;
   }
 
@@ -272,7 +241,7 @@
     padding-top: 10px;
   }
 
-  .formSubmitContainer--submit-button :global(.vtex-button__label){
-  width: unset;
-}
+  .formSubmitContainer--submit-button :global(.vtex-button__label) {
+    width: unset;
+  }
 }

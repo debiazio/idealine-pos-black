@@ -11,15 +11,16 @@
 }
 
 .flexRow--buyNowButton :global(.vtex-button) {
-  background: #eef3f7;
-  border-color:#eef3f7;
-  color: #0f3e99;
+  background: var(--cor-fundo-botao-compra);
+  border-color: var(--cor-fundo-botao-compra);
+  color: var(--cor-texto-botao-comprar);
 }
 
 .flexRow--buyNowButton:hover :global(.vtex-button) {
-  background: #dbe9fd;
-  border-color:#dbe9fd;
+  background: var(--cor-fundo-botao-comprar-hover);
+  border-color: var(--cor-fundo-botao-comprar-hover);
 }
+
 
 .flexCol--productRating {
   /* margin-bottom: 3rem; */
@@ -31,14 +32,13 @@
 }
 
 .flexCol--summaryUpDetailsListMobile {
-  margin-bottom: 0.25rem
+  margin-bottom: 0.25rem;
 }
 
-.flexRow--banner-departamento{
+.flexRow--banner-departamento {
   width: 100%;
 }
 
-.flexColChild--filterCol{
+.flexColChild--filterCol {
   height: 10px;
 }
-

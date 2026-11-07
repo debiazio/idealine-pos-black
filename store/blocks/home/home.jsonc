@@ -13,20 +13,20 @@
       "responsive-layout.mobile#banners-mobile",
       "responsive-layout.desktop#categorias",
       "responsive-layout.desktop#carrossel-5l-8l",
+      "flex-layout.row#linha-line",
       "responsive-layout.desktop#img-como-usar",
       "responsive-layout.mobile#img-como-usar",
       "flex-layout.row#linha-line",
       "responsive-layout.mobile#categorias",
       "flex-layout.row#linha-line",
-      "rich-text#prateleira-maior-capacidade",
-      "flex-layout.row#shelf2",
+      "responsive-layout.desktop#prateleira-maior-capacidade",
       "flex-layout.row#linha-line",
-      "rich-text#prateleira-madu-nova",
-      "flex-layout.row#shelf3",
-      "flex-layout.row#linha-line",
+      "responsive-layout.desktop#prateleira-madu-nova",
+
       "responsive-layout.desktop#instagram",
       "responsive-layout.mobile#instagram",
-      "flex-layout.row#titulo-blog-home"
+      "flex-layout.row#titulo-blog-home",
+      "flex-layout.row#linha-line"
     ]
   },
   //  ESPAÇADOR
@@ -97,6 +97,15 @@
     ]
   },
   "responsive-layout.desktop#carrossel-5l-8l": {
+    "children": [
+      "flex-layout.row#carrosselprodutos"
+    ]
+  },
+  "flex-layout.row#carrosselprodutos": {
+    "props": {
+      "blockClass": "carrosselprodutos",
+      "preventHorizontalStretch": true
+    },
     "children": [
       "flex-layout.row#linha-line",
       "rich-text#titulo-prateleira-5l",
@@ -279,7 +288,9 @@
   "rich-text#titulo-prateleira-5l": {
     "props": {
       "text": "## Autoclaves de 5 litros",
-      "blockClass": "shelfTitle"
+      "blockClass": "shelfTitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   // prateleira de 8 litros
@@ -317,11 +328,31 @@
     }
   },
   "flex-layout.row#shelf2": {
+    "props": {
+      "blockClass": "shelf2"
+    },
     "children": [
       "list-context.product-list#prateleira-maior-capacidade"
     ]
   },
   // linha da prateleira de maior capacidade
+  "responsive-layout.desktop#prateleira-maior-capacidade": {
+    "children": [
+      "flex-layout.row#prateleira-maior-capacidade"
+    ]
+  },
+  "flex-layout.row#prateleira-maior-capacidade": {
+    "props": {
+      "blockClass": "carrosselprodutos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#prateleira-maior-capacidade",
+      "flex-layout.row#shelf2",
+      "flex-layout.row#linha-line"
+    ]
+  },
+
   "rich-text#prateleira-maior-capacidade": {
     "props": {
       "text": "## Autoclaves Horizontais",
@@ -353,17 +384,34 @@
       "showNavigationArrows": "always"
     }
   },
-  "flex-layout.row#shelf3": {
+
+  // linha da prateleira de maior capacidade
+  "responsive-layout.desktop#prateleira-madu-nova": {
     "children": [
-      "list-context.product-list#prateleira-madu"
+      "flex-layout.row#prateleira-madu-nova"
     ]
   },
-  // linha da prateleira de maior capacidade
+  "flex-layout.row#prateleira-madu-nova": {
+    "props": {
+      "blockClass": "carrosselprodutos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#prateleira-madu-nova",
+      "flex-layout.row#shelf3",
+      "flex-layout.row#linha-line"
+    ]
+  },
   "rich-text#prateleira-madu-nova": {
     "props": {
       "text": "## Idea.Love by MAD.U",
       "blockClass": "shelfTitle"
     }
+  },
+  "flex-layout.row#shelf3": {
+    "children": [
+      "list-context.product-list#prateleira-madu"
+    ]
   },
   "list-context.product-list#prateleira-madu": {
     "blocks": [
@@ -375,7 +423,7 @@
     "props": {
       "blockClass": "shelf",
       "orderBy": "OrderByBestDiscountDESC",
-      "category": "80"
+      "collection": "225"
     }
   },
   "slider-layout#prateleira-madu": {
@@ -394,18 +442,18 @@
   // BLOGO
   "flex-layout.row#titulo-blog-home": {
     "props": {
-      "blockClass": "linha-blog"
+      "blockClass": "linha-blog",
+      "colSizing": "auto"
     },
     "children": [
       "homepostsidealine"
     ]
   },
-   "homepostsidealine": {
+  "homepostsidealine": {
     "props": {
       "title": "Blog Idealine",
       "maxItems": 3,
       "autoPlayMs": 4500
     }
   }
-
 }
