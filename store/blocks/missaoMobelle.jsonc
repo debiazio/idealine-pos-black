@@ -1,0 +1,16 @@
+{
+    "modal-trigger#roleta": {
+    "props": {
+      "trigger": "load-session"
+    },
+    "children": [
+      "modal-layout#roleta"
+    ]
+  },
+    "modal-layout#roleta": {
+    "props": {},
+    "children": [
+      "kart-blackfriday"
+    ]
+  }
+}
