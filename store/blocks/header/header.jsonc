@@ -155,6 +155,7 @@
   "header-layout.mobile": {
     "children": [
       "sticky-layout#1-mobile",
+      "modal-trigger#roleta",
       "botaowhatsapp"
     ]
   },
