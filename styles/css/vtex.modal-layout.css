@@ -1,3 +1,10 @@
+.headerContainer{
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  border-color: transparent;
+}
+
 .paperNotFullScreen {
   background-color: transparent;
 }

@@ -10,7 +10,13 @@
     "modal-layout#roleta": {
     "props": {},
     "children": [
+      "modal-header#botaofechar",
       "kart-blackfriday"
     ]
+  },
+  "modal-header#botaofechar":{
+    "props": {
+      "showCloseButton": true
+    }
   }
 }
