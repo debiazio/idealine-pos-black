@@ -6,11 +6,11 @@
       "colSizing": "auto"
     },
     "children": [
-      // "flex-layout.row#linha-line",
-      // "flex-layout.row#img-coracao-menor-mobile",
-      "flex-layout.row#linha-conteudo-cronometro"
-      // "flex-layout.row#img-coracao-maior-mobile"
-      // "flex-layout.row#linha-line"
+      "flex-layout.row#linha-line",
+      "flex-layout.row#img-coracao-menor-mobile",
+      "flex-layout.row#linha-conteudo-cronometro",
+      "flex-layout.row#img-coracao-maior-mobile",
+      "flex-layout.row#linha-line"
     ],
     "title": "Linha Promoção Relâmpago"
   },
@@ -21,7 +21,8 @@
       "colSizing": "equal"
     },
     "children": [
-      "flex-layout.col#coluna-cronometro-esquerda"
+      "flex-layout.col#coluna-cronometro-esquerda",
+      "flex-layout.col#coluna-cronometro-direita"
     ]
   },
   // COLUNA ESQUERDA
@@ -31,8 +32,8 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.row#linha-imagem-cronometro"
-      // "flex-layout.row#linha-coracao-maior"
+      "flex-layout.row#linha-imagem-cronometro",
+      "flex-layout.row#linha-coracao-maior"
     ]
   },
   // COLUNA DIREITA
@@ -42,9 +43,9 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.row#linha-coracao-menor"
-      // "list-context.product-list#prateleira-cronometrada"
-      // "flex-layout.row#linha-ver-mais"
+      "flex-layout.row#linha-coracao-menor",
+      "list-context.product-list#prateleira-cronometrada-black2026",
+      "flex-layout.row#linha-ver-mais"
     ]
   },
   // ITENS COLUNA ESQUERDA
@@ -55,7 +56,7 @@
       "colSizing": "auto"
     },
     "children": [
-      // "image#promo-relampago",
+      "image#promo-relampago",
       "rich-text#titulo-cronometro-sweetsilver",
       "timershelf"
     ]
@@ -65,14 +66,14 @@
     "props": {
       "blockClass": "img-promo-relampago",
       "alt": "Promoção Relâmpago",
-      "src": "assets/home-black/shelf-cronometrada/promo-relampago.webp"
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/1a3f20fe-3029-4de7-972a-7892482c94d5___d2e4da100c9655c092e30ca17b73bb4c.webp"
     }
   },
   // TITULO
   "rich-text#titulo-cronometro-sweetsilver": {
     "props": {
       "blockClass": "titulo-cronometro-sweetsilver",
-      "text": "EM BREVE UM LANÇAMENTO **EDIÇÃO LIMITADA**"
+      "text": "LIVE ÀS 12H COM **DESCONTOS EXCLUSIVOS**"
     },
     "title": "Título cronômetro"
   },
@@ -120,21 +121,22 @@
     "title": "Imagem coração direito"
   },
   // PRATELEIRA
-  "list-context.product-list#prateleira-cronometrada": {
+  "list-context.product-list#prateleira-cronometrada-black2026": {
     "blocks": [
       "product-summary.shelf"
     ],
     "children": [
-      "slider-layout#prateleira-cronometro"
+      "slider-layout#prateleira-cronometro-blackfriday2026"
     ],
     "props": {
+      "collection": "231",
       "orderBy": "OrderByNameASC",
-      "maxItems": 12
+      "maxItems": 2
     },
     "title": "Produtos da vitrine cronometrada"
   },
   // COMPONENTE DO SLIDE
-  "slider-layout#prateleira-cronometro": {
+  "slider-layout#prateleira-cronometro-blackfriday2026": {
     "props": {
       "itemsPerPage": {
         "desktop": 2,
@@ -156,15 +158,15 @@
       "colSizing": "auto"
     },
     "children": [
-      "link#ver-mais-cronometro"
+      "link#ver-mais-cronometro-black2026"
     ],
     "title": "Linha botão ver mais"
   },
-  "link#ver-mais-cronometro": {
+  "link#ver-mais-cronometro-black2026": {
     "props": {
       "blockClass": "link-ver-mais",
-      "label": "ver tudo",
-      "href": "#"
+      "label": "vem para live",
+      "href": "https://www.tiktok.com/@idealinebiosseguranca?_r=1&_t=ZS-9BIQUKONXBS"
     }
   },
   // LINHAS CORACOES MOBILE

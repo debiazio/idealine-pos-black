@@ -322,10 +322,10 @@
 
 .flexRow--linha-shelf-timer {
   display: none;
-  background-image: url(assets/home/shelf-cronometrada/fundo-cristal-sweet-silver.webp);
+  background-image: url(https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/6c0fdbfb-7ac9-4c37-85f1-02b0f8eb7571___0cc8b39fcb3f3a8257449d60a505f04f.webp);
   background-position: bottom;
   background-repeat: no-repeat;
-  height: 55vh;
+  /* height: 55vh; */
   background-size: cover;
   flex-direction: column;
   justify-content: center;
