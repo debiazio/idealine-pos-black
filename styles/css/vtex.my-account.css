@@ -5,6 +5,7 @@
   --bf-text: #ffffff;
   --bf-accent: #e67fe6;
   --bf-text-on-accent: #FFF;
+  --bf-surface-hover: #555555;
 
   --newsletter-white: #ffffff;
   --newsletter-black: #000000;
@@ -48,6 +49,11 @@
       var(--bf-surface, #474747) 0%,
       #333333 100%);
 }
+
+:global(.vtex-search-2-x-itemListItem) a:hover{
+  background: var(--bf-surface-hover);
+}
+
 
 .parcelas-custom {
   color: #e90b91;

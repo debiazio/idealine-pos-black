@@ -1,3 +1,4 @@
+
 .totalProductsMessage {
   color: var(--bf-bg) !important;
 }
@@ -7,6 +8,7 @@
 }
 
 .biggy-autocomplete {
+  background-color: var(--bf-surface);
   border-radius: 25px;
   top: 73px;
 }
