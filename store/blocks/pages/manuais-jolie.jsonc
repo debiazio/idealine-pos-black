@@ -1,0 +1,146 @@
+{
+  "flex-layout.col#coluna-jolie":{
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-jolie",
+      "flex-layout.row#link-ler-manual-jolie",
+      "flex-layout.row#link-baixar-manual-jolie"
+    ],
+    "title": "Coluna manual Jolie"
+  },
+    // LINHA IMAGEM MANUAL JOIE
+  "flex-layout.row#imagem-manual-jolie": {
+    "props": {
+      "blockClass": "manuais-imagem",
+      "title": "Linha thumbnail manuais"
+    },
+    "children": [
+      "image#manual-jolie"
+    ],
+    "title": "Linha imagem manual jolie"
+  },
+  // IMAGE MANUAL JOIE
+  "image#manual-jolie": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "https://stermaxhealth.vtexassets.com/assets/vtex.file-manager-graphql/images/679901cc-bc4a-46e8-9f35-1358460e93b3___d6bd04b4c38e481b946d13df2dfe2086.webp",
+      "alt": "Idealclave Jolie"
+    },
+    "title": "Idealclave Jolie manual"
+  },
+  // LINHA LER MANUAL JOlie
+  "flex-layout.row#link-ler-manual-jolie":{
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-manual-jolie"
+    ],
+    "title": "Linha ler manual Jolie"
+  },
+    // LINK LER MANUAL JOlie
+  "link#ler-manual-jolie": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER MANUAL",
+      "target": "_blank",
+      "href": "https://stermax.com.br/images_idealine/manuais/novembro2026/Manual_%20DIGITAL%20JOLLIE_5L%202.pdf"
+    },
+    "title": "Link ler manual jolie"
+  },
+  // LINHA BOTAO DOWNLOAD MANUAL JOLIE
+  "flex-layout.row#link-baixar-manual-jolie": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-jolie"
+    ],
+    "title": "Linha botao baixar manual Jolie"
+  },
+  // LINHA BOTAO BAIXAR MANUAL JOLIE
+  "flex-layout.row#baixar-manual-jolie": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-jolie"
+    ],
+    "title": "Link baixar manual Jolie"
+  },
+   // COLUNA FICHA TECNICA - IDEALCLAVE Jolie
+  "flex-layout.col#coluna-ficha-tecnica-idealclave-jolie": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-ficha-tecnica-jolie",
+      "flex-layout.row#link-ler-ficha-tecnica-jolie",
+      "flex-layout.row#link-baixar-ficha-tecnica-jolie"
+    ],
+    "title": "Coluna ficha técnica Jolie"
+  },
+    // LINHA IMAGEM FICHA TÉCNICA JOLIE
+  "flex-layout.row#imagem-ficha-tecnica-jolie": {
+    "props": {
+      "blockClass": "manuais-imagem"
+    },
+    "children": [
+      "image#ficha-tecnica-jolie"
+    ],
+    "title": "Linha imagem ficha tecnica jolie"
+  },
+  // IMAGE FICHA TÉCNICA JOLIE
+  "image#ficha-tecnica-jolie": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "",
+      "alt": "Idealclave Jolie"
+    },
+    "title": "Idealclave Jolie ficha ténica"
+  },
+  // LINHA LER FICHA TECNICA JOLIE
+  "flex-layout.row#link-ler-ficha-tecnica-jolie": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-ficha-tecnica-jolie"
+    ],
+    "title": "Linha ler ficha técnica Jolie"
+  },
+  // LINK LER FICHA TECNICA JOLIE
+  "link#ler-ficha-tecnica-jolie": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER FICHA TÉCNICA",
+      "target": "_blank",
+      "href": "https://stermax.com.br/manuais/novembro2026/FT_JOLLIE%205L%203.pdf"
+    },
+       "title": "Link ler ficha técnica jolie"
+  },
+  // LINHA BOTAO DOWNLOAD FICHA TECNICA JOLIE
+  "flex-layout.row#link-baixar-ficha-tecnica-jolie": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-ficha-tecnica-jolie"
+    ],
+    "title": "Linha botao baixar ficha técnica Jolie"
+  },
+  // LINHA BOTAO BAIXAR FICHA TECNICA JOLIE
+  "flex-layout.row#baixar-ficha-tecnica-jolie": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-jolie-ft"
+    ],
+    "title": "Link baixar ficha técnica Jolie"
+  }
+}

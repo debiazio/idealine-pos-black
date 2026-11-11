@@ -1,0 +1,74 @@
+{
+  "flex-layout.col#coluna-5-8litros": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-5-8litros",
+      "flex-layout.row#link-ler-manual-5-8litros",
+      "flex-layout.row#link-baixar-manual-5-8litros"
+    ],
+    "title": "Coluna manual 5-8 litros"
+  },
+    // LINHA IMAGEM MANUAL 5-8 LITROS
+  "flex-layout.row#imagem-manual-5-8litros": {
+    "props": {
+      "blockClass": "manuais-imagem",
+      "title": "Linha thumbnail manuais"
+    },
+    "children": [
+      "image#manual-5-8litros"
+    ],
+    "title": "Linha imagem manual 5-8 litros"
+  },
+    // IMAGE MANUAL 5-8 LITROS
+  "image#manual-5-8litros": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "src": "https://stermaxhealth.vtexassets.com/assets/vtex.file-manager-graphql/images/c7f5b9d3-904e-4260-a095-a7b3dbdbd4f5___01103b369c79d7bff083a94f75ec8176.webp",
+      "alt": "Idealclave 5-8 litros"
+    },
+    "title": "Idealclave 5-8 litros manual"
+  },
+   // LINHA LER MANUAL 5-8 LITROS
+  "flex-layout.row#link-ler-manual-5-8litros": {
+    "props": {
+      "blockClass": "manual-link-ler-manunal"
+    },
+    "children": [
+      "link#ler-manual-5-8litros"
+    ],
+    "title": "Linha ler manual 5-8 litros"
+  },
+  // LINK LER MANUAL 5-8 LITROS
+  "link#ler-manual-5-8litros": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "label": "LER MANUAL",
+      "target": "_blank",
+      "href": "https://stermax.com.br/images_idealine/manuais/novembro2026/Manual_%20DIGITAL%20IDEALCLAVE_5%20e%208L-NOV-26.pdf"
+    },
+    "title": "Link ler manual 5-8 litros"
+  },
+  // LINHA BOTAO DOWNLOAD MANUAL 5-8 LITROS
+  "flex-layout.row#link-baixar-manual-5-8litros": {
+    "props": {
+      "blockClass": "linha-link-baixar"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-5-8litros"
+    ],
+    "title": "Linha botao baixar manual 5-8 litros"
+  },
+  // LINHA BOTAO BAIXAR MANUAL 5-8 LITROS
+  "flex-layout.row#baixar-manual-5-8litros": {
+    "props": {
+      "blockClass": "link-baixar-manuais"
+    },
+    "children": [
+      "btn-cinco-oito-litros"
+    ],
+    "title": "Link baixar manual 5-8 litros"
+  }
+}
