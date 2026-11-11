@@ -98,7 +98,7 @@
   "image#ficha-tecnica-jolie": {
     "props": {
       "blockClass": "manual-imagem",
-      "src": "",
+      "src": "https://stermaxhealth.vtexassets.com/assets/vtex.file-manager-graphql/images/7dae0951-1058-4644-82d3-eadd4b37f43b___b4ba06a782dbb0389b395eb599af5dea.webp",
       "alt": "Idealclave Jolie"
     },
     "title": "Idealclave Jolie ficha ténica"
