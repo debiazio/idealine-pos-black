@@ -1,0 +1,82 @@
+{
+  "responsive-layout.desktop#blackfriday-banners2026": {
+    "children": [
+      "slider-layout#demo-images"
+    ]
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "modal-trigger#missaomobelle-triggerBanner",
+      "image#banner2-blackfriday2026",
+      "image#banner3-blackfriday2026",
+      "image#banner4-blackfriday2026",
+      "image#banner5-blackfriday2026"
+    ]
+  },
+  "modal-trigger#missaomobelle-triggerBanner": {
+    "children": [
+      "image#banner1-blackfriday2026",
+      "modal-layout#roleta"
+    ]
+  },
+  "image#banner1-blackfriday2026": {
+    "props": {
+      "blockClass": "banner-blackfriday2026",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/87c2ef8e-8bec-4c9a-8444-56560022ed35___dfb5f7f489e91ef2b475644af90cac7d.png"
+    }
+  },
+  "image#banner2-blackfriday2026": {
+    "props": {
+      "blockClass": "banner-blackfriday2026",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/a5614166-cc7b-4917-ba45-2097c6b6acc5___b2c4975ba3485d31d30b050593e79584.png",
+      "link": {
+        "url": "https://www.idealine.com.br/bellinha%205%20litros?_q=bellinha%205%20litros&map=ft",
+        "openNewTab": false
+      }
+    }
+  },
+  "image#banner3-blackfriday2026": {
+    "props": {
+      "blockClass": "banner-blackfriday2026",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/538b60d3-ce6c-44ae-bdcb-e047524b8ef9___26f10d8f57e12ad57a6c306aebfdd89e.png",
+      "link": {
+        "url": "https://www.idealine.com.br/produtos-idealine/",
+        "openNewTab": false
+      }
+    }
+  },
+  "image#banner4-blackfriday2026": {
+    "props": {
+      "blockClass": "banner-blackfriday2026",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/a7eba98b-3f19-42c1-97d8-95a83ade8353___1cb55aa10707fb566c3442d2ea99d33b.png",
+      "link": {
+        "url": "https://www.idealine.com.br/incubadora?_q=incubadora&map=ft",
+        "openNewTab": false
+      }
+    }
+  },
+  "image#banner5-blackfriday2026": {
+    "props": {
+      "blockClass": "banner-blackfriday2026",
+      "src": "https://mfmgroup.vtexassets.com/assets/vtex.file-manager-graphql/images/c73fba58-d43c-4d26-bf93-a08f68740ae5___5fbc90fa234f09e017b4c64a13ceb6b9.png",
+      "link": {
+        "url": "https://www.idealine.com.br/horizontais?_q=horizontais&map=ft",
+        "openNewTab": false
+      }
+    }
+  }
+}

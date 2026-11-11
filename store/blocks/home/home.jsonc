@@ -2,8 +2,11 @@
   "store.home": {
     "blocks": [
       // "responsive-layout.desktop#slider-desktop",
+      "responsive-layout.desktop#blackfriday-banners2026", //banner desktop black friday 2026 com link para o game
+      "responsive-layout.mobile#blackfriday-banners2026", //banner desktop black friday 2026 com link para o game
+
       // "responsive-layout.mobile#slider-mobile",
-      "list-context.image-list#home",
+      // "list-context.image-list#home",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
       "flex-layout.row#shelf-timer",
@@ -56,41 +59,26 @@
     }
   },
   // LIST CONTEXT DO SLIDER HOME
-  "list-context.image-list#home": {
-    "children": [
-      "slider-layout#demo-images"
-    ],
-    "props": {
-      "height": 570,
-      "preload": true,
-      "images": [
-        {
-          "image": "assets/home-black/banners/black-idealovers-kit-desktop.webp",
-          "mobileImage": "assets/home-black/banners/black-idealovers-mobile.webp"
-        },
-        {
-          "image": "assets/home-black/banners/opta-desktop.webp",
-          "mobileImage": "assets/home-black/banners/opta-mobile.webp"
-        }
-      ]
-    }
-  },
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "always",
-      "blockClass": "carousel",
-      "autoplay": {
-        "timeout": 8000,
-        "stopOnHover": true
-      }
-    }
-  },
+  // "list-context.image-list#home": {
+  //   "children": [
+  //     "slider-layout#demo-images"
+  //   ],
+  //   "props": {
+  //     "height": 570,
+  //     "preload": true,
+  //     "images": [
+  //       {
+  //         "image": "assets/home-black/banners/black-idealovers-kit-desktop.webp",
+  //         "mobileImage": "assets/home-black/banners/black-idealovers-mobile.webp"
+  //       },
+  //       {
+  //         "image": "assets/home-black/banners/opta-desktop.webp",
+  //         "mobileImage": "assets/home-black/banners/opta-mobile.webp"
+  //       }
+  //     ]
+  //   }
+  // },
+
   "responsive-layout.mobile#banners-mobile": {
     "children": [
       "rich-text#titulo-prateleira-5l",
