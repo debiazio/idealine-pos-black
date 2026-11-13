@@ -131,7 +131,7 @@ input:-webkit-autofill {
   input[type="email"],
   input[type="tel"] {
     font-size: 12px !important;
-    color: var(--fonte-cor-normal);
+    color: var(--bf-surface-hover);
   }
 }
 
